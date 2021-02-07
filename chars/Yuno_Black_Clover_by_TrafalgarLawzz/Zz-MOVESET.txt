@@ -1,0 +1,26 @@
+
+A - Wind Attack
+
+B - Wind Attack 2
+
+C - Wind Attack 3
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Wind Speed
+
+D,DB,B,a - Wind Push
+
+D,DF,F,b - Big Wind
+
+D,DB,B,b - Wind Scatter
+
+D,DF,F,c - Wind Slash
+
+D,DB,B,c - Shooting Ability
+
+SUPER: 
+
+D,s - Sylph's Breath

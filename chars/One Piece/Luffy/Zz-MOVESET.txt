@@ -1,0 +1,80 @@
+
+A - Punch
+
+B - Kick
+
+Down + B - Gomu Gomu no Rocket
+
+C - Gomu Gomu no Pistol
+
+Down + C - Gomu Gomu no Gatling/Bazooka
+
+S - Power Charge
+
+Down + S - Gear 2
+
+SPECIALS:
+
+D,DF,F,a - Gomu Gomu no Rifle
+
+D,DB,B,a - Gomu Gomu no Fuusen
+
+D,DF,F,b - Gomu Gomu no Storm
+
+D,DB,B,b - Gomu Gomu no Kazan
+
+D,DB,B,b(Air) - Gomu Gomu no Ootsuchi
+
+F,DF,D,DB,B,b - Gomu Gomu no Hanabi
+
+D,DF,F,c - Gomu Gomu no Cannon
+
+D,DB,B,c - Gia Sado
+
+GIA SADO:
+
+* A - GIGANTO PISTOL
+* B - GIGANTO WHIP
+
+* D,DF,F,A // D,DB,B,A - GIGANTO RIFLE
+* D,DF,F,B // D,DB,B,B - GIGANTO AXE
+
+* D,DF,F,D,DF,F,A+B - GIGANTO BAZOOKA
+
+GEAR 2:
+
+A - Jet Punch
+
+Down + A - Gomu Gomu no Jet Bullet
+
+B - Jet Kick
+
+C - Gomu Gomu no Jet Pistol
+
+S - Power Charge
+
+Down + S - Cancel
+
+SPECIALS:
+
+D,DF,F,a - Gomu Gomu no Jet Rifle
+
+D,DB,B,a - Jet Gatling Rush
+
+D,DF,F,b - Gomu Gomu no Jet Whip
+
+D,DB,B,b - Gomu Gomu no Jet Axe
+
+D,DF,F,c - Gomu Gomu no Jet Bazooka
+
+D,DB,B,c - Gomu Gomu no Jet Gatling
+
+SUPERS: 
+
+D,DF,F,D,DF,F,a+b - Gomu Gomu no Giganto Bazooka
+
+(Gear 2)
+
+D,DF,F,D,DF,F,a+b - Jet Gatling FULL
+
+D,DF,F,D,DF,F,b+c - Gomu Gomu no Gigant Jet Shell

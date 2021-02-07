@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Weapon Dash
+
+D,DB,B,a - Angry
+
+D,DF,F,b - Kick
+
+D,DB,B,b - Teleport Mode
+
+D,DF,F,c - Konoyaro
+
+D,DB,B,c - Teleport P2
+
+SUPER: 
+
+D,s - Teleport Combo

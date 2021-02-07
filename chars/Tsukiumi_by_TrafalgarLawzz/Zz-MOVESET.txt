@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Water Ball
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Water Celebration
+
+D,DB,B,a - Tide Flowing Jewel
+
+D,DF,F,b - Eight Forked Serpent
+
+D,DB,B,b - Norito
+
+D,DF,F,c - Water Dragon
+
+D,DB,B,c - Sea God's Banquet
+
+SUPER: 
+
+D,s - Final Wave

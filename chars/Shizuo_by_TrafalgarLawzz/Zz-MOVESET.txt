@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Junk
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Shizuo Punch
+
+D,DB,B,a - Shizuo Tornado
+
+D,DF,F,b - Shizuo Mad
+
+D,DB,B,b - Shizuo Power
+
+D,DF,F,c - Car Door
+
+D,DB,B,c - Shizuo Kick
+
+SUPER: 
+
+D,s - Shizuo Mad Throw

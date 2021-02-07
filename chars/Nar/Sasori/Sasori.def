@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Sasori"
+displayname ="Sasori"
+versiondate =02/05/2017
+mugenversion =1.0
+author ="Lemonstream"
+pal.defaults =1
+
+[Files]
+sprite =Sasori.sff
+anim =Sasori.air
+sound =Sasori.snd
+cmd =Sasori.cmd
+cns =Sasori.cns
+stcommon =common1.cns
+st =Sasori.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

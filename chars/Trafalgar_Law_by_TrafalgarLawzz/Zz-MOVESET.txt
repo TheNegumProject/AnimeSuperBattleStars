@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Room
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Injection Shot
+
+D,DB,B,a - Shambles
+
+D,DF,F,b - Gamma Knife
+
+D,DB,B,b - Counter Shock
+
+D,DF,F,c - Tact
+
+D,DB,B,c - Mess (Only Used When Opponent Is Under 300 Lifes)
+
+SUPER: 
+
+D,s - Slash

@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Rukia Kuchiki"
+displayname ="Rukia"
+versiondate =15/10/2017
+mugenversion =1.0
+author ="AkashiMugen"
+pal.defaults =1
+
+[Files]
+sprite =Rukia.sff
+anim =Rukia.air
+sound =Rukia.snd
+cmd =Rukia.cmd
+cns =Rukia.cns
+stcommon =common1.cns
+st =Rukia.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

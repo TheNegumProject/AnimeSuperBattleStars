@@ -1,0 +1,28 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Pink Laser
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Rocket Punch
+
+D,DB,B,a - Gold Sword
+
+D,DF,F,b - Strong Punch
+
+D,DB,B,b - The World
+
+D,DF,F,c - Pink Energy
+
+D,DB,B,c - Wing Shield
+
+D,c - Shunkan Ido
+
+SUPER: 
+
+D,s - Kamehameha

@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Trigger Slash
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Throw Trigger
+
+D,DB,B,a - Teleport
+
+D,DF,F,b - Asteroid
+
+D,DB,B,b - Meteor
+
+D,DF,F,c - Thruster On
+
+D,DB,B,c - Jin-san
+
+SUPER: 
+
+D,s - Small Asteroid

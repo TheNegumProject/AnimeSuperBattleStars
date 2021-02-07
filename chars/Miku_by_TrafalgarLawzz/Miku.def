@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Miku"
+displayname ="Miku"
+versiondate =13/10/2018
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Miku.sff
+anim =Miku.air
+sound =Miku.snd
+cmd =Miku.cmd
+cns =Miku.cns
+stcommon =common1.cns
+st =Miku.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

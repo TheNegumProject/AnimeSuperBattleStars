@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Sword Dash
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Kick
+
+D,DB,B,a - Gun
+
+D,DF,F,b - Laser Sword
+
+D,DB,B,b - Dive Attack
+
+D,DF,F,c - Trisagion
+
+D,DB,B,c - Black Lotus Help
+
+SUPER: 
+
+D,s - Silver Crow Full Power

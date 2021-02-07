@@ -1,0 +1,26 @@
+
+A - Phisic Attack
+
+B - Bite
+
+C - Kiribachi Slash
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Yabusame
+
+D,DB,B,a - So Shark
+
+D,DF,F,b - Shark on Darts
+
+D,DB,B,b - Tooth Gum
+
+D,DF,F,c - Kiribachi Assault
+
+D,DB,B,c - Shark on Tooth
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Kiribachi Roll

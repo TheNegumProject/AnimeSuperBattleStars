@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Black Orbiter
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Dark Lotus
+
+D,DB,B,a - Vacant Shift
+
+D,DF,F,b - Shadow Scar
+
+D,DB,B,b - Red Clad Craver
+
+D,DF,F,c - Pale Bringer
+
+D,DB,B,c - Gyro Vortex
+
+SUPER: 
+
+D,s - Raging Roar

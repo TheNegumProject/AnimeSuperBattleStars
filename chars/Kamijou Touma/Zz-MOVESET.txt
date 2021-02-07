@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Burst Impact
+
+D,DB,B,a - Imagine Breaker
+
+D,DF,F,b - Combo Punch
+
+D,DB,B,b - Index Heal
+
+D,DF,F,c - Handom of Kurori
+
+D,DB,B,c - Total Breack
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Ultimate Breack

@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Konata"
+displayname = "Konata"
+versiondate = 18/03/2019
+mugenversion = 1.0
+author = "TrafalgarLawzz"
+pal.defaults = 1
+
+[Files]
+sprite = Konata.sff
+anim = Konata.air
+sound = Konata.snd
+cmd = Konata.cmd
+cns = Konata.cns
+stcommon = common1.cns
+st = Konata.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

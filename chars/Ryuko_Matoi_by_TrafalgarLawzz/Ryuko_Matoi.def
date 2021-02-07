@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Ryuko Matoi"
+displayname ="Ryuko"
+versiondate =19/05/2018
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Ryuko_Matoi.sff
+anim =Ryuko_Matoi.air
+sound =Ryuko_Matoi.snd
+cmd =Ryuko_Matoi.cmd
+cns =Ryuko_Matoi.cns
+stcommon =common1.cns
+st =Ryuko_Matoi.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

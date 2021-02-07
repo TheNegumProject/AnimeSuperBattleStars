@@ -1,0 +1,24 @@
+[Info]
+name ="Gokudera"
+displayname ="Gokudera"
+versiondate =09/12/2017
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Gokudera.sff
+anim =Gokudera.air
+sound =Gokudera.snd
+cmd =Gokudera.cmd
+cns =Gokudera.cns
+stcommon =common1.cns
+st =Gokudera.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

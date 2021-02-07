@@ -1,0 +1,27 @@
+ATTACKS: 
+
+A - Combo 1
+
+B - Combo 2
+
+C - Suiton
+
+S - Chakra Charge
+
+SPECIALS:
+
+D,DF,F,a - Katon
+
+D,DB,B,a - Kakuzu Wall
+
+D,DF,F,b - Raiton
+
+D,DB,B,b - Doton
+
+D,DF,F,c - Katon Goka Mekyaku
+
+D,DB,B,c - Fuuton
+
+SUPER: 
+
+x - Jikki Chikamatsu no Shu

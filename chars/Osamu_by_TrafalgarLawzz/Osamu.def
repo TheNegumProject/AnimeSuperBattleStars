@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Osamu"
+displayname ="Osamu"
+versiondate =16/11/2018
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Osamu.sff
+anim =Osamu.air
+sound =Osamu.snd
+cmd =Osamu.cmd
+cns =Osamu.cns
+stcommon =common1.cns
+st =Osamu.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

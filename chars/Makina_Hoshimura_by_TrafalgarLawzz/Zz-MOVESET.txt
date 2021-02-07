@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Ingram MAC-11
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Shotgun
+
+D,DB,B,a - Grenade
+
+D,DF,F,b - Ingram MAC-11
+
+D,DB,B,b - Air Kick
+
+D,DF,F,c - AWM
+
+D,DB,B,c - Ingram MAC-11 In Air
+
+SUPER: 
+
+D,s - All Gun Combo

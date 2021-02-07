@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Wapol"
+displayname ="Wapol"
+versiondate =15/11/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Wapol.sff
+anim =Wapol.air
+sound =Wapol.snd
+cmd =Wapol.cmd
+cns =Wapol.cns
+stcommon =common1.cns
+st =Wapol.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

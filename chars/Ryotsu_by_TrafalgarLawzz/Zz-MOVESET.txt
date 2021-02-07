@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Spindle
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Airplane
+
+D,DB,B,a - Ramen
+
+D,DF,F,b - Throw Fire Extinguisher
+
+D,DB,B,b - Fire Extinguisher
+
+D,DF,F,c - Bicycle
+
+D,DB,B,c - Rocket
+
+SUPER: 
+
+D,s - Tank

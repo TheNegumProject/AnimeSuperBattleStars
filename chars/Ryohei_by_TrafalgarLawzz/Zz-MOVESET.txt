@@ -1,0 +1,26 @@
+
+A - Punch
+
+B - Head
+
+C - Cannon
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Minimum Cannon
+
+D,DB,B,a - Cannon Gun
+
+D,DF,F,b - Extreme Head
+
+D,DB,B,b - Extreme Punch
+
+D,DF,F,c - Maximum Combination
+
+D,DB,B,c - Sun Recovery (Healing Per Second, It Will Be Delayed & Will Notify You When It Can Be Used Again)
+
+SUPER: 
+
+D,s - Maximum Cannon

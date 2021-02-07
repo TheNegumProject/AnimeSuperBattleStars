@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Minato"
+displayname = "Minato"
+versiondate = 03/05/2017
+mugenversion = 1.0
+author = "Midoriya707 (Edited by InSeph)"
+pal.defaults = 1
+
+[Files]
+sprite = Minato.sff
+anim = Minato.air
+sound = Minato.snd
+cmd = Minato.cmd
+cns = Minato.cns
+stcommon = common1.cns
+st = Minato.cns
+st1 = IA.cns
+st2 = Specials.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

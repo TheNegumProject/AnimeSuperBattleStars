@@ -1,0 +1,32 @@
+
+A - Kick
+
+Down + A - Hook Smash
+
+B - Hook Slash
+
+Down + B - Hook Catch
+
+C - Suna Suna no Mi
+
+Down + C - Barjan // Suna Drop
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Desert Encierro
+
+D,DB,B,a - Poison Hook
+
+D,DF,F,b - Sables
+
+D,DB,B,b - Desert Girasole
+
+D,DF,F,c - Desert Spada
+
+D,DB,B,c - Ground Death
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Sables Pesado Desert La Spada

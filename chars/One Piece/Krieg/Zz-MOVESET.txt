@@ -1,0 +1,26 @@
+
+A - Phisic Attack
+
+B - Shield Hit
+
+C - Shot
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Fureiru
+
+D,DB,B,a - Ami
+
+D,DF,F,b - Kaen Housha
+
+D,DB,B,b - Bakudan
+
+D,DF,F,c - Dai Sensou
+
+D,DB,B,c - Dangan + Yari
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Modoku Gasu Dan MH5

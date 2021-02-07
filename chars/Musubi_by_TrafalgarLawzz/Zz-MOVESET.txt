@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Kick
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Kuma-ken
+
+D,DB,B,a - Kuma-ken Up
+
+D,DF,F,b - Kuma no Te
+
+D,DB,B,b - Norito
+
+D,DF,F,c - Kuma Blast
+
+D,DB,B,c - Kuma Burst
+
+SUPER: 
+
+D,s - Kuma Ryusei

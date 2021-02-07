@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Slash Wave
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Blade Combo
+
+D,DB,B,a - Blade Thrust
+
+D,DF,F,b - Scissor Barrage
+
+D,DB,B,b - Senketsu Senjin
+
+D,DF,F,c - Super Slash Wave
+
+D,DB,B,c - Scissor Blade Twirl
+
+SUPER: 
+
+D,s - Decapitation Mode: Sen'i Soshitsu

@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Music Fly
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Miku Fan
+
+D,DB,B,a - Music Counter
+
+D,DF,F,b - Music Ernegy
+
+D,DB,B,b - Music Heal
+
+D,DF,F,c - Music Gun
+
+D,DB,B,c - World Is Mine
+
+SUPER: 
+
+D,s - Miku Project Diva X

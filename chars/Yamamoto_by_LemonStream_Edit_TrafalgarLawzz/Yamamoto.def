@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Yamamoto"
+displayname ="Yamamoto"
+versiondate =27/02/2018
+mugenversion =1.0
+author ="LemonStream, Edit TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Yamamoto.sff
+anim =Yamamoto.air
+sound =Yamamoto.snd
+cmd =Yamamoto.cmd
+cns =Yamamoto.cns
+stcommon =common1.cns
+st =Yamamoto.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

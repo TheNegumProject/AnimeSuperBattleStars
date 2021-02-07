@@ -1,0 +1,26 @@
+
+A - Punch
+
+B - Kick
+
+C - Slapped
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Chitoge Push (Change if Using Twinkle Mode)
+
+D,DB,B,a - Chitoge Counter
+
+D,DF,F,b - Chitoge Punch
+
+D,DB,B,b - Chitoge Beauty (Increase Range if Using Twinkle Mode)
+
+D,DF,F,c - Chitoge Jump Punch
+
+D,DB,B,c - Twinkle Mode (Increases Damage of Attacks, Includes Special & Super)
+
+SUPER: 
+
+D,s - Chitoge Slapped

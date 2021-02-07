@@ -1,0 +1,26 @@
+
+A - Light Hit
+
+B - Medium Hit
+
+C - Strong Hit
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Buraikan
+
+D,DB,B,a - Uchimizu
+
+D,DF,F,b - Yari Nami
+
+D,DB,B,b - Gyojin Catch
+
+D,DF,F,c - Kairyuu Ipon Seoi
+
+D,DB,B,c - Karakusa Gawara Sei Ken
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Go Sen Mai Gawara Sei Ken

@@ -1,0 +1,30 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Kuga"
+displayname ="Kuga"
+versiondate =23/10/2018
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Kuga.sff
+anim =Kuga.air
+sound =Kuga.snd
+cmd =Kuga.cmd
+cns =Kuga.cns
+stcommon =common1.cns
+st =Kuga.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+st4=Pet.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

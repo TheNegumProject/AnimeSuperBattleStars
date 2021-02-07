@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Shirai Kuroko"
+displayname = "Kuroko"
+versiondate = 28/02/2019
+mugenversion = 1.0
+author = "TrafalgarLawzz"
+pal.defaults = 1
+
+[Files]
+sprite = Shirai_Kuroko.sff
+anim = Shirai_Kuroko.air
+sound = Shirai_Kuroko.snd
+cmd = Shirai_Kuroko.cmd
+cns = Shirai_Kuroko.cns
+stcommon = common1.cns
+st = Shirai_Kuroko.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,26 @@
+
+A - Low Hit
+
+B - Medium Hit
+
+C - Speed Hit
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Black Strong
+
+D,DB,B,a - Anti Magic
+
+D,DF,F,b - Black Hurricane
+
+D,DB,B,b - Black Combo
+
+D,DF,F,c - Bull Thrush
+
+D,DB,B,c - Black Slash
+
+SUPER: 
+
+D,s - Black Meteorite

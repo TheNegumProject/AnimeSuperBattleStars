@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Gun
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Black Cat Bom
+
+D,DB,B,a - Dash Gun
+
+D,DF,F,b - Black Cat Tornado
+
+D,DB,B,b - Black Cat Tornado Air
+
+D,DF,F,c - Lightning Energy
+
+D,DB,B,c - Speed Gun
+
+SUPER: 
+
+D,s - Super Lightning Cannon

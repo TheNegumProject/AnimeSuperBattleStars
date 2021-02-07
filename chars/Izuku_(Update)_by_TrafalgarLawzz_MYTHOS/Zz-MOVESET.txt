@@ -1,0 +1,48 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Hug & Throw
+
+S - Power Charge
+
+COMBOS:
+
+Base Form:
+
+a,a - Combo 1
+
+b,b - Combo 2
+
+a,b,c - Air Combo
+
+a,a,b,c - Full Combo
+
+One For All: Full Cowl:
+
+a,a - Combo 1
+
+b,b - Combo 2
+
+a,b,c - Air Combo
+
+a,a,b,b,a,b,c - Full Combo
+
+SPECIALS:
+
+D,DF,F,a - Detroit Smash
+
+D,DB,B,a - Baseball Smash
+
+D,DF,F,b - Shoot Style: St. Louis Smash
+
+D,DB,B,b - One For All: Full Cowl
+
+D,DF,F,c - Delaware Smash
+
+D,DB,B,c - Delaware Smash (Air)
+
+SUPER: 
+
+D,s - 1,000,000% Delaware Detroit Smash

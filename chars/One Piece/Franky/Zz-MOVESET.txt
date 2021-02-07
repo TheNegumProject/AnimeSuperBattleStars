@@ -1,0 +1,34 @@
+
+A - Phisic Attack
+
+Down + A - Franky Triangle Jacker
+
+B - Strong Hammer
+
+Down + B - Strong Hitter
+
+C - Ouch Finger
+
+Down + C - Fresh Fire / Master Nail
+
+S - Power Charge
+
+Down + S - Cola Charge
+
+SPECIALS:
+
+D,DF,F,a - Franky Boxing
+
+D,DB,B,a - Coup De Poo
+
+D,DF,F,b - Franky Destroy Hou
+
+D,DB,B,b - Ultimate Hammer
+
+D,DF,F,c - Weapons Left
+
+D,DB,B,c - Heavy Nunchaku
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Coup De Vent

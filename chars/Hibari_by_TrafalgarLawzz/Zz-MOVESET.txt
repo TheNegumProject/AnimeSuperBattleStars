@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Cloud Burst
+
+D,DB,B,a - Cloud Counter
+
+D,DF,F,b - Cloud Attack
+
+D,DB,B,b - Cloud Jail
+
+D,DF,F,c - Kamikorosu
+
+D,DB,B,c - Hedgehog Box
+
+SUPER: 
+
+D,s - Tine Ball Box

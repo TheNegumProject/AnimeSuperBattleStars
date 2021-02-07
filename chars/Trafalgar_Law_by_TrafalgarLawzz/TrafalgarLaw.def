@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Trafalgar Law"
+displayname ="Trafalgar Law"
+versiondate =28/04/2018
+mugenversion =1.0
+author ="TrafalgarLawzz, Sprite by dDeAdLy, SonicTheMinecraftHog"
+pal.defaults =1
+
+[Files]
+sprite =TrafalgarLaw.sff
+anim =TrafalgarLaw.air
+sound =TrafalgarLaw.snd
+cmd =TrafalgarLaw.cmd
+cns =TrafalgarLaw.cns
+stcommon =common1.cns
+st =TrafalgarLaw.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

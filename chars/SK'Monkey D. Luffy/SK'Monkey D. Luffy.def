@@ -1,0 +1,22 @@
+[Info]
+name="SK'Monkey D. Luffy"
+displayname="Monkey D. Luffy"
+versiondate=04/12/2017
+mugenversion=1.0
+author="Sektor"
+pal.defaults=1,2
+[Files]
+sprite=SK'Monkey D. Luffy.sff
+sound=Sonidos.snd
+anim=SK'Monkey D. Luffy.air
+cmd=SK'Monkey D. Luffy.cmd
+cns=SK'Monkey D. Luffy.cns
+st=SK'Monkey D. Luffy.cns
+stcommon=common1.cns
+pal1=Paleta Normal.act
+pal2=Gear 2.act
+pal3=Armament Haki.act
+pal4=Red hawk.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

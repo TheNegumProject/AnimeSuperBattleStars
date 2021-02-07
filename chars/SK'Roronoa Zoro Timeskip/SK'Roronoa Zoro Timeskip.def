@@ -1,0 +1,22 @@
+[Info]
+name="SK'Roronoa Zoro Timeskip"
+displayname="Roronoa Zoro"
+versiondate=20/01/2018
+mugenversion=1.0
+author="Sektor"
+pal.defaults=1,2
+[Files]
+sprite=SK'Roronoa Zoro Timeskip.sff
+sound=Sonidos.snd
+anim=SK'Roronoa Zoro Timeskip.air
+cmd=SK'Roronoa Zoro Timeskip.cmd
+cns=SK'Roronoa Zoro Timeskip.cns
+st=SK'Roronoa Zoro Timeskip.cns
+stcommon=common1.cns
+pal1=1.act
+pal2=2.act
+pal3=3.act
+pal4=4.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

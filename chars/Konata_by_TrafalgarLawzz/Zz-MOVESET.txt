@@ -1,0 +1,26 @@
+
+A - Low Kick
+
+B - Medium Kick
+
+C - High Kick
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Green Ball
+
+D,DB,B,a - Gundam
+
+D,DF,F,b - Green Energy
+
+D,DB,B,b - Konata Tornado
+
+D,DF,F,c - Lelouch Cosplay
+
+D,DB,B,c - Yugi Cosplay
+
+SUPER: 
+
+D,s - Super Green Ball

@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Bom
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Missile Assault
+
+D,DB,B,a - I Need To Calm Down
+
+D,DF,F,b - Bobino Special Missile
+
+D,DB,B,b - Rocket!
+
+D,DF,F,c - I-Pin Explosion
+
+D,DB,B,c - Gyudon
+
+SUPER: 
+
+D,s - Corna Fulmine

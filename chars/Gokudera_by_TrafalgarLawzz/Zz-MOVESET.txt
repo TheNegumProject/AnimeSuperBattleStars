@@ -1,0 +1,26 @@
+
+A - Punch
+
+B - Kick
+
+C - Red Blast
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Storm Blast
+
+D,DB,B,a - Storm Guard
+
+D,DF,F,b - Storm Thunder
+
+D,DB,B,b - Storm Laser
+
+D,DF,F,c - Storm Arrow
+
+D,DB,B,c - Storm Rocket Bomb
+
+SUPER:
+
+D,s - Uri Attack

@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Deidara"
+displayname = "Deidara"
+versiondate = 07/06/2018
+mugenversion = 1.0
+author = "InSeph, Edited by Salah"
+pal.defaults = 1
+
+[Files]
+sprite = Deidara.sff
+anim = Deidara.air
+sound = Deidara.snd
+cmd = Deidara.cmd
+cns = Deidara.cns
+stcommon = common1.cns
+st = Deidara.cns
+st1 = IA.cns
+st2 = Specials.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

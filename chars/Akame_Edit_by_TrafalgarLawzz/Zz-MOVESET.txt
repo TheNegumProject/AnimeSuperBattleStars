@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Curse Slash
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Instant Cut
+
+D,DB,B,a - Deadly Counter
+
+D,DF,F,b - Killer Dance
+
+D,DB,B,b - Curse Blade
+
+D,DF,F,c - Slice of Souls
+
+D,DB,B,c - True Curse
+
+SUPER: 
+
+D,s - Akame Ga Kill

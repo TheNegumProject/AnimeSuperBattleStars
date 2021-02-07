@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Ryotsu"
+displayname ="Ryotsu"
+versiondate =21/11/2018
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Ryotsu.sff
+anim =Ryotsu.air
+sound =Ryotsu.snd
+cmd =Ryotsu.cmd
+cns =Ryotsu.cns
+stcommon =common1.cns
+st =Ryotsu.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,44 @@
+
+A - Weak Hit
+
+B - Heavy Point
+
+Down + B - Heavy Uppercut
+
+C - Medicine // Arm Point
+
+Down + C (Rumble Mode) - Kokutei Uppercut
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Heavy Gong
+
+D,DB,B,a - Medicine
+
+D,DF,F,b - Reindeer Kick
+
+D,DB,B,b - Heavy Throw
+
+D,DF,F,c - Heavy Press
+
+D,DB,B,c - Rumble
+
+SPECIALS RUMBLE MODE:
+
+D,DF,F,a - Scope Shot
+
+D,DB,B,a - Guard Point
+
+D,DF,F,b - Jumping Assault
+
+D,DB,B,b - Koku Tei Cross
+
+D,DF,F,c - Roseo Colonnade
+
+D,DB,B,c - Koku Tei Roseo Metel
+
+SUPERS: 
+
+D,DF,F,D,DF,F,a+b - Monster Point

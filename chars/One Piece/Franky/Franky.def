@@ -1,0 +1,31 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Franky"
+displayname ="Franky"
+versiondate =15/11/2018
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1,2,3
+
+[Files]
+sprite =Franky.sff
+anim =Franky.air
+sound =Franky.snd
+cmd =Franky.cmd
+cns =Franky.cns
+stcommon =common1.cns
+st =Franky.cns
+pal1=1.act
+pal2=2.act
+pal3=3.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

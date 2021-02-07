@@ -1,0 +1,30 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Yuno"
+displayname ="Yuno"
+versiondate =22/03/2019
+mugenversion =1.0
+author ="TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Yuno_Black_Clover.sff
+anim =Yuno_Black_Clover.air
+sound =Yuno_Black_Clover.snd
+cmd =Yuno_Black_Clover.cmd
+cns =Yuno_Black_Clover.cns
+stcommon =common1.cns
+st =Yuno_Black_Clover.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+st4=Book.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

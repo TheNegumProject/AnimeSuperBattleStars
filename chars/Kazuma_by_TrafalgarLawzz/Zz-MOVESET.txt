@@ -1,0 +1,26 @@
+
+A - Punch Attack
+
+B - Sword Attack
+
+C - Arrow Attack
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Fire
+
+D,DB,B,a - Ice
+
+D,DF,F,b - Fire Punch
+
+D,DB,B,b - Snipe
+
+D,DF,F,c - Water
+
+D,DB,B,c - Light
+
+SUPER: 
+
+D,s - Nani???

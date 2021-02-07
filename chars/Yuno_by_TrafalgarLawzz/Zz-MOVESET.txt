@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Knife Dash
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Axe Swing
+
+D,DB,B,a - Katana Slash
+
+D,DF,F,b - Knife Fury Attack
+
+D,DB,B,b - Katana Tornado
+
+D,DF,F,c - Grenades
+
+D,DB,B,c - Yuki Praised Me
+
+SUPER: 
+
+D,s - Start The Cycle All Over Again

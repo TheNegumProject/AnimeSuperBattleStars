@@ -1,0 +1,30 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Robin"
+displayname ="Robin"
+versiondate =04/10/2018
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1,2
+
+[Files]
+sprite =Robin.sff
+anim =Robin.air
+sound =Robin.snd
+cmd =Robin.cmd
+cns =Robin.cns
+stcommon =common1.cns
+st =Robin.cns
+pal1=1.act
+pal2=2.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

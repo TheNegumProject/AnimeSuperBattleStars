@@ -1,0 +1,28 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Getsuga Tenshou LV1
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Zangetsu Combo
+
+D,DB,B,a - Zangetsu Tornado
+
+D,DF,F,b - Getsuga Tenshou LV2
+
+D,DB,B,b - Zangetsu Slash
+
+D,DF,F,c - Getsuga Tenshou Air
+
+D,DB,B,c - Reiatsu Explosion
+
+D,c - Teleport
+
+SUPER: 
+
+D,s - Mugetsu: Getsuga Tenshou Final

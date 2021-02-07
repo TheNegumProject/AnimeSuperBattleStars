@@ -1,0 +1,26 @@
+
+A - Phisic Attack
+
+B - Jutte
+
+C - Moku Moku no Mi
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - White Spark
+
+D,DB,B,a - White Catch
+
+D,DF,F,b - White Snake
+
+D,DB,B,b - White Hunt
+
+D,DF,F,c - White Vine
+
+D,DB,B,c - White Launcher
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - White Out

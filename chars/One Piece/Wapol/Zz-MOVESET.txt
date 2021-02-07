@@ -1,0 +1,26 @@
+
+A - Weak Hit
+
+B - Strong Hit
+
+C - Baku Baku Cannon
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Bero Cannon
+
+D,DB,B,a - Kamikaze Dog
+
+D,DF,F,b - Baku Baku Shock
+
+D,DB,B,b - Slim Up Wapol
+
+D,DF,F,c - Royal Drum Crown 7 Shot Bliking Cannon
+
+D,DB,B,c - Wapol House
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Baku Baku Shock: Ningen Heiki

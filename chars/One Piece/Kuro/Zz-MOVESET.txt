@@ -1,0 +1,26 @@
+
+A - Kick
+
+B - Claws
+
+C - Shakushi
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Angry Cat
+
+D,DB,B,a - Nuki Ashi
+
+D,DF,F,b - Neko Tatsumaki
+
+D,DB,B,b - Neko Assault
+
+D,DF,F,c - Murder
+
+D,DB,B,c - Cat Quickness
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Ultimate Shakushi

@@ -1,0 +1,28 @@
+
+A - Kick
+
+B - Trigger Hit
+
+C - Trigger Combo
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Trigger Punch
+
+D,DB,B,a - Trigger Slash
+
+D,DF,F,b - Trigger Jump
+
+D,DB,B,b - Asteroid
+
+D,DF,F,c - Trigger Tornado
+
+D,DB,B,c - Chika Help
+
+D,c - Teleport
+
+SUPER: 
+
+D,s - Pinball
