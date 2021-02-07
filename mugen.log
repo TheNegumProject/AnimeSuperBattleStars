@@ -1,0 +1,1826 @@
+---------------------------------------------------
+M.U.G.E.N ver 1.1.0 Beta 1 P1 (2013.08.11) status log
+---------------------------------------------------
+Parsing command line...
+Command line: D:\Download\Anime Super Battle Stars XXV MUGEN by TrafalgarLawzz\Anime Super Battle Stars XXV.exe
+Parse command line OK
+Initializing...
+Allocating game variables
+Reading configuration file...Setting language "en".
+OK
+Initializing timer...performance timer enabled...frequency 2928046...OK
+Initializing keyboard...configuring...OK
+Initializing input engine...OK
+Initializing sound...OK
+Initializing BGM...  OK
+Initializing graphics...gameCoord 1280x720...render mode 2_20...trying 1280x720x32 mode 0x0...success...OK
+Setting callbacks...OK
+Initializing font...OK
+Initializing game variables...OK
+Session RNG seed is 1553578108
+Loading system fonts...OK
+Loading options...
+Initializing pads...failed
+Reinitializing input engine...OK
+Remapping keys...OK
+Reinitializing input engine...OK
+Options loaded OK
+Loading system...
+  Load system file system.def...OK
+  Load system spr...OK
+  Load system snd...OK
+  Load system fonts...OK
+  Load system anim...OK
+  Load [Title Info]...OK
+  Load [Option Info]...OK
+  Load [Select Info]...OK
+  Load [VS Screen]...OK
+  Load [Victory Screen]...OK
+  Load [Demo Mode]...OK
+  Load [Continue Screen]...OK
+  Load [Game Over Screen]...OK
+  Load [Win Screen]...OK
+  Load [Survival Results Screen]...OK
+  Load [Default Ending]...OK
+  Load [End Credits]...OK
+  Load TitleBG...VersusBG...VictoryBG...SelectBG...OptionBG...OK
+  Loading fight data
+    Opening fight data file data/fightHD.def...OK
+    Reading [Files]...OK
+    Loading fonts...OK
+    Load fight anim...OK
+    Reading [Lifebar]...[Turns Lifebar]...[Simul Lifebar]...[Powerbar]...
+    [Face]...[Simul Face]...[Turns Face]...
+    [Name]...[Simul Name]...[Turns Name]...
+    [Time]...[Combo]...[Round]...[WinIcon]...OK
+    Allocating explods...OK
+  Fight data loaded OK
+Lua initing
+Lua init complete
+System loaded OK
+Initialize OK
+Set up graphics...timer...OK
+
+Entering gameflow loop
+Gameflow 0
+Gameflow 1
+Gameflow 2
+Initializing character info...OK
+Initializing select screen...finding characters...OK
+Gameflow 3
+Gameflow 4
+Entering mode select.
+Unloading match assets
+Freeing players
+Game loop init
+Mode select init
+End of mode select loop
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Game loop init
+Unreserved all palettes
+Charsel init
+Game loop deinit
+Canceled character select.
+Gameflow 4
+Entering mode select.
+Unloading match assets
+Freeing players
+Game loop init
+Mode select init
+End of mode select loop
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 174 on teamslot 0.0
+Char Asta.def (174) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 175 on teamslot 1.0
+Char Yuno_Black_Clover.def (175) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 68587979
+Reset persist vars team 0
+Reset persist vars team 1
+Loading character chars/Asta_by_TrafalgarLawzz\Asta.def...
+  Loading info...OK
+  Loading cmd command set Asta.cmd...OK
+  Loading cns Asta.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cns Book.cns...OK
+  Loading cmd state entry Asta.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Asta.sff...OK
+  Loading anim Asta.air...OK
+  Loading snd Asta.snd...OK
+  Loading pals...OK
+  5069 expressions (1470 on trigger lines)
+Character Asta.def loaded OK
+New char Asta loaded into cache: (1/4 cached) Load time: 3190.000ms
+Loading character chars/Yuno_Black_Clover_by_TrafalgarLawzz\Yuno_Black_Clover.def...
+  Loading info...OK
+  Loading cmd command set Yuno_Black_Clover.cmd...OK
+  Loading cns Yuno_Black_Clover.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cns Book.cns...OK
+  Loading cmd state entry Yuno_Black_Clover.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Yuno_Black_Clover.sff...OK
+  Loading anim Yuno_Black_Clover.air...OK
+  Loading snd Yuno_Black_Clover.snd...OK
+  Loading pals...OK
+  5517 expressions (1500 on trigger lines)
+Character Yuno_Black_Clover.def loaded OK
+New char Yuno loaded into cache: (2/4 cached) Load time: 3260.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 17.54s
+Total frames: 1053 	Skipped frames: 0
+Avg game rate: 60.03
+Avg frame rate: 60.03
+
+Finishing match
+Freeing players
+Save persist vars P56 Asta
+Player Asta cache count reduced: 0
+Save persist vars P57 Yuno
+Player Yuno cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 175 on teamslot 0.0
+Char Yuno_Black_Clover.def (175) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 174 on teamslot 1.0
+Char Asta.def (174) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 1706911455
+Reset persist vars team 0
+Reset persist vars team 1
+Player Yuno cache count increased: 1
+Player Asta cache count increased: 1
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+Life power and time reset
+End of match loop
+Total time: 13.38s
+Total frames: 803 	Skipped frames: 0
+Avg game rate: 60.01
+Avg frame rate: 60.01
+
+Finishing match
+Freeing players
+Save persist vars P56 Yuno
+Player Yuno cache count reduced: 0
+Save persist vars P57 Asta
+Player Asta cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 166 on teamslot 0.0
+Char Saiki_Kusuo.def (166) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 50 on teamslot 1.0
+Char Vegetto_SSBLUE.def (50) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 1974250753
+Reset persist vars team 0
+Reset persist vars team 1
+Loading character chars/Saiki_Kusuo_by_TrafalgarLawzz\Saiki_Kusuo.def...
+  Loading info...OK
+  Loading cmd command set Saiki_Kusuo.cmd...OK
+  Loading cns Saiki_Kusuo.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Saiki_Kusuo.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Saiki_Kusuo.sff...OK
+  Loading anim Saiki_Kusuo.air...OK
+  Loading snd Saiki_Kusuo.snd...OK
+  Loading pals...OK
+  5935 expressions (1576 on trigger lines)
+Character Saiki_Kusuo.def loaded OK
+New char Saiki Kusuo loaded into cache: (3/4 cached) Load time: 890.000ms
+Loading character chars/Pack 3\Vegetto_SSBLUE\Vegetto_SSBLUE.def...
+  Loading info...OK
+  Loading cmd command set VegettoSSB.cmd...OK
+  Loading cns VegettoSSB.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry VegettoSSB.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff VegettoSSB.sff...OK
+  Loading anim VegettoSSB.air...OK
+  Loading snd VegettoSSB.snd...OK
+  Loading pals...OK
+  6712 expressions (1796 on trigger lines)
+Character Vegetto_SSBLUE.def loaded OK
+New char Vegetto loaded into cache: (4/4 cached) Load time: 1190.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+Life power and time reset
+End of match loop
+Total time: 15.19s
+Total frames: 912 	Skipped frames: 0
+Avg game rate: 60.04
+Avg frame rate: 60.04
+
+Finishing match
+Freeing players
+Save persist vars P56 Saiki Kusuo
+Player Saiki Kusuo cache count reduced: 0
+Save persist vars P57 Vegetto
+Player Vegetto cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 168 on teamslot 0.0
+Char Yato.def (168) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 152 on teamslot 1.0
+Char Toriko.def (152) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 462559068
+Reset persist vars team 0
+Reset persist vars team 1
+Player Yuno purged from cache: 2
+Freeing player RC Yuno...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Yato_Remake_by_TrafalgarLawzz\Yato.def...
+  Loading info...OK
+  Loading cmd command set Yato.cmd...OK
+  Loading cns Yato.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Yato.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Yato.sff...OK
+  Loading anim Yato.air...OK
+  Loading snd Yato.snd...OK
+  Loading pals...OK
+  4542 expressions (1357 on trigger lines)
+Character Yato.def loaded OK
+New char Yato loaded into cache: (4/4 cached) Load time: 300.000ms
+Player Asta purged from cache: 3
+Freeing player RC Asta...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Toriko_by_TrafalgarLawzz\Toriko.def...
+  Loading info...OK
+  Loading cmd command set Toriko.cmd...OK
+  Loading cns Toriko.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Toriko.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Toriko.sff...OK
+  Loading anim Toriko.air...OK
+  Loading snd Toriko.snd...OK
+  Loading pals...OK
+  5757 expressions (1552 on trigger lines)
+Character Toriko.def loaded OK
+New char Toriko loaded into cache: (4/4 cached) Load time: 370.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+Life power and time reset
+End of match loop
+Total time: 11.49s
+Total frames: 690 	Skipped frames: 0
+Avg game rate: 60.05
+Avg frame rate: 60.05
+
+Finishing match
+Freeing players
+Save persist vars P56 Yato
+Player Yato cache count reduced: 0
+Save persist vars P57 Toriko
+Player Toriko cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 169 on teamslot 0.0
+Char Kaneki.def (169) request pal 0 FFF (FFF) -> reserved 0 (FFE)
+Selected char 186 on teamslot 1.0
+Char Saber.def (186) request pal 0 FFF (FFF) -> reserved 0 (FFE)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 339436930
+Reset persist vars team 0
+Reset persist vars team 1
+Player Saiki Kusuo purged from cache: 4
+Freeing player RC Saiki Kusuo...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 3\Kaneki\Kaneki.def...
+  Loading info...OK
+  Loading cmd command set Kaneki.cmd...OK
+  Loading cns Kaneki.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Kaneki.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Kaneki.sff...OK
+  Loading anim Kaneki.air...OK
+  Loading snd Kaneki.snd...OK
+  Loading pals...(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)(1,10)(1,11)(1,12)OK
+  4984 expressions (1428 on trigger lines)
+Character Kaneki.def loaded OK
+New char Kaneki loaded into cache: (4/4 cached) Load time: 300.000ms
+Player Vegetto purged from cache: 5
+Freeing player RC Vegetto...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 3\Saber\Saber.def...
+  Loading info...OK
+  Loading cmd command set Saber.cmd...OK
+  Loading cns Saber.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Saber.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Saber.sff...OK
+  Loading anim Saber.air...OK
+  Loading snd Saber.snd...OK
+  Loading pals...(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)(1,10)(1,11)(1,12)OK
+  7133 expressions (1993 on trigger lines)
+Character Saber.def loaded OK
+New char Saber loaded into cache: (4/4 cached) Load time: 680.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+Life power and time reset
+End of match loop
+Total time: 20.09s
+Total frames: 1206 	Skipped frames: 0
+Avg game rate: 60.03
+Avg frame rate: 60.03
+
+Finishing match
+Freeing players
+Save persist vars P56 Kaneki
+Player Kaneki cache count reduced: 0
+Save persist vars P57 Saber
+Player Saber cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 165 on teamslot 0.0
+Char Oga_Tatsumi.def (165) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 185 on teamslot 1.0
+Char Emi_Yusa.def (185) request pal 0 3 (3) -> reserved 0 (2)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 1199899272
+Reset persist vars team 0
+Reset persist vars team 1
+Player Yato purged from cache: 6
+Freeing player RC Yato...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Oga_Tatsumi_by_TrafalgarLawzz\Oga_Tatsumi.def...
+  Loading info...OK
+  Loading cmd command set Oga_Tatsumi.cmd...OK
+  Loading cns Oga_Tatsumi.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Oga_Tatsumi.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Oga_Tatsumi.sff...OK
+  Loading anim Oga_Tatsumi.air...OK
+  Loading snd Oga_Tatsumi.snd...OK
+  Loading pals...OK
+  4495 expressions (1288 on trigger lines)
+Character Oga_Tatsumi.def loaded OK
+New char Oga Tatsumi loaded into cache: (4/4 cached) Load time: 370.000ms
+Player Toriko purged from cache: 7
+Freeing player RC Toriko...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 2\Emi_Yusa_Edit_by_Trafalgarlawzz\Emi_Yusa.def...
+  Loading info...OK
+  Loading cmd command set Emi_Yusa.cmd...OK
+  Loading cns Emi_Yusa.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Emi_Yusa.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Emi_Yusa.sff...OK
+  Loading anim Emi_Yusa.air...OK
+  Loading snd Emi_Yusa.snd...OK
+  Loading pals...(1,2)OK
+  5120 expressions (1538 on trigger lines)
+Character Emi_Yusa.def loaded OK
+New char Emi Yusa loaded into cache: (4/4 cached) Load time: 580.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 12.34s
+Total frames: 741 	Skipped frames: 0
+Avg game rate: 60.05
+Avg frame rate: 60.05
+
+Finishing match
+Freeing players
+Save persist vars P56 Oga Tatsumi
+Player Oga Tatsumi cache count reduced: 0
+Save persist vars P57 Emi Yusa
+Player Emi Yusa cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 130 on teamslot 0.0
+Char Saitama.def (130) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 27 on teamslot 1.0
+Char Goku_Mastered.def (27) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 1835602368
+Reset persist vars team 0
+Reset persist vars team 1
+Player Kaneki purged from cache: 8
+Freeing player RC Kaneki...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 3\Saitama\Saitama.def...
+  Loading info...OK
+  Loading cmd command set Saitama.cmd...OK
+  Loading cns Saitama.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Saitama.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Saitama.sff...OK
+  Loading anim Saitama.air...OK
+  Loading snd Saitama.snd...OK
+  Loading pals...OK
+  4394 expressions (1279 on trigger lines)
+Character Saitama.def loaded OK
+New char Saitama loaded into cache: (4/4 cached) Load time: 670.000ms
+Player Saber purged from cache: 9
+Freeing player RC Saber...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 2\Goku_Mastered\Goku_Mastered.def...
+  Loading info...OK
+  Loading cmd command set Goku_Mastered.cmd...OK
+  Loading cns Goku_Mastered.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Goku_Mastered.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Goku_Mastered.sff...OK
+  Loading anim Goku_Mastered.air...OK
+  Loading snd Goku_Mastered.snd...OK
+  Loading pals...OK
+  10909 expressions (2713 on trigger lines)
+Character Goku_Mastered.def loaded OK
+New char Goku loaded into cache: (4/4 cached) Load time: 2720.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 8.62s
+Total frames: 518 	Skipped frames: 0
+Avg game rate: 60.09
+Avg frame rate: 60.09
+
+Finishing match
+Freeing players
+Save persist vars P56 Saitama
+Player Saitama cache count reduced: 0
+Save persist vars P57 Goku
+Player Goku cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 130 on teamslot 0.0
+Char Saitama.def (130) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 112 on teamslot 1.0
+Char Todoroki.def (112) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 218909368
+Reset persist vars team 0
+Reset persist vars team 1
+Player Saitama cache count increased: 1
+Player Oga Tatsumi purged from cache: 10
+Freeing player RC Oga Tatsumi...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Todoroki_by_TrafalgarLawzz\Todoroki.def...
+  Loading info...OK
+  Loading cmd command set Todoroki.cmd...OK
+  Loading cns Todoroki.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Todoroki.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Todoroki.sff...OK
+  Loading anim Todoroki.air...OK
+  Loading snd Todoroki.snd...OK
+  Loading pals...OK
+  6755 expressions (1814 on trigger lines)
+Character Todoroki.def loaded OK
+New char Shoto Todoroki loaded into cache: (4/4 cached) Load time: 490.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 18.90s
+Total frames: 1135 	Skipped frames: 0
+Avg game rate: 60.05
+Avg frame rate: 60.05
+
+Finishing match
+Freeing players
+Save persist vars P56 Saitama
+Player Saitama cache count reduced: 0
+Save persist vars P57 Shoto Todoroki
+Player Shoto Todoroki cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 110 on teamslot 0.0
+Char Izuku Midoriya.def (110) request pal 0 FF (FF) -> reserved 0 (FE)
+Selected char 113 on teamslot 1.0
+Char All Might.def (113) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 570243859
+Reset persist vars team 0
+Reset persist vars team 1
+Player Emi Yusa purged from cache: 11
+Freeing player RC Emi Yusa...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Izuku_Midoriya_Edit_by_TrafalgarLawzz\Izuku Midoriya.def...
+  Loading info...OK
+  Loading cmd command set Izuku Midoriya.cmd...OK
+  Loading cns Izuku Midoriya.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cns Ultimate.cns...OK
+  Loading cns Awakening.cns...OK
+  Loading cns Visuals.cns...OK
+  Loading cmd state entry Izuku Midoriya.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Izuku Midoriya.sff...OK
+  Loading anim Izuku Midoriya.air...OK
+  Loading snd Izuku Midoriya.snd...OK
+  Loading pals...(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)OK
+  14210 expressions (3339 on trigger lines)
+Character Izuku Midoriya.def loaded OK
+New char Izuku Midoriya (Deku) loaded into cache: (4/4 cached) Load time: 730.000ms
+Player Goku purged from cache: 13
+Freeing player RC Goku...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 2\All Might\All Might.def...
+  Loading info...OK
+  Loading cmd command set All Might.cmd...OK
+  Loading cns All Might.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry All Might.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff All Might.sff...OK
+  Loading anim All Might.air...OK
+  Loading snd All Might.snd...OK
+  Loading pals...OK
+  6295 expressions (1599 on trigger lines)
+Character All Might.def loaded OK
+New char All Might loaded into cache: (4/4 cached) Load time: 990.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 41.07s
+Total frames: 2465 	Skipped frames: 0
+Avg game rate: 60.02
+Avg frame rate: 60.02
+
+Finishing match
+Freeing players
+Save persist vars P56 Izuku Midoriya (Deku)
+Player Izuku Midoriya (Deku) cache count reduced: 0
+Save persist vars P57 All Might
+Player All Might cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 172 on teamslot 0.0
+Char Meliodas.def (172) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 125 on teamslot 1.0
+Char Ichigo_Final.def (125) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 2016488493
+Reset persist vars team 0
+Reset persist vars team 1
+Player Saitama purged from cache: 14
+Freeing player RC Saitama...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 3\Meliodas\Meliodas.def...
+  Loading info...OK
+  Loading cmd command set Meliodas.cmd...OK
+  Loading cns Meliodas.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Meliodas.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Meliodas.sff...OK
+  Loading anim Meliodas.air...OK
+  Loading snd Meliodas.snd...OK
+  Loading pals...OK
+  5222 expressions (1410 on trigger lines)
+Character Meliodas.def loaded OK
+New char Meliodas loaded into cache: (4/4 cached) Load time: 780.000ms
+Player Shoto Todoroki purged from cache: 15
+Freeing player RC Shoto Todoroki...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Ichigo_Final_by_TrafalgarLawzz\Ichigo_Final.def...
+  Loading info...OK
+  Loading cmd command set Ichigo_Final.cmd...OK
+  Loading cns Ichigo_Final.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Ichigo_Final.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Ichigo_Final.sff...OK
+  Loading anim Ichigo_Final.air...OK
+  Loading snd Ichigo_Final.snd...OK
+  Loading pals...OK
+  4933 expressions (1484 on trigger lines)
+Character Ichigo_Final.def loaded OK
+New char Ichigo Final loaded into cache: (4/4 cached) Load time: 600.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 13.18s
+Total frames: 791 	Skipped frames: 0
+Avg game rate: 60.02
+Avg frame rate: 60.02
+
+Finishing match
+Freeing players
+Save persist vars P56 Meliodas
+Player Meliodas cache count reduced: 0
+Save persist vars P57 Ichigo Final
+Player Ichigo Final cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 167 on teamslot 0.0
+Char Koro-Sensei.def (167) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 186 on teamslot 1.0
+Char Saber.def (186) request pal 0 FFF (FFF) -> reserved 0 (FFE)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 1682651738
+Reset persist vars team 0
+Reset persist vars team 1
+Player Izuku Midoriya (Deku) purged from cache: 16
+Freeing player RC Izuku Midoriya (Deku)...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Koro-Sensei_by_TrafalgarLawzz\Koro-Sensei.def...
+  Loading info...OK
+  Loading cmd command set Koro-Sensei.cmd...OK
+  Loading cns Koro-Sensei.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Koro-Sensei.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Koro-Sensei.sff...OK
+  Loading anim Koro-Sensei.air...OK
+  Loading snd Koro-Sensei.snd...OK
+  Loading pals...OK
+  5377 expressions (1393 on trigger lines)
+Character Koro-Sensei.def loaded OK
+New char Koro-Sensei loaded into cache: (4/4 cached) Load time: 800.000ms
+Player All Might purged from cache: 17
+Freeing player RC All Might...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 3\Saber\Saber.def...
+  Loading info...OK
+  Loading cmd command set Saber.cmd...OK
+  Loading cns Saber.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Saber.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Saber.sff...OK
+  Loading anim Saber.air...OK
+  Loading snd Saber.snd...OK
+  Loading pals...(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)(1,10)(1,11)(1,12)OK
+  7133 expressions (1993 on trigger lines)
+Character Saber.def loaded OK
+New char Saber loaded into cache: (4/4 cached) Load time: 620.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 11.55s
+Total frames: 694 	Skipped frames: 0
+Avg game rate: 60.09
+Avg frame rate: 60.09
+
+Finishing match
+Freeing players
+Save persist vars P56 Koro-Sensei
+Player Koro-Sensei cache count reduced: 0
+Save persist vars P57 Saber
+Player Saber cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 27 on teamslot 0.0
+Char Goku_Mastered.def (27) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 34 on teamslot 1.0
+Char Black.def (34) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 115596417
+Reset persist vars team 0
+Reset persist vars team 1
+Player Meliodas purged from cache: 18
+Freeing player RC Meliodas...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 2\Goku_Mastered\Goku_Mastered.def...
+  Loading info...OK
+  Loading cmd command set Goku_Mastered.cmd...OK
+  Loading cns Goku_Mastered.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Goku_Mastered.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Goku_Mastered.sff...OK
+  Loading anim Goku_Mastered.air...OK
+  Loading snd Goku_Mastered.snd...OK
+  Loading pals...OK
+  10909 expressions (2713 on trigger lines)
+Character Goku_Mastered.def loaded OK
+New char Goku loaded into cache: (4/4 cached) Load time: 2700.000ms
+Player Ichigo Final purged from cache: 19
+Freeing player RC Ichigo Final...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 2\Black\Black.def...
+  Loading info...OK
+  Loading cmd command set Black.cmd...OK
+  Loading cns Black.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cns SSR.cns...OK
+  Loading cmd state entry Black.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Black.sff...OK
+  Loading anim Black.air...OK
+  Loading snd Black.snd...OK
+  Loading pals...OK
+  12659 expressions (3186 on trigger lines)
+Character Black.def loaded OK
+New char Goku Black loaded into cache: (4/4 cached) Load time: 1550.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 32.34s
+Total frames: 1941 	Skipped frames: 0
+Avg game rate: 60.02
+Avg frame rate: 60.02
+
+Finishing match
+Freeing players
+Save persist vars P56 Goku
+Player Goku cache count reduced: 0
+Save persist vars P57 Goku Black
+Player Goku Black cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 27 on teamslot 0.0
+Char Goku_Mastered.def (27) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 34 on teamslot 1.0
+Char Black.def (34) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 1503746825
+Reset persist vars team 0
+Reset persist vars team 1
+Player Goku cache count increased: 1
+Player Goku Black cache count increased: 1
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+End of match loop
+Total time: 1.67s
+Total frames: 101 	Skipped frames: 0
+Avg game rate: 60.48
+Avg frame rate: 60.48
+
+Finishing match
+Freeing players
+Save persist vars P56 Goku
+Player Goku cache count reduced: 0
+Save persist vars P57 Goku Black
+Player Goku Black cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 27 on teamslot 0.0
+Char Goku_Mastered.def (27) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 34 on teamslot 1.0
+Char Black.def (34) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 1885313073
+Reset persist vars team 0
+Reset persist vars team 1
+Player Goku cache count increased: 1
+Player Goku Black cache count increased: 1
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Resetting round
+End of match loop
+Total time: 214.57s
+Total frames: 12843 	Skipped frames: 19
+Avg game rate: 59.85
+Avg frame rate: 59.77
+
+Finishing match
+Freeing players
+Save persist vars P56 Goku
+Player Goku cache count reduced: 0
+Save persist vars P57 Goku Black
+Player Goku Black cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 27 on teamslot 0.0
+Char Goku_Mastered.def (27) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 34 on teamslot 1.0
+Char Black.def (34) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 335589620
+Reset persist vars team 0
+Reset persist vars team 1
+Player Goku cache count increased: 1
+Player Goku Black cache count increased: 1
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Resetting round
+End of match loop
+Total time: 286.43s
+Total frames: 16998 	Skipped frames: 24
+Avg game rate: 59.34
+Avg frame rate: 59.26
+
+Finishing match
+Freeing players
+Save persist vars P56 Goku
+Player Goku cache count reduced: 0
+Save persist vars P57 Goku Black
+Player Goku Black cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 104 on teamslot 0.0
+Char Tsuna.def (104) request pal 0 FFF (FFF) -> reserved 0 (FFE)
+Selected char 110 on teamslot 1.0
+Char Izuku Midoriya.def (110) request pal 0 FF (FF) -> reserved 0 (FE)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 962669512
+Reset persist vars team 0
+Reset persist vars team 1
+Player Koro-Sensei purged from cache: 20
+Freeing player RC Koro-Sensei...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Tsuna/Tsuna.def...
+  Loading info...OK
+  Loading cmd command set Tsuna.cmd...OK
+  Loading cns Tsuna.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cns Future.cns...OK
+  Loading cns Varia.cns...OK
+  Loading cmd state entry Tsuna.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Tsuna.sff...OK
+  Loading anim Tsuna.air...OK
+  Loading snd Tsuna.snd...OK
+  Loading pals...(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)(1,10)(1,11)(1,12)OK
+  SFF v1.01 palette hack engaged.
+  13945 expressions (3606 on trigger lines)
+Character Tsuna.def loaded OK
+New char Tsuna loaded into cache: (4/4 cached) Load time: 1480.000ms
+Player Saber purged from cache: 21
+Freeing player RC Saber...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Izuku_Midoriya_Edit_by_TrafalgarLawzz\Izuku Midoriya.def...
+  Loading info...OK
+  Loading cmd command set Izuku Midoriya.cmd...OK
+  Loading cns Izuku Midoriya.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cns Ultimate.cns...OK
+  Loading cns Awakening.cns...OK
+  Loading cns Visuals.cns...OK
+  Loading cmd state entry Izuku Midoriya.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Izuku Midoriya.sff...OK
+  Loading anim Izuku Midoriya.air...OK
+  Loading snd Izuku Midoriya.snd...OK
+  Loading pals...(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)OK
+  14210 expressions (3339 on trigger lines)
+Character Izuku Midoriya.def loaded OK
+New char Izuku Midoriya (Deku) loaded into cache: (4/4 cached) Load time: 1300.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+Life power and time reset
+End of match loop
+Total time: 15.77s
+Total frames: 947 	Skipped frames: 0
+Avg game rate: 60.05
+Avg frame rate: 60.05
+
+Finishing match
+Freeing players
+Save persist vars P56 Tsuna
+Player Tsuna cache count reduced: 0
+Save persist vars P57 Izuku Midoriya (Deku)
+Player Izuku Midoriya (Deku) cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 141 on teamslot 0.0
+Char Kirito.def (141) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 142 on teamslot 1.0
+Char Asuna.def (142) request pal 0 3 (3) -> reserved 0 (2)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 444674880
+Reset persist vars team 0
+Reset persist vars team 1
+Player Goku purged from cache: 28
+Freeing player RC Goku...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 3\Kirito\Kirito.def...
+  Loading info...OK
+  Loading cmd command set Kirito.cmd...OK
+  Loading cns Kirito.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Kirito.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Kirito.sff...OK
+  Loading anim Kirito.air...OK
+  Loading snd Kirito.snd...OK
+  Loading pals...OK
+  6416 expressions (1734 on trigger lines)
+Character Kirito.def loaded OK
+New char Kirito loaded into cache: (4/4 cached) Load time: 680.000ms
+Player Goku Black purged from cache: 29
+Freeing player RC Goku Black...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 2\Asuna\Asuna.def...
+  Loading info...OK
+  Loading cmd command set Asuna.cmd...OK
+  Loading cns Asuna.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Asuna.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Asuna.sff...OK
+  Loading anim Asuna.air...OK
+  Loading snd Asuna.snd...OK
+  Loading pals...(1,2)OK
+  4712 expressions (1401 on trigger lines)
+Character Asuna.def loaded OK
+New char Asuna loaded into cache: (4/4 cached) Load time: 630.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 13.47s
+Total frames: 809 	Skipped frames: 0
+Avg game rate: 60.06
+Avg frame rate: 60.06
+
+Finishing match
+Freeing players
+Save persist vars P56 Kirito
+Player Kirito cache count reduced: 0
+Save persist vars P57 Asuna
+Player Asuna cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 137 on teamslot 0.0
+Char Kamijou Touma.def (137) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 134 on teamslot 1.0
+Char Aladdin.def (134) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 407599794
+Reset persist vars team 0
+Reset persist vars team 1
+Player Tsuna purged from cache: 30
+Freeing player RC Tsuna...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Kamijou Touma/Kamijou Touma.def...
+  Loading info...OK
+  Loading cmd command set Kamijou Touma.cmd...OK
+  Loading cns Kamijou Touma.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Kamijou Touma.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Kamijou Touma.sff...OK
+  Loading anim Kamijou Touma.air...OK
+  Loading snd Kamijou Touma.snd...OK
+  Loading pals...OK
+  4410 expressions (1299 on trigger lines)
+Character Kamijou Touma.def loaded OK
+New char Kamijou Touma loaded into cache: (4/4 cached) Load time: 750.000ms
+Player Izuku Midoriya (Deku) purged from cache: 31
+Freeing player RC Izuku Midoriya (Deku)...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 2\Aladdin\Aladdin.def...
+  Loading info...OK
+  Loading cmd command set Aladdin.cmd...OK
+  Loading cns Aladdin.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Aladdin.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Aladdin.sff...OK
+  Loading anim Aladdin.air...OK
+  Loading snd Aladdin.snd...OK
+  Loading pals...OK
+  4955 expressions (1408 on trigger lines)
+Character Aladdin.def loaded OK
+New char Aladdin loaded into cache: (4/4 cached) Load time: 840.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 15.31s
+Total frames: 919 	Skipped frames: 0
+Avg game rate: 60.03
+Avg frame rate: 60.03
+
+Finishing match
+Freeing players
+Save persist vars P56 Kamijou Touma
+Player Kamijou Touma cache count reduced: 0
+Save persist vars P57 Aladdin
+Player Aladdin cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 10 on teamslot 0.0
+Char Naruto_Ashura_JUS.def (10) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 34 on teamslot 1.0
+Char Black.def (34) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 56887022
+Reset persist vars team 0
+Reset persist vars team 1
+Player Kirito purged from cache: 32
+Freeing player RC Kirito...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 3\Naruto_Ashura_JUS\Naruto_Ashura_JUS.def...
+  Loading info...OK
+  Loading cmd command set Naruto_Ashura_JUS.cmd...OK
+  Loading cns Naruto_Ashura_JUS.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Specials.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cns Kurama_Mode.cns...OK
+  Loading cmd state entry Naruto_Ashura_JUS.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Naruto_Ashura_JUS.sff...OK
+  Loading anim Naruto_Ashura_JUS.air...OK
+  Loading snd Naruto_Ashura_JUS.snd...OK
+  Loading pals...OK
+  11147 expressions (2807 on trigger lines)
+Character Naruto_Ashura_JUS.def loaded OK
+New char Naruto loaded into cache: (4/4 cached) Load time: 1420.000ms
+Player Asuna purged from cache: 33
+Freeing player RC Asuna...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 2\Black\Black.def...
+  Loading info...OK
+  Loading cmd command set Black.cmd...OK
+  Loading cns Black.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cns SSR.cns...OK
+  Loading cmd state entry Black.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Black.sff...OK
+  Loading anim Black.air...OK
+  Loading snd Black.snd...OK
+  Loading pals...OK
+  12659 expressions (3186 on trigger lines)
+Character Black.def loaded OK
+New char Goku Black loaded into cache: (4/4 cached) Load time: 1350.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+End of match loop
+Total time: 18.59s
+Total frames: 1116 	Skipped frames: 0
+Avg game rate: 60.03
+Avg frame rate: 60.03
+
+Finishing match
+Freeing players
+Save persist vars P56 Naruto
+Player Naruto cache count reduced: 0
+Save persist vars P57 Goku Black
+Player Goku Black cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Selected char 1 on teamslot 0.0
+Char SM_Luffy_TS.def (1) request pal 0 1 (1) -> reserved 0 (0)
+Selected char 183 on teamslot 1.0
+Char Konata.def (183) request pal 0 1 (1) -> reserved 0 (0)
+End of charsel loop
+Game loop deinit
+Gameflow 8
+Gameflow 9
+Gameflow 10
+Entering versus screen.
+Unloading match assets
+Freeing players
+Game loop init
+Versus screen init
+End of versus screen loop
+Game loop deinit
+Gameflow 11
+Loading match assets...
+Loading stage...
+  Loading BG...OK
+Stage loaded OK
+  Allocating helpers...OK
+Match RNG seed: 469939033
+Reset persist vars team 0
+Reset persist vars team 1
+Player Kamijou Touma purged from cache: 34
+Freeing player RC Kamijou Touma...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Pack 3\SM_Luffy_TS\SM_Luffy_TS.def...
+  Loading info...OK
+  Loading cmd command set SM_Luffy_TS.cmd...OK
+  Loading cns SM_Luffy_TS.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry SM_Luffy_TS.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff SM_Luffy_TS.sff...OK
+  Loading anim SM_Luffy_TS.air...OK
+  Loading snd SM_Luffy_TS.snd...OK
+  Loading pals...(1,1)OK
+  16782 expressions (3946 on trigger lines)
+Character SM_Luffy_TS.def loaded OK
+New char Monkey D Luffy loaded into cache: (4/4 cached) Load time: 1800.000ms
+Player Aladdin purged from cache: 35
+Freeing player RC Aladdin...CMD...CNS...SFF...AIR...SND...Misc...OK
+Loading character chars/Konata_by_TrafalgarLawzz\Konata.def...
+  Loading info...OK
+  Loading cmd command set Konata.cmd...OK
+  Loading cns Konata.cns...OK
+  Loading cns IA.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Konata.cmd...OK
+  Loading common states common1.cns...OK
+  Loading sff Konata.sff...OK
+  Loading anim Konata.air...OK
+  Loading snd Konata.snd...OK
+  Loading pals...OK
+  4267 expressions (1235 on trigger lines)
+Character Konata.def loaded OK
+New char Konata loaded into cache: (4/4 cached) Load time: 470.000ms
+Resetting round
+Match assets initialized OK
+Game loop init
+Match loop init
+Life power and time reset
+Life power and time reset
+Resetting round
+End of match loop
+Total time: 333.57s
+Total frames: 19992 	Skipped frames: 25
+Avg game rate: 59.93
+Avg frame rate: 59.86
+
+Finishing match
+Freeing players
+Save persist vars P56 Monkey D Luffy
+Player Monkey D Luffy cache count reduced: 0
+Save persist vars P57 Konata
+Player Konata cache count reduced: 0
+Match RNG closed
+Game loop deinit
+Gameflow 6
+Reset persist vars team 0
+Reset persist vars team 1
+Gameflow 7
+Entering character select.
+Unloading match assets
+Freeing players
+Unloading stage...OK
+Game loop init
+Unreserved all palettes
+Charsel init
+Game loop deinit
+Canceled character select.
+Gameflow 4
+Entering mode select.
+Unloading match assets
+Freeing players
+Game loop init
+Mode select init
+End of mode select loop
+Game loop deinit
+Returned from gameflow loop
+Deinitializing...
+Frames      : 85152
+Time elapsed: 1467.520 sec
+ticks: 146752, tps: 100, start 531, end 147283
+
+Unloading match assets
+Freeing players
+Clearing player cache...Freeing player RC Monkey D Luffy...CMD...CNS...SFF...AIR...SND...Misc...OK
+Freeing player RC Naruto...CMD...CNS...SFF...AIR...SND...Misc...OK
+Freeing player RC Goku Black...CMD...CNS...SFF...AIR...SND...Misc...OK
+Freeing player RC Konata...CMD...CNS...SFF...AIR...SND...Misc...OK
+OK
+Freeing character info...OK
+Freeing select screen...OK
+Freeing fight data...OK
+Freeing system data...OK
+Freeing game variables...Unloading match assets
+Freeing players
+OK
+Deinitializing input...pad...keyboard...OK
+Removing callbacks...OK
+Deintializing timer...OK
+Deinitializing graphics...OK
+Deinitializing BGM...OK
+Deinitializing sound...OK
+Successful program termination.
+
+Log file successfully closed.

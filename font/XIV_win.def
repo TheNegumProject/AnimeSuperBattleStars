@@ -1,0 +1,12 @@
+﻿[FNT v2]
+fntversion = 2,00
+name = "Bell Gothic"
+author = "Chauncey H. Griffith"
+
+[Def]
+Type = truetype
+Size = 6,11
+Spacing = 1,0
+Offset = 0,0
+File = bell.otf
+Blend = 1

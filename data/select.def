@@ -1,0 +1,298 @@
+;---------------------------------------------------------------------
+[Characters]
+ ;How to add characters
+ ;---------------------
+ ;Use the format:
+ ;    charname, stagefilename
+ ;
+ ;eg. For a player with filename "kfm",
+ ;    and stage filename "stages/mybg.def"
+ ;type (without the semicolon):
+ ;    kfm, stages/mybg.def
+ ;
+ ;If you want to load a different def file, you can enter it
+ ;as a directory plus the def file. This example loads up
+ ;chars/kfm/alt-kfm.def:
+ ;    kfm/alt-kfm.def, stages/mybg.def
+ ;
+ ;If you put "random" as the stagefilename, then a random stage will
+ ;be selected for that player. eg.
+ ;    kfm, random
+ ;
+ ;Zipped characters are also supported.
+ ;Place the ZIP file in the chars/ directory. The syntax is as
+ ;follows:
+ ;    zipname.zip:defname.def, stages/mybg.def
+ ;For example, if you have newsuave.def in suave.zip, the syntax is:
+ ;    suave.zip:newsuave.def, stages/mybg.def
+ ;If your def file has the same name as the zip file (eg. suave.def
+ ;in suave.zip), you can just put the name of the zip file alone:
+ ;    suave.zip, stages/mybg.def
+ ;
+ ;Optional parameters may follow on the same line, separated
+ ;by commas. Each parameter has the form:
+ ;    paramname = paramvalue
+ ;where paramname is the name of the parameter type, and
+ ;paramvalue is the value to assign that parameter.
+ ;The optional parameters are:
+ ;
+ ; - music
+ ;   Set the paramvalue to the name of the music file to use
+ ;   as the BGM for that character. This overrides the bgmusic
+ ;   parameter in the stage's .def file, so you can re-use the
+ ;   same stage for multiple characters, but have a different
+ ;   BGM playing for each person.
+ ;
+ ; - includestage
+ ;   Set the paramvalue to 0 to avoid including this stage
+ ;   in the stage select list (in VS, training modes, etc)
+ ;
+ ; - order
+ ;   Set the paramvalue to the ordering priority to give the
+ ;   character. Valid values are from 1 to 30. A smaller value
+ ;   means you will fight the character sooner. You will never
+ ;   fight an order 2 character before an order 1 character,
+ ;   and never an order 3 character before an order 2 one.
+ ;   For example, you might want to set your boss character
+ ;   to have order=3. The default order value is 1 if you omit
+ ;   this param. See *.maxmatches under [Options] for how to
+ ;   limit the number of matches per order priority.
+ ;
+ ;   Some examples:
+ ;        kfm, stages/mybg.def, includestage=0
+ ;        kfm, stages/mybg.def, music=sound/song.mp3
+ ;        kfm, stages/mybg.def, music=sound/song.mp3, includestage=0
+ ;        kfm, stages/mybg.def, order=3
+ ;
+ ;You can also add a randomize icon to the select screen. To do
+ ;this, put the word "randomselect" on a line of its own, with no
+ ;extra parameters.
+ ;
+ ;Insert your characters below.
+
+One Piece\Luffy\Luffy.def
+Pack 3\SM_Luffy_TS\SM_Luffy_TS.def
+One Piece\Zoro_V2\Zoro\Zoro.def
+One Piece\Sanji\Sanji.def
+One Piece\Nami\Nami.def
+Pack 3\Usopp\Usopp.def
+One Piece\Chopper\Chopper.def
+One Piece\Robin\Robin.def
+One Piece\Franky\Franky.def
+Pack 3\Naruto\Naruto.def
+Pack 3\Naruto_Ashura_JUS\Naruto_Ashura_JUS.def
+Pack 3\Sasuke_Hebi_White\Sasuke_Hebi_White.def
+Pack 3\Sasuke Rinnegan\Sasuke Rinnegan.def
+Pack 3\Sakura_JUS\Sakura_JUS.def
+Pack 2\Hinata\Hinata.def
+Pack 3\Kakashi\Kakashi.def
+Nar\Sasori\Sasori.def
+Nar\Deidara\Deidara.def
+Nar\Konan\Konan.def
+Pack 2\Goku_Base\Goku_Base.def
+Pack 2\Goku_SS\Goku_SS.def
+Pack 2\Goku_SS2\Goku_SS2.def
+Pack 2\Goku_SS3\Goku_SS3.def
+Pack 2\Goku_SS4\Goku_SS4.def
+Pack 2\Goku_SSGOD\Goku_SSGOD.def
+Pack 2\Goku_SSBLUE\Goku_SSBLUE.def
+Pack 2\Goku_Ultra_Instinct\Goku_Ultra_Instinct.def
+Pack 2\Goku_Mastered\Goku_Mastered.def
+Pack 3\Vegeta\Vegeta.def
+Pack 3\Vegeta_Majin\Vegeta_Majin.def
+Pack 2\Vegeta_SS4\Vegeta_SS4.def
+Pack 2\Vegeta_SSGOD\Vegeta_SSGOD.def
+Pack 3\Vegeta_SSBLUE\Vegeta_SSBLUE.def
+Pack 3\Vegeta_Ultra_SSBLUE\Vegeta_Ultra_SSBLUE.def
+Pack 2\Black\Black.def
+Pack 2\Fused_Zamasu\Fused_Zamasu.def
+Pack 2\Hitto\Hitto.def
+Pack 3\Kefla\Kefla.def
+Pack 2\Caulifla\Caulifla.def
+Pack 2\Kale\Kale.def
+Pack 3\Jiren\Jiren.def
+Pack 2\Bills\Bills.def
+Pack 3\Trunks\Trunks.def
+Pack 3\Trunks_DBS\Trunks_DBS.def
+Pack 2\Gohan_Teen\Gohan_Teen.def
+Pack 2\Gohan\Gohan.def
+Pack 2\Gogeta\Gogeta.def
+Pack 2\Gogeta_Blue\Gogeta_Blue.def
+Pack 2\Gogeta_SS4\Gogeta_SS4.def
+Pack 3\Vegetto\Vegetto.def
+Pack 3\Vegetto_SSBLUE\Vegetto_SSBLUE.def
+Pack 2\Broly\Broly.def
+Pack 2\BrolyMovie\Broly.def
+Pack 2\Frieza\Frieza.def
+Pack 2\Cell\Cell.def
+Pack 3\Kid_Buu\Kid_Buu.def
+Pack 3\Metal_Cooler\Metal_Cooler.def
+Pack 2\Buuhan\Buuhan.def
+Pack 2\Janemba\Janemba.def
+Pack 3\Turles\Turles.def
+Pack 2\Bardock\Bardock.def
+Pack 2\Tapion\Tapion.def
+Pack 2\Gotenks\Gotenks.def
+Pack 3\Piccolo\Piccolo.def
+Pack 3\Krilin\Krilin.def
+Pack 2\Android_18\Android_18.def
+Pack 3\Ozaru_JUS\Ozaru_JUS.def
+Pack 3\Natsu_Start\Natsu_Start.def
+Pack 3\Natsu_DragonForce\Natsu_DragonForce.def
+Pack 3\Lucy_Start\Lucy_Start.def
+Pack 2\Gray_Start\Gray_Start.def
+Pack 2\Erza_Start\Erza_Start.def
+Pack 3\Wendy\Wendy.def
+Pack 2\Cana\Cana.def
+Pack 3\Mirajane_Satan_Soul\Mirajane_Satan_Soul.def
+Pack 2\Gajeel_Start\Gajeel_Start.def
+Pack 3\Levy\Levy.def
+Pack 3\Lisanna\Lisanna.def
+Pack 2\Elfman_Start\Elfman_Start.def
+Pack 3\Mystogan\Mystogan.def
+Pack 3\Jellal\Jellal.def
+Pack 2\Bisca\Bisca.def
+Pack 3\Laxus\Laxus.def
+Pack 2\Happy_by_TrafalgarLawzz\Happy.def
+Pack 3\SM_Seiya\SM_Seiya.def
+Pack 3\SM_Hyoga\SM_Hyoga.def
+Pack 3\SM_Shiryu\SM_Shiryu.def
+Pack 3\SM_Shun\SM_Shun.def
+Gon_Edit_by_TrafalgarLawzz\Gon.def
+Killua_Edit_by_TrafalgarLawzz\Killua.def
+Pack 3\Kurapica\Kurapica.def
+Pack 2\Hisoka\Hisoka.def
+Pack 2\Pitou\Pitou.def
+Pack 2\Gintoki\Gintoki.def
+Pack 3\Kagura\Kagura.def
+Pack 2\Hijikata\Hijikata.def
+Pack 3\Kyubei\Kyubei.def
+Pack 3\SM_Jotaro\SM_Jotaro.def
+Pack 3\SM_Dio\SM_Dio.def
+Pack 3\SM_Josuke\SM_Josuke.def
+Pack 3\SM_Kakyoin\SM_Kakyoin.def
+Pack 3\SM_Kira\SM_Kira.def
+Pack 3\Joseph\Joseph.def
+Tsuna_by_TrafalgarLawzz\Tsuna.def
+Tsuna
+Gokudera_by_TrafalgarLawzz\Gokudera.def
+Yamamoto_by_LemonStream_Edit_TrafalgarLawzz\Yamamoto.def
+Ryohei_by_TrafalgarLawzz\Ryohei.def
+Hibari_by_TrafalgarLawzz\Hibari.def
+Lambo_by_TrafalgarLawzz\Lambo.def
+Izuku_Midoriya_Edit_by_TrafalgarLawzz\Izuku Midoriya.def
+Katsuki_Bakugo_by_TrafalgarLawzz_MYTHOS\Katsuki_Bakugo.def
+Todoroki_by_TrafalgarLawzz\Todoroki.def
+Pack 2\All Might\All Might.def
+Pack 3\SM_Kenshin\SM_Kenshin.def
+Pack 3\Sanosuke_Edit_by_TrafalgarLawzz\Sanosuke.def
+Pack 3\Saito_Edit_by_TrafalgarLawzz\Saito.def
+Pack 3\Shishio_Edit_by_TrafalgarLawzz\Shishio.def
+Yusuke_by_TrafalgarLawzz\Yusuke.def
+Pack 2\Hiei_Edit_by_TrafalgarLawzz\Hiei.def
+Pack 3\Kuwabara_Edit_by_TrafalgarLawzz\Kuwabara.def
+Pack 3\Kurama_Edit_by_TrafalgarLawzz\Kurama.def
+Pack 2\Genkai_Edit_by_TrafalgarLawzz\Genkai.def
+Pack 2\Ichigo_Edit_by_TrafalgarLawzz\Ichigo_Shikai.def
+Pack 2\Ichigo Vaste Lord\Ichigo Vaste Lord.def
+Ichigo_Final_by_TrafalgarLawzz\Ichigo_Final.def
+Pack 3\Rukia_Edit_by_TrafalgarLawzz\Rukia.def
+Pack 3\Ishida\Ishida.def
+Pack 3\Orihime\Orihime.def
+Pack 3\Sado\Sado.def
+Pack 3\Saitama\Saitama.def
+Pack 2\Genos\Genos.def
+Tatsumaki_by_TrafalgarLawzz\Tatsumaki.def
+Pack 3\SpeedSonic\Sonic.def
+Pack 2\Aladdin\Aladdin.def
+Pack 2\Alibaba\Alibaba.def
+Pack 3\Morgiana\Morgiana.def
+Kamijou Touma
+Misaka_by_TrafalgarLawzz\Misaka.def
+Accelerator_by_TrafalgarLawzz\Accelerator.def
+Shirai_Kuroko_by_TrafalgarLawzz\Shirai_Kuroko.def
+Pack 3\Kirito\Kirito.def
+Pack 2\Asuna\Asuna.def
+Pack 3\Light Yagami\Light Yagami.def
+Pack 3\Ryuzaki\Ryuzaki.def
+Musubi_by_TrafalgarLawzz\Musubi.def
+Tsukiumi_by_TrafalgarLawzz\Tsukiumi.def
+Train_Edit_by_TrafalgarLawzz\Train.def
+Pack 2\Eve\Eve.def
+Kuga_by_TrafalgarLawzz\Kuga.def
+Osamu_by_TrafalgarLawzz\Osamu.def
+Inuyasha_by_TrafalgarLawzz\Inuyasha.def
+Toriko_by_TrafalgarLawzz\Toriko.def
+Ryotsu_by_TrafalgarLawzz\Ryotsu.def
+Arale_by_TrafalgarLawzz\Arale.def
+Ranma_by_TrafalgarLawzz\Ranma.def
+Pack 2\Ippo_Edit_by_TrafalgarLawzz\Ippo.def
+Allen_Walker_by_TrafalgarLawzz\Allen_Walker.def
+Edward_Elric_by_TrafalgarLawzz\Edward_Elric.def
+Pack 3\SM_Neuro\SM_Neuro.def
+randomselect
+Kazuki_by_TrafalgarLawzz\Kazuki.def
+Asakura_Yoh_by_TrafalgarLawzz\Asakura_Yoh.def
+Pack 3\Yugi\Yugi.def
+Pack 3\SM_Jonathan\SM_Jonathan.def
+Pack 3\SM_Kenshiro\SM_Kenshiro.def
+Oga_Tatsumi_by_TrafalgarLawzz\Oga_Tatsumi.def
+Saiki_Kusuo_by_TrafalgarLawzz\Saiki_Kusuo.def
+Koro-Sensei_by_TrafalgarLawzz\Koro-Sensei.def
+Yato_Remake_by_TrafalgarLawzz\Yato.def
+Pack 3\Kaneki\Kaneki.def
+Pack 3\Eren\Eren.def
+Silver_Crow_by_TrafalgarLawzz\Silver_Crow.def
+Pack 3\Meliodas\Meliodas.def
+Shizuo_by_TrafalgarLawzz\Shizuo.def
+Asta_by_TrafalgarLawzz\Asta.def
+Yuno_Black_Clover_by_TrafalgarLawzz\Yuno_Black_Clover.def
+Sebastian_by_TrafalgarLawzz\Sebastian.def
+Kazuma_by_TrafalgarLawzz\Kazuma.def
+Pack 3\Mob_Edit_by_TrafalgarLawzz\Mob.def
+Hyde_by_TrafalgarLawzz\Hyde.def
+Miku_by_TrafalgarLawzz\Miku.def
+Kirisaki_Chitoge_by_TrafalgarLawzz\Kirisaki_Chitoge.def
+Akari_by_TrafalgarLawzz\Akari.def
+Konata_by_TrafalgarLawzz\Konata.def
+Akame_Edit_by_TrafalgarLawzz\Akame.def
+Pack 2\Emi_Yusa_Edit_by_Trafalgarlawzz\Emi_Yusa.def
+Pack 3\Saber\Saber.def
+Yuno_by_TrafalgarLawzz\Yuno.def
+Makina_Hoshimura_by_TrafalgarLawzz\Makina.def
+Ryuko_Matoi_by_TrafalgarLawzz\Ryuko_Matoi.def
+randomselect
+;-----------------------
+[ExtraStages]
+ ;Put extra stages here. They will be available in VS and Watch modes.
+ ;For example, you can insert "stages/mybg.def".
+
+stages\AP_Apple_Place.def
+stages\AP_Castle_Tuskur.def
+stages\AP_Comic_Hall.def
+stages\AP_Comic_Hall(noon).def
+stages\AP_Palace_Sunset.def
+stages\AP_Playground.def
+stages\AP_Witch's_Ruins.def
+stages\AquaPazza[RedMoon].def
+stages\AQUAPAZZA-CASTLE_AVALON.def
+stages\Zen_Room.def
+stages\XX'CC'BEACH'XX.def
+stages\XX'CC'CITY'LIGHTS'XX.def
+stages\Ex_Akai_Tsuki_Night(1.1_Zoom).def
+stages\Ex_Kona_Park.def
+
+;---------------------------------------------------------------------
+[Options]
+ ;Here you set the maximum number of matches to fight before game ends
+ ;in Arcade Mode. The first number is the number of matches against
+ ;characters with order=1, followed by order=2 and order=3 respectively.
+ ;For example, for 4,3,1 you will fight up to 4 randomly-picked
+ ;characters who have order=1, followed by 3 with order=2 and 1 with
+ ;order=3.
+ ;Up to 30 entries allowed.
+arcade.maxmatches = 10,1,1,0,0,0,0,0,0,0
+
+ ;Maximum number of matches to fight before game ends in Team Mode.
+ ;Like arcade.maxmatches, but applies to Team Battle.
+team.maxmatches = 10,1,1,0,0,0,0,0,0,0
