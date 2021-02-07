@@ -1,0 +1,635 @@
+[Info]
+name = "Kona Park"           
+author = "Excahm"
+
+;--------------------------------------------------------
+[Camera]
+ ;Camera starting position: Usually 0 for both
+ ;***
+startx = 0
+starty = 0
+
+ ;Left and right bound of camera
+ ;You may want to fiddle a bit with these values to make sure the
+ ;background doesn't move too far or too little
+ ;***
+boundleft = -94
+boundright = 95
+
+ ;High and low bound of camera
+ ;High is a negative number. Make is more negative if you want to
+ ;camera to be able to move higher.
+ ;Low should usually be 0.
+ ;If omitted, defaults to -25 and 0 respectively
+ ;***
+boundhigh = -25
+boundlow = 0
+
+ ;This is how much the camera will move vertically towards the
+ ;highest player. Valid values are from 0 to 1. A value of 0 will mean
+ ;the camera does not move up at all. A value of 1 will makes the camera
+ ;follow the highest player.
+ ;Typically .2 for normal-sized backgrounds. You may need to pull this
+ ;value up for taller backgrounds.
+verticalfollow = .2
+
+ ;Minimum vertical distance the highest player has to be from the floor,
+ ;before the camera starts to move up to follow him. For extremely
+ ;tall stages, a floor tension of about 20-30 coupled with a
+ ;vertical-follow of .8 allows the camera to follow the action.
+floortension = 0
+
+ ;Horizontal distance player is from edge before camera starts to move
+ ;left or right. Typically 50 or 60.
+tension = 50
+
+;--------------------------------------------------------
+[PlayerInfo]
+p1startx = -70          ;Starting x coordinates
+p1starty = 0            ;Starting y coordinates
+p1startz = 0            ;Starting z coordinates
+p1facing = 1            ;Direction player faces: 1=right, -1=left
+
+;--- Player 2 ---
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+;--- Common ---
+leftbound  = -1000 ;Left bound (x-movement)
+rightbound =  1000 ;Right bound
+topbound  =  0     ;Top bound (z-movement)
+botbound  =  0     ;Bottom bound
+
+;--------------------------------------------------------
+[Scaling]
+topz     = 0       ;Top z-coordinate for scaling
+botz     = 50      ;Bottom z-coordinate for scaling
+topscale = 1      ;Scale to use at top
+botscale = 1.2     ;Scale to use at bottom
+
+;--------------------------------------------------------
+[Bound]
+screenleft = 15    ;Dist from left of screen that player can move to
+screenright = 15   ;Right edge
+
+[StageInfo]
+zoffset = 225      
+autoturn = 1           
+resetBG = 1
+hires = 1
+
+[Shadow]
+color = 256,256,256  
+intensity = 110  
+yscale = .3                       
+
+[Music]
+bgmusic = sound/Sisters.mp3             
+bgvolume = 255        
+
+[BGdef]
+spr = stages/Ex_Kona_Park.sff
+debugbg = 0
+;=================================================
+[BG sky]
+type  = normal     
+spriteno = 0,0                      
+start = 0, -230        
+delta = 1.5, 1.5    
+mask = 1
+
+[BG stars]
+type  = normal     
+spriteno = 0,1                      
+start = 0, -230        
+delta = 1.5, 1.5    
+mask = 1
+trans = add
+
+[BG moon Glow 1]
+type  = normal     
+spriteno = 0,2                      
+start = 0, -230        
+delta = 1.5, 1.5    
+mask = 1
+trans = addalpha
+alpha = 200,256
+
+[BG moon]
+type  = normal     
+spriteno = 0,3                      
+start = 0, -230        
+delta = 1.5, 1.5    
+mask = 1
+
+[BG Moon Glow 2]
+type = anim
+actionno = 10
+start = 0, -230
+delta = 1.5, 1.5
+mask = 1
+[Begin Action 10]
+0,4, 0,0, 4,,AS120D256
+0,4, 0,0, 4,,AS110D256
+0,4, 0,0, 4,,AS100D256
+0,4, 0,0, 4,,AS110D256
+
+[BG Forest Black]
+type  = normal     
+spriteno = 2,0                      
+start = 0, -230        
+delta = 2, 2    
+mask = 1
+
+[BG Lake Animation Blue]
+type = anim
+actionno = 5
+start = 0, -230
+delta = 2, 2
+mask = 1
+[Begin Action 5]
+5,0, 0,0, 5,,AS256D256
+5,1, 0,0, 5,,AS256D256
+5,2, 0,0, 5,,AS256D256
+5,3, 0,0, 5,,AS256D256
+5,4, 0,0, 5,,AS256D256
+5,5, 0,0, 5,,AS256D256
+5,6, 0,0, 5,,AS256D256
+5,7, 0,0, 5,,AS256D256
+5,8, 0,0, 5,,AS256D256
+5,9, 0,0, 5,,AS256D256
+5,10, 0,0, 5,,AS256D256
+5,11, 0,0, 5,,AS256D256
+5,12, 0,0, 5,,AS256D256
+5,13, 0,0, 5,,AS256D256
+5,14, 0,0, 5,,AS256D256
+5,15, 0,0, 5,,AS256D256
+5,16, 0,0, 5,,AS256D256
+5,17, 0,0, 5,,AS256D256
+5,18, 0,0, 5,,AS256D256
+5,19, 0,0, 5,,AS256D256
+
+[BG Lake Animation Green]
+type = anim
+actionno = 6
+start = 0, -230
+delta = 2, 2
+mask = 1
+[Begin Action 6]
+6,0, 0,0, 5,,AS256D256
+6,1, 0,0, 5,,AS256D256
+6,2, 0,0, 5,,AS256D256
+6,3, 0,0, 5,,AS256D256
+6,4, 0,0, 5,,AS256D256
+6,5, 0,0, 5,,AS256D256
+6,6, 0,0, 5,,AS256D256
+6,7, 0,0, 5,,AS256D256
+6,8, 0,0, 5,,AS256D256
+6,9, 0,0, 5,,AS256D256
+6,10, 0,0, 5,,AS256D256
+6,11, 0,0, 5,,AS256D256
+6,12, 0,0, 5,,AS256D256
+6,13, 0,0, 5,,AS256D256
+6,14, 0,0, 5,,AS256D256
+6,15, 0,0, 5,,AS256D256
+6,16, 0,0, 5,,AS256D256
+6,17, 0,0, 5,,AS256D256
+6,18, 0,0, 5,,AS256D256
+6,19, 0,0, 5,,AS256D256
+
+[BG Lake Animation Red]
+type = anim
+actionno = 7
+start = 0, -230
+delta = 2, 2
+mask = 1
+[Begin Action 7]
+7,0, 0,0, 5,,AS256D256
+7,1, 0,0, 5,,AS256D256
+7,2, 0,0, 5,,AS256D256
+7,3, 0,0, 5,,AS256D256
+7,4, 0,0, 5,,AS256D256
+7,5, 0,0, 5,,AS256D256
+7,6, 0,0, 5,,AS256D256
+7,7, 0,0, 5,,AS256D256
+7,8, 0,0, 5,,AS256D256
+7,9, 0,0, 5,,AS256D256
+7,10, 0,0, 5,,AS256D256
+7,11, 0,0, 5,,AS256D256
+7,12, 0,0, 5,,AS256D256
+7,13, 0,0, 5,,AS256D256
+7,14, 0,0, 5,,AS256D256
+7,15, 0,0, 5,,AS256D256
+7,16, 0,0, 5,,AS256D256
+7,17, 0,0, 5,,AS256D256
+7,18, 0,0, 5,,AS256D256
+7,19, 0,0, 5,,AS256D256
+
+[BG Forest Blue]
+type  = normal     
+spriteno = 2,1                      
+start = 0, -230        
+delta = 2, 2    
+mask = 1
+trans = add
+
+[BG Forest Green]
+type  = normal     
+spriteno = 2,2                      
+start = 0, -230        
+delta = 2, 2    
+mask = 1
+trans = add
+
+[BG Forest red]
+type  = normal     
+spriteno = 2,3                      
+start = 0, -230        
+delta = 2, 2    
+mask = 1
+trans = add
+
+[BG Overlay]
+type = normal
+spriteno = 4,0
+start = 0,-230
+delta = 0,0
+trans = addalpha
+alpha = 0,210
+layerno = 1
+
+[BG Lights]
+type  = anim     
+actionno = 3   
+start = 0,-230                       
+delta = 2, 2    
+mask = 1
+[Begin Action 3]
+3,0, 0,0, 2,,AS220D256
+3,0, 0,0, 2,,AS215D256
+3,0, 0,0, 2,,AS210D256
+3,0, 0,0, 2,,AS205D256
+3,0, 0,0, 2,,AS200D256
+3,0, 0,0, 2,,AS195D256
+3,0, 0,0, 2,,AS190D256
+3,0, 0,0, 2,,AS185D256
+3,0, 0,0, 2,,AS180D256
+3,0, 0,0, 2,,AS175D256
+3,0, 0,0, 2,,AS170D256
+3,0, 0,0, 2,,AS165D256
+3,0, 0,0, 2,,AS160D256
+3,0, 0,0, 2,,AS155D256
+3,0, 0,0, 2,,AS150D256
+3,0, 0,0, 2,,AS145D256
+3,0, 0,0, 2,,AS140D256
+3,0, 0,0, 2,,AS135D256
+3,0, 0,0, 2,,AS130D256
+3,0, 0,0, 2,,AS125D256
+3,0, 0,0, 2,,AS120D256
+3,0, 0,0, 2,,AS115D256
+3,0, 0,0, 2,,AS110D256
+3,0, 0,0, 2,,AS105D256
+3,0, 0,0, 2,,AS100D256
+3,0, 0,0, 2,,AS105D256
+3,0, 0,0, 2,,AS110D256
+3,0, 0,0, 2,,AS115D256
+3,0, 0,0, 2,,AS120D256
+3,0, 0,0, 2,,AS125D256
+3,0, 0,0, 2,,AS130D256
+3,0, 0,0, 2,,AS135D256
+3,0, 0,0, 2,,AS140D256
+3,0, 0,0, 2,,AS145D256
+3,0, 0,0, 2,,AS150D256
+3,0, 0,0, 2,,AS155D256
+3,0, 0,0, 2,,AS160D256
+3,0, 0,0, 2,,AS175D256
+3,0, 0,0, 2,,AS180D256
+3,0, 0,0, 2,,AS185D256
+3,0, 0,0, 2,,AS190D256
+3,0, 0,0, 2,,AS195D256
+3,0, 0,0, 2,,AS200D256
+3,0, 0,0, 2,,AS205D256
+3,0, 0,0, 2,,AS210D256
+3,0, 0,0, 2,,AS215D256
+
+[BG firefly 1]
+type  = anim     
+actionno = 100   
+start = 0,300                       
+delta = 2, 2    
+mask = 1
+tile = 1,1
+tilespacing = 600,400
+velocity = -2,-1
+sin.x = 1, 100,0
+sin.y = -7, 100,0
+[Begin Action 100]
+10,0, 0,0, 40,,AS250D256
+10,0, 0,0, 5,,AS240D256
+10,0, 0,0, 5,,AS230D256
+10,0, 0,0, 5,,AS220D256
+10,0, 0,0, 5,,AS210D256
+10,0, 0,0, 5,,AS200D256
+10,0, 0,0, 5,,AS190D256
+10,0, 0,0, 5,,AS180D256
+10,0, 0,0, 5,,AS170D256
+10,0, 0,0, 5,,AS160D256
+10,0, 0,0, 5,,AS150D256
+10,0, 0,0, 5,,AS140D256
+10,0, 0,0, 5,,AS130D256
+10,0, 0,0, 5,,AS120D256
+10,0, 0,0, 5,,AS110D256
+10,0, 0,0, 5,,AS100D256
+10,0, 0,0, 5,,AS090D256
+10,0, 0,0, 5,,AS080D256
+10,0, 0,0, 5,,AS070D256
+10,0, 0,0, 5,,AS060D256
+10,0, 0,0, 5,,AS050D256
+10,0, 0,0, 5,,AS040D256
+10,0, 0,0, 5,,AS030D256
+10,0, 0,0, 5,,AS020D256
+10,0, 0,0, 5,,AS010D256
+10,0, 0,0, 40,,AS000D256
+10,0, 0,0, 5,,AS010D256
+10,0, 0,0, 5,,AS020D256
+10,0, 0,0, 5,,AS030D256
+10,0, 0,0, 5,,AS040D256
+10,0, 0,0, 5,,AS050D256
+10,0, 0,0, 5,,AS060D256
+10,0, 0,0, 5,,AS070D256
+10,0, 0,0, 5,,AS080D256
+10,0, 0,0, 5,,AS090D256
+10,0, 0,0, 5,,AS100D256
+10,0, 0,0, 5,,AS110D256
+10,0, 0,0, 5,,AS120D256
+10,0, 0,0, 5,,AS130D256
+10,0, 0,0, 5,,AS140D256
+10,0, 0,0, 5,,AS150D256
+10,0, 0,0, 5,,AS160D256
+10,0, 0,0, 5,,AS170D256
+10,0, 0,0, 5,,AS180D256
+10,0, 0,0, 5,,AS190D256
+10,0, 0,0, 5,,AS200D256
+10,0, 0,0, 5,,AS210D256
+10,0, 0,0, 5,,AS220D256
+10,0, 0,0, 5,,AS230D256
+10,0, 0,0, 5,,AS240D256
+
+
+[BG firefly 2]
+type  = anim     
+actionno = 101   
+start = 0,300                       
+delta = 2, 2    
+mask = 1
+layerno = 1
+tile = 1,1
+tilespacing = 600,600
+velocity = -0.5,-1
+sin.x = 5, 40,0
+sin.y = 5, 150,0
+[Begin Action 101]
+10,1, 0,0, 5,,AS090D256
+10,1, 0,0, 5,,AS080D256
+10,1, 0,0, 5,,AS070D256
+10,1, 0,0, 5,,AS060D256
+10,1, 0,0, 5,,AS050D256
+10,1, 0,0, 5,,AS040D256
+10,1, 0,0, 5,,AS030D256
+10,1, 0,0, 5,,AS020D256
+10,1, 0,0, 5,,AS010D256
+10,1, 0,0, 50,,AS000D256
+10,1, 0,0, 5,,AS010D256
+10,1, 0,0, 5,,AS020D256
+10,1, 0,0, 5,,AS030D256
+10,1, 0,0, 5,,AS040D256
+10,1, 0,0, 5,,AS050D256
+10,1, 0,0, 5,,AS060D256
+10,1, 0,0, 5,,AS070D256
+10,1, 0,0, 5,,AS080D256
+10,1, 0,0, 5,,AS090D256
+10,1, 0,0, 5,,AS100D256
+10,1, 0,0, 5,,AS110D256
+10,1, 0,0, 5,,AS120D256
+10,1, 0,0, 5,,AS130D256
+10,1, 0,0, 5,,AS140D256
+10,1, 0,0, 5,,AS150D256
+10,1, 0,0, 5,,AS160D256
+10,1, 0,0, 5,,AS170D256
+10,1, 0,0, 5,,AS180D256
+10,1, 0,0, 5,,AS190D256
+10,1, 0,0, 5,,AS200D256
+10,1, 0,0, 5,,AS210D256
+10,1, 0,0, 5,,AS220D256
+10,1, 0,0, 5,,AS230D256
+10,1, 0,0, 5,,AS240D256
+10,1, 0,0, 40,,AS250D256
+10,1, 0,0, 5,,AS240D256
+10,1, 0,0, 5,,AS230D256
+10,1, 0,0, 5,,AS220D256
+10,1, 0,0, 5,,AS210D256
+10,1, 0,0, 5,,AS200D256
+10,1, 0,0, 5,,AS190D256
+10,1, 0,0, 5,,AS180D256
+10,1, 0,0, 5,,AS170D256
+10,1, 0,0, 5,,AS160D256
+10,1, 0,0, 5,,AS150D256
+10,1, 0,0, 5,,AS140D256
+10,1, 0,0, 5,,AS130D256
+10,1, 0,0, 5,,AS120D256
+10,1, 0,0, 5,,AS110D256
+10,1, 0,0, 5,,AS100D256
+
+[BG firefly 3]
+type  = anim     
+actionno = 102   
+start = 120,300                       
+delta = 2, 2    
+mask = 1
+layerno = 1
+tile = 1,1
+tilespacing = 460,700
+velocity = -1.5,1
+sin.x = -6, 80,0
+sin.y = -1, 120,0
+[Begin Action 102]
+10,2, 0,0, 5,,AS060D256
+10,2, 0,0, 5,,AS050D256
+10,2, 0,0, 5,,AS040D256
+10,2, 0,0, 5,,AS030D256
+10,2, 0,0, 5,,AS020D256
+10,2, 0,0, 5,,AS010D256
+10,2, 0,0, 50,,AS000D256
+10,2, 0,0, 5,,AS010D256
+10,2, 0,0, 5,,AS020D256
+10,2, 0,0, 5,,AS030D256
+10,2, 0,0, 5,,AS040D256
+10,2, 0,0, 5,,AS050D256
+10,2, 0,0, 5,,AS060D256
+10,2, 0,0, 5,,AS070D256
+10,2, 0,0, 5,,AS080D256
+10,2, 0,0, 5,,AS090D256
+10,2, 0,0, 5,,AS100D256
+10,2, 0,0, 5,,AS110D256
+10,2, 0,0, 5,,AS120D256
+10,2, 0,0, 5,,AS130D256
+10,2, 0,0, 5,,AS140D256
+10,2, 0,0, 5,,AS150D256
+10,2, 0,0, 5,,AS160D256
+10,2, 0,0, 5,,AS170D256
+10,2, 0,0, 5,,AS180D256
+10,2, 0,0, 5,,AS190D256
+10,2, 0,0, 5,,AS200D256
+10,2, 0,0, 5,,AS210D256
+10,2, 0,0, 5,,AS220D256
+10,2, 0,0, 5,,AS230D256
+10,2, 0,0, 5,,AS240D256
+10,2, 0,0, 40,,AS250D256
+10,2, 0,0, 5,,AS240D256
+10,2, 0,0, 5,,AS230D256
+10,2, 0,0, 5,,AS220D256
+10,2, 0,0, 5,,AS210D256
+10,2, 0,0, 5,,AS200D256
+10,2, 0,0, 5,,AS190D256
+10,2, 0,0, 5,,AS180D256
+10,2, 0,0, 5,,AS170D256
+10,2, 0,0, 5,,AS160D256
+10,2, 0,0, 5,,AS150D256
+10,2, 0,0, 5,,AS140D256
+10,2, 0,0, 5,,AS130D256
+10,2, 0,0, 5,,AS120D256
+10,2, 0,0, 5,,AS110D256
+10,2, 0,0, 5,,AS100D256
+10,2, 0,0, 5,,AS090D256
+10,2, 0,0, 5,,AS080D256
+10,2, 0,0, 5,,AS070D256
+
+[BG firefly 4]
+type  = anim     
+actionno = 103   
+start = 300,100                       
+delta = 2, 2    
+mask = 1
+layerno = 1
+tile = 1,1
+tilespacing = 700,500
+velocity = 2,1
+sin.x = -7, 60,0
+sin.y = -12, 100,0
+[Begin Action 103]
+10,3, 0,0, 40,,AS000D256
+10,3, 0,0, 5,,AS010D256
+10,3, 0,0, 5,,AS020D256
+10,3, 0,0, 5,,AS030D256
+10,3, 0,0, 5,,AS040D256
+10,3, 0,0, 5,,AS050D256
+10,3, 0,0, 5,,AS060D256
+10,3, 0,0, 5,,AS070D256
+10,3, 0,0, 5,,AS080D256
+10,3, 0,0, 5,,AS090D256
+10,3, 0,0, 5,,AS100D256
+10,3, 0,0, 5,,AS110D256
+10,3, 0,0, 5,,AS120D256
+10,3, 0,0, 5,,AS130D256
+10,3, 0,0, 5,,AS140D256
+10,3, 0,0, 5,,AS150D256
+10,3, 0,0, 5,,AS160D256
+10,3, 0,0, 5,,AS170D256
+10,3, 0,0, 5,,AS180D256
+10,3, 0,0, 5,,AS190D256
+10,3, 0,0, 5,,AS200D256
+10,3, 0,0, 5,,AS210D256
+10,3, 0,0, 5,,AS220D256
+10,3, 0,0, 5,,AS230D256
+10,3, 0,0, 5,,AS240D256
+10,3, 0,0, 40,,AS250D256
+10,3, 0,0, 5,,AS240D256
+10,3, 0,0, 5,,AS230D256
+10,3, 0,0, 5,,AS220D256
+10,3, 0,0, 5,,AS210D256
+10,3, 0,0, 5,,AS200D256
+10,3, 0,0, 5,,AS190D256
+10,3, 0,0, 5,,AS180D256
+10,3, 0,0, 5,,AS170D256
+10,3, 0,0, 5,,AS160D256
+10,3, 0,0, 5,,AS150D256
+10,3, 0,0, 5,,AS140D256
+10,3, 0,0, 5,,AS130D256
+10,3, 0,0, 5,,AS120D256
+10,3, 0,0, 5,,AS110D256
+10,3, 0,0, 5,,AS100D256
+10,3, 0,0, 5,,AS090D256
+10,3, 0,0, 5,,AS080D256
+10,3, 0,0, 5,,AS070D256
+10,3, 0,0, 5,,AS060D256
+10,3, 0,0, 5,,AS050D256
+10,3, 0,0, 5,,AS040D256
+10,3, 0,0, 5,,AS030D256
+10,3, 0,0, 5,,AS020D256
+10,3, 0,0, 5,,AS010D256
+
+[BG firefly 5]
+type  = anim     
+actionno = 104   
+start = -130,-160                       
+delta = 2, 2    
+mask = 1
+layerno = 1
+tile = 1,1
+tilespacing = 700,400
+velocity = 0.5,-1.5
+sin.x = -6, 80,0
+sin.y = -1, 30,0
+[Begin Action 104]
+10,4, 0,0, 5,,AS090D256
+10,4, 0,0, 5,,AS100D256
+10,4, 0,0, 5,,AS110D256
+10,4, 0,0, 5,,AS120D256
+10,4, 0,0, 5,,AS130D256
+10,4, 0,0, 5,,AS140D256
+10,4, 0,0, 5,,AS150D256
+10,4, 0,0, 5,,AS160D256
+10,4, 0,0, 5,,AS170D256
+10,4, 0,0, 5,,AS180D256
+10,4, 0,0, 5,,AS190D256
+10,4, 0,0, 5,,AS200D256
+10,4, 0,0, 5,,AS210D256
+10,4, 0,0, 5,,AS220D256
+10,4, 0,0, 5,,AS230D256
+10,4, 0,0, 5,,AS240D256
+10,4, 0,0, 40,,AS250D256
+10,4, 0,0, 5,,AS240D256
+10,4, 0,0, 5,,AS230D256
+10,4, 0,0, 5,,AS220D256
+10,4, 0,0, 5,,AS210D256
+10,4, 0,0, 5,,AS200D256
+10,4, 0,0, 5,,AS190D256
+10,4, 0,0, 5,,AS180D256
+10,4, 0,0, 5,,AS170D256
+10,4, 0,0, 5,,AS160D256
+10,4, 0,0, 5,,AS150D256
+10,4, 0,0, 5,,AS140D256
+10,4, 0,0, 5,,AS130D256
+10,4, 0,0, 5,,AS120D256
+10,4, 0,0, 5,,AS110D256
+10,4, 0,0, 5,,AS100D256
+10,4, 0,0, 5,,AS090D256
+10,4, 0,0, 5,,AS080D256
+10,4, 0,0, 5,,AS070D256
+10,4, 0,0, 5,,AS060D256
+10,4, 0,0, 5,,AS050D256
+10,4, 0,0, 5,,AS040D256
+10,4, 0,0, 5,,AS030D256
+10,4, 0,0, 5,,AS020D256
+10,4, 0,0, 5,,AS010D256
+10,4, 0,0, 40,,AS000D256
+10,4, 0,0, 5,,AS010D256
+10,4, 0,0, 5,,AS020D256
+10,4, 0,0, 5,,AS030D256
+10,4, 0,0, 5,,AS040D256
+10,4, 0,0, 5,,AS050D256
+10,4, 0,0, 5,,AS060D256
+10,4, 0,0, 5,,AS070D256
+10,4, 0,0, 5,,AS080D256

@@ -1,0 +1,721 @@
+ ;--------------------------------------------------------
+[Info]
+Name = "Abandoned Beach"
+Author = "EXShadow"
+
+;--------------------------------------------------------
+[Camera]
+ ;Camera starting position: Usually 0 for both
+ ;***
+startx = 0
+starty = 0
+
+ ;Left and right bound of camera
+ ;You may want to fiddle a bit with these values to make sure the
+ ;background doesn't move too far or too little
+ ;***
+boundleft = -94
+boundright = 95
+
+ ;High and low bound of camera
+ ;High is a negative number. Make is more negative if you want to
+ ;camera to be able to move higher.
+ ;Low should usually be 0.
+ ;If omitted, defaults to -25 and 0 respectively
+ ;***
+boundhigh = -25
+boundlow = 0
+
+ ;This is how much the camera will move vertically towards the
+ ;highest player. Valid values are from 0 to 1. A value of 0 will mean
+ ;the camera does not move up at all. A value of 1 will makes the camera
+ ;follow the highest player.
+ ;Typically .2 for normal-sized backgrounds. You may need to pull this
+ ;value up for taller backgrounds.
+verticalfollow = .2
+
+ ;Minimum vertical distance the highest player has to be from the floor,
+ ;before the camera starts to move up to follow him. For extremely
+ ;tall stages, a floor tension of about 20-30 coupled with a
+ ;vertical-follow of .8 allows the camera to follow the action.
+floortension = 0
+
+ ;Horizontal distance player is from edge before camera starts to move
+ ;left or right. Typically 50 or 60.
+tension = 50
+
+;--------------------------------------------------------
+[PlayerInfo]
+p1startx = -70          ;Starting x coordinates
+p1starty = 0            ;Starting y coordinates
+p1startz = 0            ;Starting z coordinates
+p1facing = 1            ;Direction player faces: 1=right, -1=left
+
+;--- Player 2 ---
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+;--- Common ---
+leftbound  = -1000 ;Left bound (x-movement)
+rightbound =  1000 ;Right bound
+topbound  =  0     ;Top bound (z-movement)
+botbound  =  0     ;Bottom bound
+
+;--------------------------------------------------------
+[Scaling]
+topz     = 0       ;Top z-coordinate for scaling
+botz     = 50      ;Bottom z-coordinate for scaling
+topscale = 1      ;Scale to use at top
+botscale = 1.2     ;Scale to use at bottom
+
+;--------------------------------------------------------
+[Bound]
+screenleft = 15    ;Dist from left of screen that player can move to
+screenright = 15   ;Right edge
+
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 220
+autoturn = 1
+resetBG = 1
+hires = 1
+
+;--------------------------------------------------------
+[Shadow]
+intensity = 70
+color = 0,0,0
+yscale = .4
+fade.range = 0,0
+
+;--------------------------------------------------------
+[Reflection]
+intensity = 0
+
+;--------------------------------------------------------
+[Music]
+bgmusic = sound/Natsu no Hi to Kimi No Koe.mp3
+bgvolume = 255  
+
+;--------------------------------------------------------Main background definition
+[BGdef]
+spr = XX'CC'BEACH'XX.sff
+debugbg = 0
+
+[BG Black]
+type  = normal
+spriteno = 0, 0
+delta = 0, 0
+mask = 0
+layerno = 0
+
+[BG Floor]
+type  = normal
+spriteno = 1, 0
+start = 0, -27
+delta = 2, 2
+mask = 1
+trans = add
+layerno = 0
+
+[BG Floor002]
+type  = normal
+spriteno = 1, 1
+start = 0, -27
+delta = 2, 2
+mask = 1
+trans = add
+layerno = 0
+
+[BG Floor003]
+type  = normal
+spriteno = 1, 2
+start = 0, -27
+delta = 2, 2
+mask = 1
+trans = add
+layerno = 0
+
+[BG FloorA]
+type  = anim
+actionno = 1
+spriteno = 2, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA002]
+type  = anim
+actionno = 2
+spriteno = 3, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA003]
+type  = anim
+actionno = 3
+spriteno = 4, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA004]
+type  = anim
+actionno = 4
+spriteno = 5, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA005]
+type  = anim
+actionno = 5
+spriteno = 6, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA006]
+type  = anim
+actionno = 6
+spriteno = 7, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA007]
+type  = anim
+actionno = 7
+spriteno = 8, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA008]
+type  = anim
+actionno = 8
+spriteno = 9, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA009]
+type  = anim
+actionno = 9
+spriteno = 10, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA010]
+type  = anim
+actionno = 10
+spriteno = 11, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA011]
+type  = anim
+actionno = 11
+spriteno = 12, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA012]
+type  = anim
+actionno = 12
+spriteno = 13, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA013]
+type  = anim
+actionno = 13
+spriteno = 14, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA014]
+type  = anim
+actionno = 14
+spriteno = 15, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA015]
+type  = anim
+actionno = 15
+spriteno = 16, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA016]
+type  = anim
+actionno = 16
+spriteno = 17, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA017]
+type  = anim
+actionno = 17
+spriteno = 18, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA018]
+type  = anim
+actionno = 18
+spriteno = 19, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA019]
+type  = anim
+actionno = 19
+spriteno = 20, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA020]
+type  = anim
+actionno = 20
+spriteno = 21, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA021]
+type  = anim
+actionno = 21
+spriteno = 22, 0
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA0220]
+type  = anim
+actionno = 22
+spriteno = 1, 3
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+[BG FloorA023]
+type  = anim
+actionno = 23
+spriteno = 1, 4
+start = 0, -27
+delta = 2, 2
+layerno = 0
+
+;--------------------------------------------------------Animations
+[Begin Action 1]
+2,0, 0,0, 6
+2,1, 0,0, 6
+2,2, 0,0, 6
+2,3, 0,0, 6
+2,4, 0,0, 6
+2,5, 0,0, 6
+2,6, 0,0, 6
+2,7, 0,0, 6
+2,8, 0,0, 6
+2,9, 0,0, 6
+2,10, 0,0, 6
+2,11, 0,0, 6
+2,12, 0,0, 6
+2,13, 0,0, 6
+2,14, 0,0, 6
+2,15, 0,0, 6
+2,16, 0,0, 6
+2,17, 0,0, 6
+2,18, 0,0, 6
+2,19, 0,0, 6
+2,20, 0,0, 6
+2,21, 0,0, 6
+2,22, 0,0, 6
+2,23, 0,0, 6
+2,24, 0,0, 6
+2,25, 0,0, 6
+2,26, 0,0, 6
+2,27, 0,0, 6
+2,28, 0,0, 6
+2,29, 0,0, 6
+2,30, 0,0, 6
+2,31, 0,0, 6
+2,32, 0,0, 6
+2,33, 0,0, 6
+2,34, 0,0, 6
+2,35, 0,0, 6
+2,36, 0,0, 6
+2,37, 0,0, 6
+
+[Begin Action 2]
+3,0, 0,0, 6,, a
+3,1, 0,0, 6,, a
+3,2, 0,0, 6,, a
+3,3, 0,0, 6,, a
+3,4, 0,0, 6,, a
+3,5, 0,0, 6,, a
+3,6, 0,0, 6,, a
+3,7, 0,0, 6,, a
+3,8, 0,0, 6,, a
+3,9, 0,0, 6,, a
+3,10, 0,0, 6,, a
+3,11, 0,0, 6,, a
+3,12, 0,0, 6,, a
+3,13, 0,0, 6,, a
+3,14, 0,0, 6,, a
+3,15, 0,0, 6,, a
+3,16, 0,0, 6,, a
+3,17, 0,0, 6,, a
+3,18, 0,0, 6,, a
+3,19, 0,0, 6,, a
+3,20, 0,0, 6,, a
+3,21, 0,0, 6,, a
+3,22, 0,0, 6,, a
+3,23, 0,0, 6,, a
+3,24, 0,0, 6,, a
+3,25, 0,0, 6,, a
+3,26, 0,0, 6,, a
+3,27, 0,0, 6,, a
+3,28, 0,0, 6,, a
+3,29, 0,0, 6,, a
+3,30, 0,0, 6,, a
+3,31, 0,0, 6,, a
+3,32, 0,0, 6,, a
+3,33, 0,0, 6,, a
+3,34, 0,0, 6,, a
+3,35, 0,0, 6,, a
+3,36, 0,0, 6,, a
+3,37, 0,0, 6,, a
+
+[Begin Action 3]
+4,0, 0,0, 6,, a
+4,1, 0,0, 6,, a
+4,2, 0,0, 6,, a
+4,3, 0,0, 6,, a
+4,4, 0,0, 6,, a
+4,5, 0,0, 6,, a
+4,6, 0,0, 6,, a
+4,7, 0,0, 6,, a
+4,8, 0,0, 6,, a
+4,9, 0,0, 6,, a
+4,10, 0,0, 6,, a
+4,11, 0,0, 6,, a
+4,12, 0,0, 6,, a
+4,13, 0,0, 6,, a
+4,14, 0,0, 6,, a
+4,15, 0,0, 6,, a
+4,16, 0,0, 6,, a
+4,17, 0,0, 6,, a
+4,18, 0,0, 6,, a
+4,19, 0,0, 6,, a
+4,20, 0,0, 6,, a
+4,21, 0,0, 6,, a
+4,22, 0,0, 6,, a
+4,23, 0,0, 6,, a
+4,24, 0,0, 6,, a
+4,25, 0,0, 6,, a
+4,26, 0,0, 6,, a
+4,27, 0,0, 6,, a
+4,28, 0,0, 6,, a
+4,29, 0,0, 6,, a
+4,30, 0,0, 6,, a
+4,31, 0,0, 6,, a
+4,32, 0,0, 6,, a
+4,33, 0,0, 6,, a
+4,34, 0,0, 6,, a
+4,35, 0,0, 6,, a
+4,36, 0,0, 6,, a
+4,37, 0,0, 6,, a
+
+[Begin Action 4]
+5,0, 0,0, 5
+5,1, 0,0, 5
+5,2, 0,0, 5
+5,3, 0,0, 5
+5,4, 0,0, 5
+5,5, 0,0, 5
+5,6, 0,0, 5
+5,7, 0,0, 5
+5,8, 0,0, 5
+5,9, 0,0, 5
+5,10, 0,0, 5
+5,11, 0,0, 5
+5,12, 0,0, 5
+5,13, 0,0, 5
+5,14, 0,0, 5
+
+[Begin Action 5]
+6,0, 0,0, 5,, a
+6,1, 0,0, 5,, a
+6,2, 0,0, 5,, a
+6,3, 0,0, 5,, a
+6,4, 0,0, 5,, a
+6,5, 0,0, 5,, a
+6,6, 0,0, 5,, a
+6,7, 0,0, 5,, a
+6,8, 0,0, 5,, a
+6,9, 0,0, 5,, a
+6,10, 0,0, 5,, a
+6,11, 0,0, 5,, a
+6,12, 0,0, 5,, a
+6,13, 0,0, 5,, a
+6,14, 0,0, 5,, a
+
+[Begin Action 6]
+7,0, 0,0, 5,, a
+7,1, 0,0, 5,, a
+7,2, 0,0, 5,, a
+7,3, 0,0, 5,, a
+7,4, 0,0, 5,, a
+7,5, 0,0, 5,, a
+7,6, 0,0, 5,, a
+7,7, 0,0, 5,, a
+7,8, 0,0, 5,, a
+7,9, 0,0, 5,, a
+7,10, 0,0, 5,, a
+7,11, 0,0, 5,, a
+7,12, 0,0, 5,, a
+7,13, 0,0, 5,, a
+7,14, 0,0, 5,, a
+
+[Begin Action 7]
+8,0, 0,0, 6
+8,1, 0,0, 6
+8,2, 0,0, 6
+8,3, 0,0, 6
+8,4, 0,0, 6
+8,5, 0,0, 6
+8,6, 0,0, 6
+8,7, 0,0, 6
+8,8, 0,0, 6
+8,9, 0,0, 6
+
+[Begin Action 8]
+9,0, 0,0, 6,, a
+9,1, 0,0, 6,, a
+9,2, 0,0, 6,, a
+9,3, 0,0, 6,, a
+9,4, 0,0, 6,, a
+9,5, 0,0, 6,, a
+9,6, 0,0, 6,, a
+9,7, 0,0, 6,, a
+9,8, 0,0, 6,, a
+9,9, 0,0, 6,, a
+
+[Begin Action 9]
+10,0, 0,0, 6,, a
+10,1, 0,0, 6,, a
+10,2, 0,0, 6,, a
+10,3, 0,0, 6,, a
+10,4, 0,0, 6,, a
+10,5, 0,0, 6,, a
+10,6, 0,0, 6,, a
+10,7, 0,0, 6,, a
+10,8, 0,0, 6,, a
+10,9, 0,0, 6,, a
+
+[Begin Action 10]
+11,0, 0,0, 5
+11,1, 0,0, 5
+11,2, 0,0, 5
+11,3, 0,0, 5
+11,4, 0,0, 5
+11,5, 0,0, 5
+11,6, 0,0, 5
+11,7, 0,0, 5
+11,8, 0,0, 5
+11,9, 0,0, 5
+11,10, 0,0, 5
+11,11, 0,0, 5
+11,12, 0,0, 5
+11,13, 0,0, 5
+
+[Begin Action 11]
+12,0, 0,0, 5,, a
+12,1, 0,0, 5,, a
+12,2, 0,0, 5,, a
+12,3, 0,0, 5,, a
+12,4, 0,0, 5,, a
+12,5, 0,0, 5,, a
+12,6, 0,0, 5,, a
+12,7, 0,0, 5,, a
+12,8, 0,0, 5,, a
+12,9, 0,0, 5,, a
+12,10, 0,0, 5,, a
+12,11, 0,0, 5,, a
+12,12, 0,0, 5,, a
+12,13, 0,0, 5,, a
+
+[Begin Action 12]
+13,0, 0,0, 5,, a
+13,1, 0,0, 5,, a
+13,2, 0,0, 5,, a
+13,3, 0,0, 5,, a
+13,4, 0,0, 5,, a
+13,5, 0,0, 5,, a
+13,6, 0,0, 5,, a
+13,7, 0,0, 5,, a
+13,8, 0,0, 5,, a
+13,9, 0,0, 5,, a
+13,10, 0,0, 5,, a
+13,11, 0,0, 5,, a
+13,12, 0,0, 5,, a
+13,13, 0,0, 5,, a
+
+[Begin Action 13]
+14,0,0,0,12
+14,1,0,0,12
+
+[Begin Action 14]
+15,0,0,0,12, ,a
+15,1,0,0,12, ,a
+
+[Begin Action 15]
+16,0,0,0,12, ,a
+16,1,0,0,12, ,a
+
+[Begin Action 16]
+17,0, 0,0, 7
+17,1, 0,0, 7
+17,2, 0,0, 7
+17,3, 0,0, 7
+17,4, 0,0, 7
+17,5, 0,0, 7
+17,6, 0,0, 7
+17,7, 0,0, 7
+17,8, 0,0, 7
+17,9, 0,0, 7
+17,10, 0,0, 7
+17,11, 0,0, 7
+17,12, 0,0, 7
+17,13, 0,0, 7
+17,14, 0,0, 7
+17,15, 0,0, 7
+17,16, 0,0, 7
+17,17, 0,0, 7
+17,18, 0,0, 7
+17,19, 0,0, 7
+17,20, 0,0, 7
+17,21, 0,0, 7
+17,22, 0,0, 7
+
+[Begin Action 17]
+18,0, 0,0, 7,, a
+18,1, 0,0, 7,, a
+18,2, 0,0, 7,, a
+18,3, 0,0, 7,, a
+18,4, 0,0, 7,, a
+18,5, 0,0, 7,, a
+18,6, 0,0, 7,, a
+18,7, 0,0, 7,, a
+18,8, 0,0, 7,, a
+18,9, 0,0, 7,, a
+18,10, 0,0, 7,, a
+18,11, 0,0, 7,, a
+18,12, 0,0, 7,, a
+18,13, 0,0, 7,, a
+18,14, 0,0, 7,, a
+18,15, 0,0, 7,, a
+18,16, 0,0, 7,, a
+18,17, 0,0, 7,, a
+18,18, 0,0, 7,, a
+18,19, 0,0, 7,, a
+18,20, 0,0, 7,, a
+18,21, 0,0, 7,, a
+18,22, 0,0, 7,, a
+
+[Begin Action 18]
+19,0, 0,0, 7,, a
+19,1, 0,0, 7,, a
+19,2, 0,0, 7,, a
+19,3, 0,0, 7,, a
+19,4, 0,0, 7,, a
+19,5, 0,0, 7,, a
+19,6, 0,0, 7,, a
+19,7, 0,0, 7,, a
+19,8, 0,0, 7,, a
+19,9, 0,0, 7,, a
+19,10, 0,0, 7,, a
+19,11, 0,0, 7,, a
+19,12, 0,0, 7,, a
+19,13, 0,0, 7,, a
+19,14, 0,0, 7,, a
+19,15, 0,0, 7,, a
+19,16, 0,0, 7,, a
+19,17, 0,0, 7,, a
+19,18, 0,0, 7,, a
+19,19, 0,0, 7,, a
+19,20, 0,0, 7,, a
+19,21, 0,0, 7,, a
+19,22, 0,0, 7,, a
+
+[Begin Action 19]
+20,0, 0,0, 6
+20,1, 0,0, 6
+20,2, 0,0, 6
+20,3, 0,0, 6
+20,4, 0,0, 6
+20,5, 0,0, 6
+20,6, 0,0, 6
+20,7, 0,0, 6
+20,8, 0,0, 6
+20,9, 0,0, 6
+20,10, 0,0, 6
+20,11, 0,0, 6
+20,12, 0,0, 6
+
+[Begin Action 20]
+21,0, 0,0, 8
+21,1, 0,0, 8
+21,2, 0,0, 8
+21,3, 0,0, 8
+21,4, 0,0, 8
+21,5, 0,0, 8
+
+[Begin Action 21]
+22,0, 0,0, 7
+22,1, 0,0, 7
+22,2, 0,0, 7
+22,3, 0,0, 7
+22,4, 0,0, 7
+22,5, 0,0, 7
+22,6, 0,0, 7
+22,7, 0,0, 7
+22,8, 0,0, 7
+22,9, 0,0, 7
+22,10, 0,0, 7
+22,11, 0,0, 7
+22,12, 0,0, 7
+22,13, 0,0, 7
+22,14, 0,0, 7
+22,15, 0,0, 7
+22,16, 0,0, 7
+22,17, 0,0, 7
+22,18, 0,0, 7
+22,19, 0,0, 7
+22,20, 0,0, 7
+22,21, 0,0, 7
+22,22, 0,0, 7
+
+[Begin Action 22]
+1,3,0,0,3, ,as176d256
+1,3,0,0,3, ,as106d256
+
+[Begin Action 23]
+1,4,0,0,3, ,as45d256
+1,4,0,0,3, ,as16d256

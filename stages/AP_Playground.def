@@ -1,0 +1,287 @@
+[Info]
+name = "Playground"           
+author = "Excahm"
+
+;--------------------------------------------------------
+[Camera]
+ ;Camera starting position: Usually 0 for both
+ ;***
+startx = 0
+starty = 0
+
+ ;Left and right bound of camera
+ ;You may want to fiddle a bit with these values to make sure the
+ ;background doesn't move too far or too little
+ ;***
+boundleft = -94
+boundright = 95
+
+ ;High and low bound of camera
+ ;High is a negative number. Make is more negative if you want to
+ ;camera to be able to move higher.
+ ;Low should usually be 0.
+ ;If omitted, defaults to -25 and 0 respectively
+ ;***
+boundhigh = -25
+boundlow = 0
+
+ ;This is how much the camera will move vertically towards the
+ ;highest player. Valid values are from 0 to 1. A value of 0 will mean
+ ;the camera does not move up at all. A value of 1 will makes the camera
+ ;follow the highest player.
+ ;Typically .2 for normal-sized backgrounds. You may need to pull this
+ ;value up for taller backgrounds.
+verticalfollow = .2
+
+ ;Minimum vertical distance the highest player has to be from the floor,
+ ;before the camera starts to move up to follow him. For extremely
+ ;tall stages, a floor tension of about 20-30 coupled with a
+ ;vertical-follow of .8 allows the camera to follow the action.
+floortension = 0
+
+ ;Horizontal distance player is from edge before camera starts to move
+ ;left or right. Typically 50 or 60.
+tension = 50
+
+[PlayerInfo]
+p1startx 	= -220
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 220
+p2starty 	= 0
+p2facing 	= -1
+p3startx 	= -295
+p3starty 	= 0
+p3facing 	= 1
+p4startx 	= 295
+p4starty 	= 0
+p4facing 	= -1
+leftbound 	= -2000
+rightbound 	= 2000
+
+[Bound]
+screenleft 	= 30
+screenright 	= 30
+
+[StageInfo]
+zoffset = 680    
+autoturn = 1           
+resetBG = 1
+hires = 1
+localcoord = 960,720
+xscale = 1
+yscale = 1
+
+[Shadow]
+color = 256,256,256  
+intensity = 60  
+yscale = 0.40,0.25   
+fade.range = -400,-100                     
+
+[Music]
+bgmusic = sound/ETERNAL.mp3             
+bgvolume = 255    
+
+[BGdef]
+spr = stages/AP_Playground.sff
+debugbg = 0
+;------------------------------------------------
+[BG Sky]
+type  = normal     
+spriteno = 0, 0                       
+start = 0, -85       
+delta = 1.70, 1.70
+tile =1,0  
+velocity = 0.2.0   
+mask = 0
+
+[BG Airship]
+type  = normal     
+spriteno = 0, 1                       
+start = 0, -75        
+delta = 1.85, 1.75
+velocity = 0.4,0
+tile =1,0
+tilespacing = 2000,0     
+mask = 1
+
+[BG Building Blue]
+type  = normal     
+spriteno = 1, 0                       
+start = 0, -85       
+delta = 2, 2     
+mask = 1
+
+[BG Building Green]
+type  = normal     
+spriteno = 1, 1                       
+start = 0, -85       
+delta = 2, 2     
+mask = 1
+trans = add
+
+[BG Building Red]
+type  = normal     
+spriteno = 1, 2                       
+start = 0, -85        
+delta = 2, 2     
+mask = 1
+trans = add
+
+[BG Blossom 1]
+type = anim
+actionno = 1
+start = 360,180
+delta = 1,1
+tile = 1,1
+tilespacing = 350,1200
+velocity = 0,2.5
+sin.x = 20, 570
+sin.y = 50, 212
+[Begin Action 1]
+6,0, 0,0, 20
+6,1, 0,0, 20
+6,2, 0,0, 20
+6,3, 0,0, 20
+
+[BG Blossom 2]
+type = anim
+actionno = 2
+start = 445,205
+delta = 1,1
+tile = 1,1
+tilespacing = 400,2000
+velocity = 0,3.5
+sin.x = 50, 340
+sin.y = -30, 212
+[Begin Action 2]
+6,1, 0,0, 20
+6,2, 0,0, 20
+6,3, 0,0, 20
+6,0, 0,0, 20
+
+[BG Blossom 3]
+type = anim
+actionno = 3
+start = 330,230
+delta = 1,1
+tile = 1,1
+tilespacing = 360,1400
+velocity = 0,2
+sin.x = 20, 270
+sin.y = -30, 212
+[Begin Action 3]
+6,2, 0,0, 20
+6,3, 0,0, 20
+6,0, 0,0, 20
+6,1, 0,0, 20
+
+[BG Blossom 4]
+type = anim
+actionno = 4
+start = 400,240
+delta = 1,1
+tile = 1,1
+tilespacing = 300,1600
+velocity = 0,3
+sin.x = 50, 355
+sin.y = 50, 212
+[Begin Action 4]
+6,3, 0,0, 20
+6,0, 0,0, 20
+6,1, 0,0, 20
+6,2, 0,0, 20
+
+[BG Blossom 5]
+type = anim
+actionno = 5
+start = 400,240
+delta = 1,1
+tile = 1,1
+tilespacing = 320,1100
+velocity = 0,3
+sin.x = 50, 355
+sin.y = 50, 212
+layerno = 1
+[Begin Action 5]
+6,2, 0,0, 20
+6,2, 0,0, 20
+6,0, 0,0, 20
+6,3, 0,0, 20
+
+[BG Blossom 6]
+type = anim
+actionno = 6
+start = 360,180
+delta = 1,1
+tile = 1,1
+tilespacing = 500,1200
+velocity = 0,2.5
+sin.x = 20, 570
+sin.y = 50, 212
+layerno = 1
+[Begin Action 6]
+6,0, 0,0, 20
+6,1, 0,0, 20
+6,2, 0,0, 20
+6,3, 0,0, 20
+
+[BG Blossom 7]
+type = anim
+actionno = 7
+start = 445,205
+delta = 1,1
+tile = 1,1
+tilespacing = 480,1000
+velocity = 0,3.5
+sin.x = 50, 340
+sin.y = -30, 212
+layerno = 1
+[Begin Action 7]
+6,1, 0,0, 20
+6,2, 0,0, 20
+6,3, 0,0, 20
+6,0, 0,0, 20
+
+[BG Blossom 8]
+type = anim
+actionno = 8
+start = 200,140
+delta = 1,1
+tile = 1,1
+tilespacing = 420,1100
+velocity = 0,3
+sin.x = 50, 355
+sin.y = 50, 212
+[Begin Action 8]
+6,2, 0,0, 20
+6,1, 0,0, 20
+6,0, 0,0, 20
+6,3, 0,0, 20
+
+[BG Blossom 9]
+type = anim
+actionno = 13
+start = 240,140
+delta = 1,1
+tile = 1,1
+tilespacing = 570,1000
+velocity = 0,3
+sin.x = 20, 355
+sin.y = 20, 212
+[Begin Action 13]
+6,1, 0,0, 20
+6,2, 0,0, 20
+6,0, 0,0, 20
+6,3, 0,0, 20
+
+[BG SunRay]
+type  = anim
+actionno = 50
+spriteno = 2, 0
+start = 110,-40
+delta = .60, .70
+layerno = 1
+[Begin Action 50]
+5,0,0,0,1, ,as216d256
+5,0,0,0,1, ,as208d256

@@ -1,0 +1,345 @@
+[Info]
+name = "Witch's Ruins"           
+author = "Excahm"
+
+;--------------------------------------------------------
+[Camera]
+ ;Camera starting position: Usually 0 for both
+ ;***
+startx = 0
+starty = 0
+
+ ;Left and right bound of camera
+ ;You may want to fiddle a bit with these values to make sure the
+ ;background doesn't move too far or too little
+ ;***
+boundleft = -94
+boundright = 95
+
+ ;High and low bound of camera
+ ;High is a negative number. Make is more negative if you want to
+ ;camera to be able to move higher.
+ ;Low should usually be 0.
+ ;If omitted, defaults to -25 and 0 respectively
+ ;***
+boundhigh = -25
+boundlow = 0
+
+ ;This is how much the camera will move vertically towards the
+ ;highest player. Valid values are from 0 to 1. A value of 0 will mean
+ ;the camera does not move up at all. A value of 1 will makes the camera
+ ;follow the highest player.
+ ;Typically .2 for normal-sized backgrounds. You may need to pull this
+ ;value up for taller backgrounds.
+verticalfollow = .2
+
+ ;Minimum vertical distance the highest player has to be from the floor,
+ ;before the camera starts to move up to follow him. For extremely
+ ;tall stages, a floor tension of about 20-30 coupled with a
+ ;vertical-follow of .8 allows the camera to follow the action.
+floortension = 0
+
+ ;Horizontal distance player is from edge before camera starts to move
+ ;left or right. Typically 50 or 60.
+tension = 50
+
+[PlayerInfo]
+p1startx 	= -200
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 200
+p2starty 	= 0
+p2facing 	= -1
+p3startx 	= -270
+p3starty 	= 0
+p3facing 	= 1
+p4startx 	= 270
+p4starty 	= 0
+p4facing 	= -1
+leftbound 	= -2000
+rightbound 	= 2000
+
+[Bound]
+screenleft 	= 30
+screenright 	= 30
+
+[StageInfo]
+zoffset = 660      
+autoturn = 1           
+resetBG = 1
+localcoord = 880, 720
+xscale = 1
+yscale = 1
+
+[Shadow]
+color = 50,50,50  
+intensity = 80  
+yscale = 0.40,0.25                       
+
+[Music]
+bgmusic = sound/Stay Alive.mp3             
+bgvolume = 255                  
+      
+
+[BGdef]
+spr = stages/AP_Witch's_Ruins.sff
+debugbg = 0
+
+;-------------------------------------------------
+[BG Sky]
+type  = normal     
+spriteno = 0, 0                       
+start = 0, -20        
+delta = 0.70, 0.70
+tile =1,0    
+tilespacing = -1,0 
+mask = 0
+velocity = 0.34,0
+
+[BG smoke]
+type  = anim     
+actionno = 4                       
+start = -30, -20        
+delta = 1, 1     
+mask = 1
+[Begin Action 4]
+4,0, 0,0,2,,AS200D256
+4,1, 0,0,2,,AS200D256
+4,2, 0,0,2,,AS200D256
+4,3, 0,0,2,,AS200D256
+4,4, 0,0,2,,AS200D256
+4,5, 0,0,2,,AS200D256
+4,6, 0,0,2,,AS200D256
+4,7, 0,0,2,,AS200D256
+4,8, 0,0,2,,AS200D256
+4,9, 0,0,2,,AS200D256
+4,10, 0,0,2,,AS200D256
+4,11, 0,0,2,,AS200D256
+4,12, 0,0,2,,AS200D256
+4,13, 0,0,2,,AS200D256
+4,14, 0,0,2,,AS200D256
+4,15, 0,0,2,,AS200D256
+4,16, 0,0,2,,AS200D256
+4,17, 0,0,2,,AS200D256
+4,18, 0,0,2,,AS200D256
+4,19, 0,0,2,,AS200D256
+4,20, 0,0,2,,AS200D256
+4,21, 0,0,2,,AS200D256
+4,22, 0,0,2,,AS200D256
+4,23, 0,0,2,,AS200D256
+4,24, 0,0,2,,AS200D256
+4,25, 0,0,2,,AS200D256
+4,26, 0,0,2,,AS200D256
+4,27, 0,0,2,,AS200D256
+4,28, 0,0,2,,AS200D256
+4,29, 0,0,2,,AS200D256
+4,30, 0,0,2,,AS200D256
+4,31, 0,0,2,,AS200D256
+4,32, 0,0,2,,AS200D256
+4,33, 0,0,2,,AS200D256
+4,34, 0,0,2,,AS200D256
+4,35, 0,0,2,,AS200D256
+4,36, 0,0,2,,AS200D256
+4,37, 0,0,2,,AS200D256
+4,38, 0,0,2,,AS200D256
+4,39, 0,0,2,,AS200D256
+4,40, 0,0,2,,AS200D256
+4,41, 0,0,2,,AS200D256
+4,42, 0,0,2,,AS200D256
+4,43, 0,0,2,,AS200D256
+4,44, 0,0,2,,AS200D256
+4,45, 0,0,2,,AS200D256
+4,46, 0,0,2,,AS200D256
+4,47, 0,0,2,,AS200D256
+4,48, 0,0,2,,AS200D256
+4,49, 0,0,2,,AS200D256
+4,50, 0,0,2,,AS200D256
+4,51, 0,0,2,,AS200D256
+4,52, 0,0,2,,AS200D256
+4,53, 0,0,2,,AS200D256
+4,54, 0,0,2,,AS200D256
+4,55, 0,0,2,,AS200D256
+4,56, 0,0,2,,AS200D256
+4,57, 0,0,2,,AS200D256
+4,58, 0,0,2,,AS200D256
+4,59, 0,0,2,,AS200D256
+4,60, 0,0,2,,AS200D256
+4,61, 0,0,2,,AS200D256
+4,62, 0,0,2,,AS200D256
+4,63, 0,0,2,,AS200D256
+4,64, 0,0,2,,AS200D256
+4,65, 0,0,2,,AS200D256
+4,66, 0,0,2,,AS200D256
+4,67, 0,0,2,,AS200D256
+4,68, 0,0,2,,AS200D256
+4,69, 0,0,2,,AS200D256
+4,70, 0,0,2,,AS200D256
+4,71, 0,0,2,,AS200D256
+4,72, 0,0,2,,AS200D256
+4,73, 0,0,2,,AS200D256
+4,74, 0,0,2,,AS200D256
+4,75, 0,0,2,,AS200D256
+4,76, 0,0,2,,AS200D256
+4,77, 0,0,2,,AS200D256
+4,78, 0,0,2,,AS200D256
+4,79, 0,0,2,,AS200D256
+4,80, 0,0,2,,AS200D256
+4,81, 0,0,2,,AS200D256
+4,82, 0,0,2,,AS200D256
+4,83, 0,0,2,,AS200D256
+4,84, 0,0,2,,AS200D256
+4,85, 0,0,2,,AS200D256
+4,86, 0,0,2,,AS200D256
+4,87, 0,0,2,,AS200D256
+4,88, 0,0,2,,AS200D256
+4,89, 0,0,2,,AS200D256
+4,90, 0,0,2,,AS200D256
+4,91, 0,0,2,,AS200D256
+4,92, 0,0,2,,AS200D256
+4,93, 0,0,2,,AS200D256
+4,94, 0,0,2,,AS200D256
+4,95, 0,0,2,,AS200D256
+4,96, 0,0,2,,AS200D256
+4,97, 0,0,2,,AS200D256
+4,98, 0,0,2,,AS200D256
+4,100, 0,0,2,,AS200D256
+4,101, 0,0,2,,AS200D256
+4,102, 0,0,2,,AS200D256
+4,103, 0,0,2,,AS200D256
+4,104, 0,0,2,,AS200D256
+4,105, 0,0,2,,AS200D256
+4,106, 0,0,2,,AS200D256
+4,107, 0,0,2,,AS200D256
+4,108, 0,0,2,,AS200D256
+4,109, 0,0,2,,AS200D256
+4,110, 0,0,2,,AS200D256
+4,111, 0,0,2,,AS200D256
+4,112, 0,0,2,,AS200D256
+4,113, 0,0,2,,AS200D256
+4,114, 0,0,2,,AS200D256
+4,115, 0,0,2,,AS200D256
+4,116, 0,0,2,,AS200D256
+4,117, 0,0,2,,AS200D256
+4,118, 0,0,2,,AS200D256
+4,119, 0,0,2,,AS200D256
+4,120, 0,0,2,,AS200D256
+4,121, 0,0,2,,AS200D256
+4,122, 0,0,2,,AS200D256
+4,123, 0,0,2,,AS200D256
+4,124, 0,0,2,,AS200D256
+4,125, 0,0,2,,AS200D256
+4,126, 0,0,2,,AS200D256
+4,127, 0,0,2,,AS200D256
+4,128, 0,0,2,,AS200D256
+4,129, 0,0,2,,AS200D256
+4,130, 0,0,2,,AS200D256
+4,131, 0,0,2,,AS200D256
+4,132, 0,0,2,,AS200D256
+4,133, 0,0,2,,AS200D256
+4,134, 0,0,2,,AS200D256
+4,135, 0,0,2,,AS200D256
+4,136, 0,0,2,,AS200D256
+4,137, 0,0,2,,AS200D256
+4,138, 0,0,2,,AS200D256
+4,139, 0,0,2,,AS200D256
+4,140, 0,0,2,,AS200D256
+4,141, 0,0,2,,AS200D256
+4,142, 0,0,2,,AS200D256
+4,143, 0,0,2,,AS200D256
+
+[BG Building]
+type  = normal     
+spriteno = 1, 1                       
+start = 0, -20        
+delta = 1, 1     
+mask = 1
+
+[BG shining lights]
+type  = anim     
+actionno = 5                     
+start = 0, -20        
+delta = 1, 1     
+mask = 1
+[Begin Action 5]
+5,0, 0,0,35,,AS180D256
+5,0, 0,0,7,,AS170D256
+5,0, 0,0,7,,AS160D256
+5,0, 0,0,7,,AS150D256
+5,0, 0,0,7,,AS140D256
+5,0, 0,0,7,,AS130D256
+5,0, 0,0,7,,AS120D256
+5,0, 0,0,7,,AS110D256
+5,0, 0,0,7,,AS100D256
+5,0, 0,0,7,,AS090D256
+5,0, 0,0,7,,AS080D256
+5,0, 0,0,7,,AS070D256
+5,0, 0,0,7,,AS060D256
+5,0, 0,0,7,,AS050D256
+5,0, 0,0,7,,AS040D256
+5,0, 0,0,7,,AS030D256
+5,0, 0,0,7,,AS040D256
+5,0, 0,0,7,,AS050D256
+5,0, 0,0,7,,AS060D256
+5,0, 0,0,7,,AS070D256
+5,0, 0,0,7,,AS080D256
+5,0, 0,0,7,,AS090D256
+5,0, 0,0,7,,AS100D256
+5,0, 0,0,7,,AS110D256
+5,0, 0,0,7,,AS120D256
+5,0, 0,0,7,,AS130D256
+5,0, 0,0,7,,AS140D256
+5,0, 0,0,7,,AS150D256
+5,0, 0,0,7,,AS160D256
+5,0, 0,0,7,,AS170D256
+
+
+[BG Layered stuff]
+type  = normal     
+spriteno = 2, 1                       
+start = 0, -20        
+delta = 1, 1     
+mask = 1
+layerno = 1
+
+[BG Fog/Dust]
+type		= normal
+spriteno	= 3, 0
+start		= 0,75
+delta		= 1.1,1.1
+mask		= 0
+tile		= 1,0
+velocity	= 0.5,0
+trans		= addalpha
+alpha		= 175,256
+sin.y = 7, 240,0
+sin.x = 6, 240,0
+layerno = 1
+
+[BG sun flare]
+type  = anim     
+actionno = 6                       
+start = 0, -20        
+delta = 1, 1     
+mask = 1
+layerno = 1
+[Begin Action 6]
+6,0, 0,0,45,,AS250D256
+6,0, 0,0,7,,AS240D256
+6,0, 0,0,7,,AS230D256
+6,0, 0,0,7,,AS220D256
+6,0, 0,0,7,,AS210D256
+6,0, 0,0,7,,AS200D256
+6,0, 0,0,7,,AS190D256
+6,0, 0,0,7,,AS180D256
+6,0, 0,0,7,,AS170D256
+6,0, 0,0,7,,AS160D256
+6,0, 0,0,25,,AS150D256
+6,0, 0,0,7,,AS160D256
+6,0, 0,0,7,,AS170D256
+6,0, 0,0,7,,AS180D256
+6,0, 0,0,7,,AS190D256
+6,0, 0,0,7,,AS200D256
+6,0, 0,0,7,,AS210D256
+6,0, 0,0,7,,AS220D256
+6,0, 0,0,7,,AS230D256
+6,0, 0,0,7,,AS240D256

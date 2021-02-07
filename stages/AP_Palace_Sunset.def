@@ -1,0 +1,254 @@
+[Info]
+name = "Palace Sunset"           
+author = "Excahm"
+
+;--------------------------------------------------------
+[Camera]
+ ;Camera starting position: Usually 0 for both
+ ;***
+startx = 0
+starty = 0
+
+ ;Left and right bound of camera
+ ;You may want to fiddle a bit with these values to make sure the
+ ;background doesn't move too far or too little
+ ;***
+boundleft = -94
+boundright = 95
+
+ ;High and low bound of camera
+ ;High is a negative number. Make is more negative if you want to
+ ;camera to be able to move higher.
+ ;Low should usually be 0.
+ ;If omitted, defaults to -25 and 0 respectively
+ ;***
+boundhigh = -25
+boundlow = 0
+
+ ;This is how much the camera will move vertically towards the
+ ;highest player. Valid values are from 0 to 1. A value of 0 will mean
+ ;the camera does not move up at all. A value of 1 will makes the camera
+ ;follow the highest player.
+ ;Typically .2 for normal-sized backgrounds. You may need to pull this
+ ;value up for taller backgrounds.
+verticalfollow = .2
+
+ ;Minimum vertical distance the highest player has to be from the floor,
+ ;before the camera starts to move up to follow him. For extremely
+ ;tall stages, a floor tension of about 20-30 coupled with a
+ ;vertical-follow of .8 allows the camera to follow the action.
+floortension = 0
+
+ ;Horizontal distance player is from edge before camera starts to move
+ ;left or right. Typically 50 or 60.
+tension = 50
+
+[PlayerInfo]
+p1startx 	= -200
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 200
+p2starty 	= 0
+p2facing 	= -1
+p3startx 	= -270
+p3starty 	= 0
+p3facing 	= 1
+p4startx 	= 270
+p4starty 	= 0
+p4facing 	= -1
+leftbound 	= -2000
+rightbound 	= 2000
+
+[Bound]
+screenleft 	= 30
+screenright 	= 30
+
+[StageInfo]
+zoffset = 620      
+autoturn = 1           
+resetBG = 0
+localcoord = 880, 640
+xscale = 1
+yscale = 1
+
+[Shadow]
+color = 256,256,256  
+intensity = 80  
+yscale = .3                       
+
+[Music]
+bgmusic = sound/Leaf Ticket.mp3             
+bgvolume = 255    
+       
+
+[BGdef]
+spr = stages/AP_Palace_Sunset.sff
+debugbg = 0
+
+;=============================================
+[BG Sky Black]
+type = normal
+spriteno = 0, 0
+start = 0,-70
+delta = 0.5,0.5
+mask = 0
+
+[BG Sky Red]
+type = normal
+spriteno = 0, 1
+start = 0,-70
+delta = 0.5,0.5
+mask = 0
+trans = add
+
+[BG Sky Blue]
+type = normal
+spriteno = 0, 2
+start = 0,-70
+delta = 0.5,0.5
+mask = 0
+trans = add
+
+[BG Sky Green]
+type = normal
+spriteno = 0, 3
+start = 0,-70
+delta = 0.5,0.5
+mask = 0
+trans = add
+
+[BG Clouds]
+type = normal
+spriteno = 1, 1
+start = 0,-70
+delta = 0.60,0.60
+mask = 1
+trans = add
+tile = 1,0
+velocity = .1,0
+
+
+[BG Background]
+type = normal
+spriteno = 1, 0
+start = 0,-60
+delta = 0.75,0.75
+mask = 1
+
+[BG Ducks1]
+type = anim 
+actionno = 60
+start = -428, 175
+delta = 0.85,0.85
+velocity = 2.5,0
+sin.y = -3,220
+tile = 1,0
+tilespacing = 3800,0
+[Begin Action 60]
+6,0, 0,0, 7
+6,1, 0,0, 7
+6,2, 0,0, 7
+6,3, 0,0, 7
+6,4, 0,0, 7
+6,5, 0,0, 7
+6,6, 0,0, 7
+6,5, 0,0, 7
+6,4, 0,0, 7
+6,3, 0,0, 7
+6,2, 0,0, 7
+6,1, 0,0, 7
+
+[BG Ducks2]
+type = anim 
+actionno = 61
+start = -498, 208
+delta = 0.85,0.85
+velocity = 2.5,0
+sin.y = -3,190
+tile = 1,0
+tilespacing = 3800,0
+[Begin Action 61]
+6,4, 0,0, 7
+6,5, 0,0, 7
+6,6, 0,0, 7
+6,5, 0,0, 7
+6,4, 0,0, 7
+6,3, 0,0, 7
+6,2, 0,0, 7
+6,1, 0,0, 7
+6,0, 0,0, 7
+6,1, 0,0, 7
+6,2, 0,0, 7
+6,3, 0,0, 7
+
+[BG Ducks3]
+type = anim 
+actionno = 62
+start = -322, 180
+delta = 0.85,0.85
+velocity = 2.5,0
+sin.y = -3,225
+tile = 1,0
+tilespacing = 3800,0
+[Begin Action 62]
+6,5, 0,0, 7
+6,4, 0,0, 7
+6,3, 0,0, 7
+6,2, 0,0, 7
+6,1, 0,0, 7
+6,0, 0,0, 7
+6,1, 0,0, 7
+6,2, 0,0, 7
+6,3, 0,0, 7
+6,4, 0,0, 7
+6,5, 0,0, 7
+6,6, 0,0, 7
+
+[BG Ducks4]
+type = anim 
+actionno = 63
+start = -542, 157
+delta = 0.85,0.85
+velocity = 2.5,0
+sin.y = -3,218
+tile = 1,0
+tilespacing = 3800,0
+[Begin Action 63]
+6,5, 0,0, 7
+6,4, 0,0, 7
+6,3, 0,0, 7
+6,2, 0,0, 7
+6,1, 0,0, 7
+6,0, 0,0, 7
+6,1, 0,0, 7
+6,2, 0,0, 7
+6,3, 0,0, 7
+6,4, 0,0, 7
+6,5, 0,0, 7
+6,6, 0,0, 7
+
+[BG Floor]
+type = normal
+spriteno = 2, 0
+start = 0,-70
+delta = 1,1
+mask = 1
+
+[BG Overlay]
+type = normal
+spriteno = 7, 0
+start = 0,-70
+delta = 0,0
+trans = addalpha 
+alpha = 50,256
+layerno = 1
+
+[BG Flare]
+type = normal
+spriteno = 4,0
+start = 0,-70
+delta = 0.4, 0.4
+mask = 1
+trans = addalpha 
+alpha = 150,256
+layerno = 1
