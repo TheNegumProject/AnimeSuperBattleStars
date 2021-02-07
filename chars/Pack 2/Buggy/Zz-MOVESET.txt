@@ -1,0 +1,50 @@
+
+A - Light Hit
+
+Down + A - Bara Bara
+
+B - Slash Kick
+
+Down + B - Weapons
+
+C - Bara Bara no Mi
+
+Down + C - Bara Bara Mode
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Bara Bara Hou
+
+D,DB,B,a - Bara Bara Kuuchou Kirimomi Dai Circus
+
+D,DF,F,b - Tokusey Muggy Dama
+
+D,DB,B,b - Bara Bara Senbei
+
+D,DF,F,c - Bara Bara Car
+
+D,DB,B,c - Bara Bara Festival
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Super Buggy Bomb
+
+* BARA BARA MODE:
+
+A - Knive Slash
+
+B - Slash Kick
+
+C - Cancel
+
+* BARA BARA MODE SPECIALS:
+
+D,DF,F,a - Bara Bara Axe
+
+D,DB,B,a - Bara Bara Knives
+
+D,DF,F,b - Tokusey Muggy Dama
+
+D,DB,B,b - Bara Bara Senbei

@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Genkai"
+displayname ="Genkai"
+versiondate =01/11/2018
+mugenversion =1.0
+author ="Keyber, Edit by TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Genkai.sff
+anim =Genkai.air
+sound =Genkai.snd
+cmd =Genkai.cmd
+cns =Genkai.cns
+stcommon =common1.cns
+st =Genkai.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

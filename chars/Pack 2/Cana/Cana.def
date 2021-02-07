@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Cana"
+displayname = "Cana"
+versiondate = 03/04/2018
+mugenversion = 1.0
+author = "Mikel8888"
+pal.defaults = 1
+
+[Files]
+sprite = Cana.sff
+anim = Cana.air
+sound = Cana.snd
+cmd = Cana.cmd
+cns = Cana.cns
+stcommon = common1.cns
+st = Cana.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

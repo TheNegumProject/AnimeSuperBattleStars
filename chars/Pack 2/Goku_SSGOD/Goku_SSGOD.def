@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Goku"
+displayname ="Goku"
+versiondate =23/11/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Goku_SSGOD.sff
+anim =Goku_SSGOD.air
+sound =Goku_SSGOD.snd
+cmd =Goku_SSGOD.cmd
+cns =Goku_SSGOD.cns
+stcommon =common1.cns
+st =Goku_SSGOD.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

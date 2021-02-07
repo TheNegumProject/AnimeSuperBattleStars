@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Ichigo"
+displayname = "Ichigo"
+versiondate = 05/09/2017
+mugenversion = 1.0
+author = "Salah"
+pal.defaults = 1
+
+[Files]
+sprite = Ichigo Vaste Lord.sff
+anim = Ichigo Vaste Lord.air
+sound = Ichigo Vaste Lord.snd
+cmd = Ichigo Vaste Lord.cmd
+cns = Ichigo Vaste Lord.cns
+stcommon = common1.cns
+st = Ichigo Vaste Lord.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

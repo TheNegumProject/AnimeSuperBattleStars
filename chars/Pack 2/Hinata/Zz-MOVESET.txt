@@ -1,0 +1,30 @@
+
+A - Juuken Palm
+
+* Down +  A - Uppercut
+
+B - Ninja Kumite
+
+* Down +  B - Shuriken Throw
+
+C - Hakke Kusho
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Shugohakke Rokuju Yonsho
+
+D,DB,B,a - Hakke Kuhekisho
+
+D,DF,F,b - Hakke Sanju Nisho // Hakke Rokuju Yonsho
+
+D,DB,B,b - Iryo Ninjutsu
+
+D,DF,F,c - Juho Soshiken
+
+D,DB,B,c - Byakugan Kai
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Hakke Soshi Hogeki

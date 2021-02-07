@@ -1,0 +1,36 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Pitou"
+displayname ="Pitou"
+versiondate =19/10/2018
+mugenversion =1.0
+author ="Lemonstream"
+pal.defaults =1
+
+;Credits
+;Mikel8888/ Basic template
+;Leeanboox/ Help with redesigning the sprites
+;Special Thanks/
+;Mythos/ combo strings/Ideas
+;Mythos Mugen discord server community/ support and fun
+
+[Files]
+sprite =Pitou.sff
+anim =Pitou.air
+sound =Pitou.snd
+cmd =Pitou.cmd
+cns =Pitou.cns
+stcommon =common1.cns
+st =Pitou.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Vegeta"
+displayname = "Vegeta"
+versiondate = 13/11/2017
+mugenversion = 1.0
+author = "Salah"
+pal.defaults = 1
+
+[Files]
+sprite = Vegeta_SSGOD.sff
+anim = Vegeta_SSGOD.air
+sound = Vegeta_SSGOD.snd
+cmd = Vegeta_SSGOD.cmd
+cns = Vegeta_SSGOD.cns
+stcommon = common1.cns
+st = Vegeta_SSGOD.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

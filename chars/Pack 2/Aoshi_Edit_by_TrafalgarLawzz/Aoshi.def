@@ -1,0 +1,30 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="SHINOMORI AOSHI"
+displayname ="Aoshi"
+versiondate =19/04/2018
+mugenversion =1.0
+author ="Keyber, Edit by TrafalgarLawzz"
+pal.defaults =1,2
+
+[Files]
+sprite =Aoshi.sff
+anim =Aoshi.air
+sound =Aoshi.snd
+cmd =Aoshi.cmd
+cns =Aoshi.cns
+stcommon =common1.cns
+st =Aoshi.cns
+pal1=1.act
+pal2=2.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

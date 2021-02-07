@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Chopper"
+displayname ="Chopper"
+versiondate =13/02/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Chopper_JUS.sff
+anim =Chopper_JUS.air
+sound =Chopper_JUS.snd
+cmd =Chopper_JUS.cmd
+cns =Chopper_JUS.cns
+stcommon =common1.cns
+st =Chopper_JUS.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

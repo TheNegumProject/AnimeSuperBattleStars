@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Goku"
+displayname = "Goku"
+versiondate = 01/04/2018
+mugenversion = 1.0
+author = "Salah"
+pal.defaults = 1
+
+[Files]
+sprite = Goku_Mastered.sff
+anim = Goku_Mastered.air
+sound = Goku_Mastered.snd
+cmd = Goku_Mastered.cmd
+cns = Goku_Mastered.cns
+stcommon = common1.cns
+st = Goku_Mastered.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

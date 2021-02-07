@@ -1,0 +1,30 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Beerus"
+displayname = "Beerus"
+versiondate = 12/12/2017
+mugenversion = 1.0
+author = "InSeph"
+pal.defaults = 1,2
+
+[Files]
+sprite = Bills.sff
+anim = Bills.air
+sound = Bills.snd
+cmd = Bills.cmd
+cns = Bills.cns
+stcommon = common1.cns
+st = Bills.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+pal2 = 2.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

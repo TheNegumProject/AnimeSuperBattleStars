@@ -1,0 +1,32 @@
+
+A - Combo 1
+
+Down + A - Uppercut
+
+B - Combo 2
+
+Down + B - Teleport Attac
+
+C - Goro Goro No Mi
+
+Down + C - El Thor
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - 60.000.000 Volt Jambure
+
+D,DB,B,a - God Counter
+
+D,DF,F,b - Mamaragan
+
+D,DB,B,b - Mantra
+
+D,DF,F,c - God Judgment
+
+D,DB,B,c - 200.000.000 Volt Amal
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Raigoh

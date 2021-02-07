@@ -1,0 +1,35 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Elfman"
+displayname ="Elfman"
+versiondate =01/05/2016
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1,2,3,4,5,6
+
+[Files]
+sprite =Elfman_Start.sff
+anim =Elfman_Start.air
+sound =Elfman_Start.snd
+cmd =Elfman_Start.cmd
+cns =Elfman_Start.cns
+stcommon =common1.cns
+st =Elfman_Start.cns
+pal1=1.act
+pal2=2.act
+pal3=3.act
+pal4=4.act
+pal5=5.act
+pal6=6.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+st4=Beast_Soul_Mode.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

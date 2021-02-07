@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Makanaochi Ippo"
+displayname ="Ippo"
+versiondate =01/11/2018
+mugenversion =1.0
+author ="Keyber, Edit by Shiruzato/MYTHOS, TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Ippo.sff
+anim =Ippo.air
+sound =Ippo.snd
+cmd =Ippo.cmd
+cns =Ippo.cns
+stcommon =common1.cns
+st =Ippo.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

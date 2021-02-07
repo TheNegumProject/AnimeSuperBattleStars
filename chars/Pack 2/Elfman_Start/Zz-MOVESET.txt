@@ -1,0 +1,38 @@
+
+A - Weak Hit
+
+B - Strong Hit
+
+C - Beast Arm
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Iron Bull
+
+D,DB,B,a - Black Bull
+
+D,DF,F,b - Beast Top
+
+D,DB,B,b - Beast Sinking
+
+D,DF,F,c - Beast Tackle
+
+D,DB,B,c - Beast Soul Mode
+
+ * A - Combo 1
+
+ * B - Combo 2
+
+ * C - Claw Attack
+
+ * D,DF,F,a - Beast Attack
+
+ * D,DF,F,b - Beast Throw
+ 
+ * D,DF,F,c - Beast Assault
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Beast Soul Burst

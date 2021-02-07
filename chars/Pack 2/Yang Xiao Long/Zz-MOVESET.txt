@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Heavy Punch
+
+D,DB,B,a - Burn Punch
+
+D,DF,F,b - Combo Kick
+
+D,DB,B,b - Burning Mode
+
+D,DF,F,c - Burnig Gold
+
+D,DB,B,c - Burnig Wall
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Divine Burning

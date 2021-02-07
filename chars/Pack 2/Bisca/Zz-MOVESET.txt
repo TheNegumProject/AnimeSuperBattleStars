@@ -1,0 +1,26 @@
+
+A - Light Shot
+
+B - Medium Shot
+
+C - Energy Shot
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Homing Shot
+
+D,DB,B,a - Hiro Dan
+
+D,DF,F,b - Alzack: Tornado Shot
+
+D,DB,B,b - Alzack: Hibana Dan
+
+D,DF,F,c - Bakuhatsu Dan
+
+D,DB,B,c - Bullet Storm
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Jupiter Cannon

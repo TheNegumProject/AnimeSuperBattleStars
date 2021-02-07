@@ -1,0 +1,28 @@
+
+A - Phisic Attack
+
+B - Fire Kick
+
+C - Fire Punch
+
+Down + C - Fire Rush
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Higan
+
+D,DB,B,a - Hotarubi // Hidaruma
+
+D,DF,F,b - Juujika
+
+D,DB,B,b - Shinka Shiranui
+
+D,DF,F,c - Hiken
+
+D,DB,B,c - Hibashira
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Dai Enkai: Entei

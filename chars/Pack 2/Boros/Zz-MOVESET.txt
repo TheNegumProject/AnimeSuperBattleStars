@@ -1,0 +1,76 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Star Belt 
+
+S - Power Charge
+
+COMBOS:
+
+Base Form:
+
+a,a,a - Combo 1
+
+b,b - Combo 2
+
+a,b,c - Air
+
+a,a,a,b,b,a,b,c - Full
+
+Meteoric Burst:
+
+a,a,a,a - Combo 1
+
+b,b,b - Combo 2
+
+a,b,c - Air
+
+a,a,a,a,b,b,b,a,b,c - Full
+
+SPECIALS:
+
+Base Form:
+
+D,DF,F,a - Asteroid Buster
+
+D,DB,B,a - Solar Release
+
+D,DF,F,b - Astral Belt
+
+D,DB,B,b - Behind You!
+
+D,DF,F,c - Shooting Star
+
+D,DB,B,c - Meteor Impact
+
+D+a - Meteoric Burst
+
+D+S - Base Form
+
+Meteoric Burst:
+
+D,DF,F,a - Planetoid Buster
+
+D,DB,B,a - Nova Release
+
+D,DF,F,b - Galactic Belt
+
+D,DB,B,b - Peak Regeneration
+
+D,DF,F,c - Rampaging Comet
+
+D,DB,B,c - Lunar Impact
+
+D+S - Base Form
+
+SUPER: 
+
+Base Form:
+
+x - Photovoltaic Planet Brekaer
+
+Meteoric Burst:
+
+x - Collapsing Star Roaring Cannon
