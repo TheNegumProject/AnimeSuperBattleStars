@@ -1,0 +1,130 @@
+
+A - Combo 1
+
+B - Combo 2
+
+* Down +  B - Shuriken Throw
+
+C - Kage Bunshin
+
+S - Power Charge
+
+COMBOS:
+
+Base Form:
+
+a,a - Combo 1
+
+b,b - Combo 2
+
+c,c - Kage Bunshin Combo
+
+a,a - Air 1
+
+a,b,b,c - Air 2
+
+a,a,b,c,c - Full 1
+
+a,a,b,b,a,b,b,c - Full 2
+
+Kyuubi Rage:
+
+a,a,a - Combo 1
+
+b,b,b - Combo 2
+
+c - Kyuubi Storm
+
+c (in air) - Guillotine Dive
+
+a,a - Air 1
+
+a,b,b,c - Air 2
+
+a,a,b,b,b,Jump,a,b,b,c - Full 1
+
+a,a,b,b,a,b,b,c - Full 2
+
+Kyuubi Chakra Mode:
+
+a,a,a - Combo 1
+
+b,b,b - Combo 2
+
+c - Chakra Arms Smash
+
+c (in air) - Instant Finish
+
+a,a - Air 1
+
+a,b,b,c - Air 2
+
+a,a,a,b,b,c - Full 1
+
+a,a,a,b,b,b,a,b,b,c - Full 2
+
+SPECIALS:
+
+Base Form:
+
+D,DF,F,a - Rasengan
+
+D,DB,B,a - Kawarimi no Jutsu
+
+B,D,F,a - Oodama Rasengan
+
+D,DF,F,b - Kage Bunshin no Jutsu
+
+D,DB,B,b - Kuchiyose Gamatatsu
+
+F,D,B,b - Kuchiyose Gamakichi
+
+D,DF,F,c - Naruto Rendan
+
+D,DB,B,c - Shuriken Trap
+
+B,D,F,c - Taju Kage Bunshin no Jutsu
+
+D+b - Kyuubi Chakra Mode
+
+D+c - Kyuubi Rage
+
+Kyuubi Rage:
+
+D,DF,F,a - Kyuubi Rasengan
+
+D,DB,B,a - Kawarimi no Jutsu
+
+D,DF,F,b - Savage Claw
+
+D,DB,B,b - Daikaiwai
+
+D,DF,F,c - Kyuubi Rendan
+
+D,DB,B,c - Ikari Slash
+
+Base Form:
+
+D,DF,F,a - Rasengan
+
+D,DB,B,a - Sempou Rasengan
+
+D,DF,F,b - Mini Rasen Shuriken
+
+D,DB,B,b - Bijuu Dama
+
+D,DF,F,c - Wakusei Rasengan
+
+D,DB,B,c - Bijuu Senkodan
+
+D+s - Base Form
+
+SUPER: 
+
+Base Form:
+
+x - Fuuton Rasen Shuriken
+
+Kyuubi Chakra Mode:
+
+x - Chou Oodama Rasen Shuriken

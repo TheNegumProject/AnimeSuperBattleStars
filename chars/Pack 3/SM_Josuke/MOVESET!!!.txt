@@ -1,0 +1,43 @@
+
+Ground
+
+A - Crazy Combo
+
+B - Stand Combo
+
+C - DORA-RA-RA Barrage
+-500 power
+
+Air
+
+A - High kick
+
+B - Stand Punch Hit
+
+C - DORA-RA-RA Barrage
+
+
+SPECIALS:
+
+D,DF,F,a - Riffle Bullet
+-1000 power
+
+D,DB,B,a - Rock Barrier - Press A to punch barrier
+-1000 power
+
+D,DF,F,b - DORA-RA-RA Barrage
+-1000 power
+
+D,DB,B,b - WHAT DID YOU SAY ABOUT MY HAIR?!
+-1000 power
+
+D,DB,B,c - Blood Control
+-1000 power
+
+D,DF,F,c - uncontrolled bike
+-1500 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - DORA-RA-RA Final Barrage
+-3000 power

@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Ryuzaki"
+displayname ="Ryuzaki"
+versiondate =27/05/2018
+mugenversion =1.0
+author ="BlackJudai"
+pal.defaults =1
+
+[Files]
+sprite =Ryuzaki.sff
+anim =Ryuzaki.air
+sound =Ryuzaki.snd
+cmd =Ryuzaki.cmd
+cns =Ryuzaki.cns
+stcommon =common1.cns
+st =Ryuzaki.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

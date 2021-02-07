@@ -1,0 +1,36 @@
+
+A - Phisic Attack
+
+B - Ninja Weapon
+
+* Down +  B - Shuriken Throw
+
+C - Kage Bunshin
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Rasengan // Kyubi Rasengan(Kybi Rage Mode)
+
+D,DB,B,a - Kawarimi no Jutsu
+
+B,DB,D,DF,D,a - Oodama Rasengan(Kybi Rage Mode)
+
+D,DF,F,b - Kuchiyose Gamakichi
+
+D,DB,B,b - Kuchiyose Gamatatsu
+
+F,DF,D,DB,B,b - Kyubi Rage
+
+D,DF,F,c - Naruto Rendan
+
+D,DB,B,c - Shuriken Trap
+
+B,DB,D,DF,D,c - Taju Kage Bunshin no Jutsu
+
+F,DF,D,DB,B,c - Kage Bunshin no Jutsu
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Fuuton Rasen Shuriken

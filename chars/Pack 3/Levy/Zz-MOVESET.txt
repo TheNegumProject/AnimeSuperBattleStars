@@ -1,0 +1,30 @@
+
+A - Light Hit
+
+B - Strong Hit
+
+C - Solid Script: Stone
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Fire
+
+D,DB,B,a - Iron
+
+B,DB,D,DF,F,a - Jet Call
+
+D,DF,F,b - Hole
+
+D,DB,B,b - Guard
+
+B,DB,D,DF,F,b - Droy Call
+
+D,DF,F,c - Bullet
+
+D,DB,B,c - Storm
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Shadow Gear Special Combination

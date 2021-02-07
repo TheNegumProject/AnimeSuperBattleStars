@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Nami"
+displayname = "Nami"
+versiondate = 14/10/2017
+mugenversion = 1.0
+author = "Shadow Mercer"
+pal.defaults = 1
+
+[Files]
+sprite = SM_Nami_TS.sff
+anim = SM_Nami_TS.air
+sound = SM_Nami_TS.snd
+cmd = SM_Nami_TS.cmd
+cns = SM_Nami_TS.cns
+stcommon = common1.cns
+st = SM_Nami_TS.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

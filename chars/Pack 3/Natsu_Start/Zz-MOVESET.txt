@@ -1,0 +1,28 @@
+
+A - Light Hit
+
+B - Strong Hit
+
+C - Fire Attack
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Karyu no Tekken
+
+D,DB,B,a - Karyu no Gyokugeki
+
+B,DB,D,DF,F,a - Guren Karyu Ken
+
+D,DF,F,b - Karyu no Kenkaku
+
+D,DB,B,b - Karyu no Kagitsume
+
+D,DF,F,c - Karyu no Hoko
+
+D,DB,B,c - Karyu no Koen
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Guren Bakuenjin

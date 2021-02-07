@@ -1,0 +1,43 @@
+
+Ground
+
+A - low combo
+
+B - Stand combo
+
+C - Rush Attack
+-500 power
+
+Air
+
+A - Low kick
+
+B - Stand punch Hit
+
+C - Stand High punch Hit
+
+
+SPECIALS:
+
+D,DF,F,a - Sheer heart Attack Throw (only Activate "Sheer Heart Attack is Unbreakable!" desactive) 
+-1000 power
+
+D,DB,B,a - Sheer Heart Attack is Unbreakable! (Desactive same command: gain 500 power)
+-1500 power
+
+D,DF,F,b - Bakudan ni Kaeta - Hold down+S - Tenka (Detonate)
+-1000 power
+
+D,DB,B,b - Dead Touch - Hold down+S - Tenka (Detonate)
+-1000 power
+
+D,DB,B,c - Kokoro no kougeki
+-1000 power
+
+D,DF,F,c - Dai ichi no bakudan
+-2000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Sheer Heart Attack Dai Bakatsu (only Activate "Sheer Heart Attack is Unbreakable!" desactive) 
+-3000 power

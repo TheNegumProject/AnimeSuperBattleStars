@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Sasuke"
+displayname = "Sasuke"
+versiondate = 15/01/2018
+mugenversion = 1.0
+author = "Salah"
+pal.defaults = 1
+
+[Files]
+sprite = Sasuke Rinnegan.sff
+anim = Sasuke Rinnegan.air
+sound = Sasuke Rinnegan.snd
+cmd = Sasuke Rinnegan.cmd
+cns = Sasuke Rinnegan.cns
+stcommon = common1.cns
+st = Sasuke Rinnegan.cns
+st1 = IA.cns
+st2 = Specials.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

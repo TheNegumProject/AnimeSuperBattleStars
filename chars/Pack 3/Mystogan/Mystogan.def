@@ -1,0 +1,40 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Mystogan"
+displayname = "Mystogan"
+versiondate = 27/05/2016
+mugenversion = 1.0
+author = "Mikel8888"
+pal.defaults = 1,2,3,4,5,6
+
+[Files]
+sprite = Mystogan.sff
+anim = Mystogan.air
+sound = Mystogan.snd
+cmd = Mystogan.cmd
+cns = Mystogan.cns
+stcommon = common1.cns
+st = Mystogan.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+pal2 = 2.act
+pal3 = 3.act
+pal4 = 4.act
+pal5 = 5.act
+pal6 = 6.act
+pal7 = 1.act
+pal8 = 2.act
+pal9 = 3.act
+pal10 = 4.act
+pal11 = 5.act
+pal12 = 6.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,24 @@
+[Info]
+name ="Laxus"
+displayname ="Laxus"
+versiondate =06/05/2017
+mugenversion =1.0
+author ="Akashi Mugen"
+pal.defaults = 
+
+[Files]
+sprite =Laxus.sff
+anim =Laxus.air
+sound =Laxus.snd
+cmd =Laxus.cmd
+cns =Laxus.cns
+stcommon =common1.cns
+st =Laxus.cns
+pal1=1.act
+st1=AI.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,32 @@
+
+A - Long Arm
+
+Down + A - Uppercut
+
+B - Ground Arm
+
+Down + B - Mini Tree
+
+C - Instant Arm
+
+Down + C - Liana
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Cuatro Fleur: Shoot
+
+D,DB,B,a - Cien Fleur: Defense
+
+D,DF,F,b - Cien Fleur: Delphinium
+
+D,DB,B,b - Cien Fleur: Wing
+
+D,DF,F,c - Cien Fleur: Sway
+
+D,DB,B,c - Cien Fleur: Kill
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Cien Fleur Big Tree

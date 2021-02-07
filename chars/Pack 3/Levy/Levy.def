@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Levy"
+displayname = "Levy"
+versiondate = 10/05/2016
+mugenversion = 1.0
+author = "Mikel8888"
+pal.defaults = 1
+
+[Files]
+sprite = Levy.sff
+anim = Levy.air
+sound = Levy.snd
+cmd = Levy.cmd
+cns = Levy.cns
+stcommon = common1.cns
+st = Levy.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

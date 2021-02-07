@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Kurapica"
+displayname ="Kurapica"
+versiondate =17/10/2018
+mugenversion =1.0
+author ="Lemonstream, Edit by TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Kurapica.sff
+anim =Kurapica.air
+sound =Kurapica.snd
+cmd =Kurapica.cmd
+cns =Kurapica.cns
+stcommon =common1.cns
+st =Kurapica.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

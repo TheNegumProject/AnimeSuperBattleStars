@@ -1,0 +1,31 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Shun"
+displayname = "Shun"
+versiondate = 02/03/2017
+mugenversion = 1.0
+author = "Shadow Mercer"
+pal.defaults = 1,2,3
+
+[Files]
+sprite = SM_Shun.sff
+anim = SM_Shun.air
+sound = SM_Shun.snd
+cmd = SM_Shun.cmd
+cns = SM_Shun.cns
+stcommon = common1.cns
+st = SM_Shun.cns
+st1 = IA.cns
+st2 = Especiales.cns
+st3 = Supers.cns
+pal1 = 1.act
+pal2 = 2.act
+pal3 = 3.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

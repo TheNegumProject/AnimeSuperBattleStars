@@ -1,0 +1,26 @@
+
+A - Punch
+
+B - Kick 
+
+C - Gomu Gomu no Mi 
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Gomu Gomu no Rifle
+
+D,DB,B,a - Gomu Gomu no Extreme Fuusen
+
+D,DF,F,b - Gomu Gomu no Storm
+
+D,DB,B,b - Gomu Gomu no Kazan
+
+D,DF,F,c - Gomu Gomu no Cannon
+
+D,DB,B,c - Gia Sado
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Gomu Gomu no Giganto Bazooka

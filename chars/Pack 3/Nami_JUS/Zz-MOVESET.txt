@@ -1,0 +1,30 @@
+
+A - Weak Hit
+
+B - Strong Hit
+
+C - Thunder Ball
+
+Down + C - Dark Cloud Tempo
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Swing Arm // Dorobo Neko
+
+D,DB,B,a - BAKAA! // Shiawase Punch
+
+D,DF,F,b - Cyclone Tempo
+
+D,DB,B,b - Tornado Tempo // Mirage Tempo
+
+D,DF,F,c - Thunderbolt Tempo
+
+D,DB,B,c - Fara Morgana // Waver Smash
+
+SUPERS: 
+
+D,DF,F,D,DF,F,a+b - Thunder Lance Tempo
+
+D,DF,F,D,DF,F,a+b - Ultimate Tornado Tempo (Classic Mode)

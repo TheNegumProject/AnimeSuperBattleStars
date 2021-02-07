@@ -1,0 +1,28 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+S - Power Charge
+
+Down + A - Use Sword
+
+SPECIALS:
+
+D,DF,F,a - Punch Combo / Sword Combo
+
+D,DB,B,a - Counter / Sword Counter
+
+D,DF,F,b - Speed Punch / Sword Fly
+
+D,DB,B,b - Punch Rocks / Sword Tornado
+
+D,DF,F,c - Stun Punch / Sword Break
+
+D,DB,B,c - Jump Punch / Jump Sword
+
+SUPER: 
+
+D,s - Super Punch Combo / Super Sword Combo

@@ -1,0 +1,26 @@
+
+A - Claws Attack
+
+B - Phisic Attack
+
+C - Magic Blast
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Evil Explosion
+
+D,DB,B,a - Demon Assault
+
+D,DF,F,b - Evil Spark
+
+D,DB,B,b - Dark Tornado
+
+D,DF,F,c - Demon Blast
+
+D,DB,B,c - Evil Storm
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Soul Extincion

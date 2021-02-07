@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Sasuke"
+displayname ="Sasuke"
+versiondate =05/04/2016
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Sasuke_Hebi_White.sff
+anim =Sasuke_Hebi_White.air
+sound =Sasuke_Hebi_White.snd
+cmd =Sasuke_Hebi_White.cmd
+cns =Sasuke_Hebi_White.cns
+stcommon =common1.cns
+st =Sasuke_Hebi_White.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

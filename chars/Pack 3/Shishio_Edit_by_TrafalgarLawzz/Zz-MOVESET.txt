@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Homura Dama EX
+
+D,DB,B,a - Jigoku No Honoo Ground
+
+D,DF,F,b - Flame Jiken
+
+D,DB,B,b - Homura Dama Ready
+
+D,DF,F,c - Kaguflames
+
+D,DB,B,c - Guren Kaina
+
+SUPER: 
+
+D,s - KAGUZUCHI

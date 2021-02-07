@@ -1,0 +1,30 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Higashikata Josuke"
+displayname = "Josuke"
+versiondate = 11/04/2017
+mugenversion = 1.0
+author = "Shadow Mercer"
+pal.defaults = 1,2
+
+[Files]
+sprite = SM_Josuke.sff
+anim = SM_Josuke.air
+sound = SM_Josuke.snd
+cmd = SM_Josuke.cmd
+cns = SM_Josuke.cns
+stcommon = common1.cns
+st = SM_Josuke.cns
+st1 = IA.cns
+st2 = Speciales.cns
+st3 = Supers.cns
+pal1 = 1.act
+pal2 = 2.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

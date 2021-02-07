@@ -1,0 +1,53 @@
+
+Ground
+
+A - Physic Combo
+
+B - Stand Combo
+
+C - Emerald Splash
+-500 power
+
+Holddown+C - Emerald Splash Up
+-500 power
+
+Air
+
+A - Chop
+
+B - Emerald Splash
+-500 power
+
+C - Emerald Splash Down
+-500 power
+
+SPECIALS:
+
+D,DF,F,a - Emerald Splash
+-1000 power
+
+D,DF,F,a - Emerald Splash (in air)
+-1000 power
+
+D,DB,B,a - Emerald Splash Up
+-1000 power
+
+D,DF,F,b - Emerald Claws
+-1000 power
+
+D,DB,B,b - Rero Rero Rero
+-1000 power
+
+D,DB,B,c - Hierophant no Kekai (Active Kekai)
+-1500 power
+
+D,DB,B,c - Emerald Radious 20m (Only with Kekai Actived)
+-1000 power
+
+D,DF,F,c - Oshioki no jikan
+-1500 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Emerald Splash Radious 20m
+-3000 power

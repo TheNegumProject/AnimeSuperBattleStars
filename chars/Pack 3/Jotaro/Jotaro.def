@@ -1,0 +1,33 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Jotaro"
+displayname ="Jotaro"
+versiondate =08/11/2018
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1,2,3,4,5
+
+[Files]
+sprite =Jotaro.sff
+anim =Jotaro.air
+sound =Jotaro.snd
+cmd =Jotaro.cmd
+cns =Jotaro.cns
+stcommon =common1.cns
+st =Jotaro.cns
+pal1=1.act
+pal2=2.act
+pal3=3.act
+pal4=4.act
+pal5=5.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

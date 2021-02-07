@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Kazuma Kuwabara"
+displayname ="Kuwabara"
+versiondate =20/10/2018
+mugenversion =1.0
+author ="BlackJudai, Edit by TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Kuwabara.sff
+anim =Kuwabara.air
+sound =Kuwabara.snd
+cmd =Kuwabara.cmd
+cns =Kuwabara.cns
+stcommon =common1.cns
+st =Kuwabara.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

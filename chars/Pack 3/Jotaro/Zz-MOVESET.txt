@@ -1,0 +1,26 @@
+
+A - Phisic Attack
+
+B - Star Platinum
+
+C - Ora Ora
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Platinum Smash
+
+D,DB,B,a - Kuzo Inu!
+
+D,DF,F,b - Star Finger
+
+D,DB,B,b - The World
+
+D,DF,F,c - ORA ORA ORA!
+
+D,DB,B,c - Platinum Hecatomb
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Star Platinum - THE WORLD

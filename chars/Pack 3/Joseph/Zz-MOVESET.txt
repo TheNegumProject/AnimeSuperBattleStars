@@ -1,0 +1,26 @@
+
+A - Punch
+
+B - Kick
+
+C - Cracker Volley
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Hamon Overdrive
+
+D,DB,B,a - Hamon Hair Attack
+
+D,DF,F,b - Zoom Punch Combo
+
+D,DB,B,b - Tommy Shooter
+
+D,DF,F,c - Clacker Boomerang
+
+D,DB,B,c - Eija No Sekiseki
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - BYE BYE!

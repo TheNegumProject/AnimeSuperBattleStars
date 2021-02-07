@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Rose Explosion
+
+D,DB,B,a - Fuka Enbu Jin
+
+D,DF,F,b - Kyuketsu Shokubutsu
+
+D,DB,B,b - Shimaneki So (D,DB,B,b Shimaneki So - Activation)
+
+D,DF,F,c - Chou Kagon Retsuzanshi
+
+D,DB,B,c - Shoku Yo Shokubutsu
+
+SUPER: 
+
+D,s - Makai no Ojigi So

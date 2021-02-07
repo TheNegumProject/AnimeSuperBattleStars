@@ -1,0 +1,42 @@
+
+GROUND:
+
+A - Combo 1
+
+B - Combo 2
+
+C - Combo 3
+
+AIR:
+
+A - Phisic Attack
+
+B - Sennin Kick
+
+C - Rasengan
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Senjutsu Rasengan(HOLD)
+
+D,DB,B,a - Senpo Oodama Rasengan
+
+D,DF,F,b - Naruto Trick
+
+D,DB,B,b - Kuchiyose Fukasaku & Shima
+
+D,DF,F,c - Fuuton Rasen Shuriken
+
+D,DB,B,c - Kage Bunshin Charge
+
+F,DF,D,DB,B,a - Kuchiyose Gamaken
+
+F,DF,D,DB,B,b - Kuchiyose Gamhiro
+
+F,DF,D,DB,B,c - Kuchiyose Gamabunta
+
+SUPER:
+
+D,DF,F,D,DF,F,a+b - 6 Tails Chakra Cannon

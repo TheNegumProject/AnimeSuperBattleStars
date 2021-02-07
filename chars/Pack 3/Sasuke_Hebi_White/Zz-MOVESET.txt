@@ -1,0 +1,30 @@
+
+A - Low Hit
+
+B - Taijutsu Kick
+
+* Down +  B - Shuriken Throw
+
+C - Sword Slash
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Shishi Rendan + C - Chidori Koken
+
+D,DB,B,a - Kawarimi no Jutsu
+
+B,DB,D,DF,D,a - Kuchiyose White Snake
+
+D,DF,F,b - Chidori
+
+D,DB,B,b - Chidori Nagashi
+
+D,DF,F,c - Katon Gokakyu no Jutsu
+
+D,DB,B,c - Katon Goryuka no Jutsu
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Kirin

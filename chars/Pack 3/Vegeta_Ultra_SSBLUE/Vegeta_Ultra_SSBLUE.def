@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Vegeta"
+displayname = "Vegeta"
+versiondate = 18/02/2018
+mugenversion = 1.0
+author = "Salah"
+pal.defaults = 1
+
+[Files]
+sprite = Vegeta_Ultra SSB.sff
+anim = Vegeta_Ultra SSB.air
+sound = Vegeta_Ultra SSB.snd
+cmd = Vegeta_Ultra SSB.cmd
+cns = Vegeta_Ultra SSB.cns
+stcommon = common1.cns
+st = Vegeta_Ultra SSB.cns
+st1 = IA.cns
+st2 = Specials.cns
+st3 = Supers.cns
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Mirajane"
+displayname ="Mirajane"
+versiondate =03/06/2016
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1
+
+[Files]
+sprite =Mirajane_Satan_Soul.sff
+anim =Mirajane_Satan_Soul.air
+sound =Mirajane_Satan_Soul.snd
+cmd =Mirajane_Satan_Soul.cmd
+cns =Mirajane_Satan_Soul.cns
+stcommon =common1.cns
+st =Mirajane_Satan_Soul.cns
+pal1=1.act
+st1=IA.cns
+st2=Especiales.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

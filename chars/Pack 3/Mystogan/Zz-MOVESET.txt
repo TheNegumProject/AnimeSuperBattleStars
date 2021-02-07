@@ -1,0 +1,27 @@
+* S + Select Char - 2. Costume
+
+A - Low Hit
+
+B - Strong Hit
+
+C - Magic Shot
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Magic Ray
+
+D,DB,B,a - Devastating Wave
+
+D,DF,F,b - Magic Belt
+
+D,DB,B,b - Nemuri no Maho
+
+D,DF,F,c - Gojumahojin: Mikagura
+
+D,DB,B,c - Sanjumahojin: Kyousui
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Matenrou

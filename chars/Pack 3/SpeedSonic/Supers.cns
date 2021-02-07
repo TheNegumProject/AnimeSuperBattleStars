@@ -1,0 +1,697 @@
+;===============================================================================
+;----------------------Supers-----------------------------------------------
+;===============================================================================
+;===============================================================================
+;===============================================================================
+;----------------------Supers---------------------------------------------------
+;===============================================================================
+;Crazy Speed of Sound
+[Statedef 3000]
+Type     = S
+MoveType = A
+Physics  = N
+juggle  = 1
+Anim     = 3000
+Ctrl     = 0
+velset = 0,0
+poweradd = -1000
+SprPriority = 3
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S0,18
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = time = 0
+value = S0,18
+volume = 999
+
+[State 3000, SuperPause]
+type = SuperPause
+trigger1 = time = 0
+time = 30
+movetime = 30
+anim = -1
+sound = -1
+pos = 32,-80
+darken = 0
+unhittable = 1
+
+[State 3000, VarSet]
+type = Varset
+trigger1 = time = 0
+v = 12
+value = -100
+
+[State 3000, VarSet]
+type = Varset
+trigger1 = time = 30
+v = 12
+value = 0
+
+[State 3000, VarAdd]
+type = VarAdd
+trigger1 = time >= 20 && Var(12) < 0
+v = 12
+value = 6
+
+[State 3000, BGColorFX]
+type = BGPalFX
+trigger1 = Time > 0
+time = 1
+add = Var(12),Var(12),Var(12)
+
+[State 3000, Super Charge]
+type = Explod
+trigger1 = Time = 0
+anim = 7405
+ID = 7400
+pos = 0*Helper(999999),Fvar(16),-15*Helper(999999),Fvar(16)
+sprpriority = 2
+supermove = 1
+removetime = -2
+bindtime = -1
+ownpal = 1
+scale = .2*Helper(999999),Fvar(16),.2*Helper(999999),Fvar(16)
+removeongethit = 1
+ontop = 1
+supermovetime 	= 999
+ignorehitpause  = 1
+
+[State 3000, PlaySnd - Super Charge]
+type = PlaySnd
+trigger1 = Time = 0
+value = S950,2
+volume = 50
+
+[State 3101, アニメ]
+Type = ChangeAnim
+TriggerAll = ((Anim = 3000) && (MoveHit = [1,2]))
+TriggerAll = NumEnemy != 0
+Trigger1 = (Enemy(0),StateNo = 10010)
+Trigger2 = NumEnemy = 2
+Trigger2 = (Enemy(1),StateNo = 10010)
+Value = 3045
+
+;---------------------
+[State 0, Portrait]
+type = Helper
+trigger1 = time = 0
+helpertype = normal
+name = "Portrait"
+ID = 3070
+stateno = 3070
+pos = 160,-120
+postype = Left
+facing = 1
+keyctrl = 0
+ownpal = 1
+size.xscale = 1
+size.yscale = 1
+supermovetime = 999
+
+[State 3000, SuperPause]
+type = SuperPause
+trigger1 = time = 0
+time = 100
+movetime = 29
+anim = -1
+sound = -1
+pos = 32,-80
+darken = 0
+unhittable = 1
+;---------------------
+[State 0, PowerAdd]
+type = PowerAdd
+trigger1 = MoveHit = 1
+value = -2000
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = MoveHit = 1
+value = S0,17
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = MoveHit = 1
+value = S0,17
+volume = 999
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = MoveHit = 1
+value = S0,17
+volume = 999
+
+[State 3101,]
+Type = ChangeAnim
+Trigger1 = (Anim = 3042) && (AnimTime = 0)
+Value = 41
+Elem = 1
+
+[State 3101,‐
+Type = ChangeAnim
+Trigger1 = var(6) = 150
+Value = 3042
+
+[State 3101,]
+Type = VarSet
+Trigger1 = Time = 0
+var(5) = 0
+
+[State 3101,]
+Type = VarSet
+Trigger1 = Time = 0
+var(6) = 0
+
+[State 3101,]
+Type = VarAdd
+Trigger1 = (Anim = 3000) && ((AnimElem = 8,>=0) && (AnimElem = 8,<10))
+var(5) = IfElse((AnimElem=8,<9),25,31)
+
+[State 3101,]
+Type = VarAdd
+Trigger1 = (Anim = 3000) && ((AnimElem = 9,>=0) && (AnimElem = 9,<10))
+var(5) = -IfElse((AnimElem=9,<9),31,25)
+
+[State 3101,]
+Type = VarAdd
+Trigger1 = var(6) = [150,152]
+var(5) = -IfElse(var(6)=150,64,64)
+
+[State 3101,]
+Type = VarAdd
+Trigger1 = (Anim = 3045) || var(6) > 0
+var(6) = 1
+
+;**************************************************
+[State 3101,]
+Type = VelSet
+triggerall = time > 30
+Trigger1 = (Anim = 3000) && ((AnimElem = 8,>=0) && (AnimElem = 8,<10))
+Trigger2 = (Anim = 3000) && ((AnimElem = 9,>=0) && (AnimElem = 9,<10))
+X = 5.0
+
+[State 3101,]
+Type = VelSet
+triggerall = time > 30
+Trigger1 = (Anim = 3000) && ((AnimElem = 8,>=10) && (AnimElem = 9,<0))
+X = 10
+
+[State 3101,]
+Type = VelSet
+triggerall = time > 30
+Trigger1 = (Anim = 3045)
+X = 0
+
+[State 3101,]
+Type = PosAdd
+triggerall = time > 30
+Trigger1 = (Anim = 3045) && (var(6) = 1)
+X = (P2Dist X)
+
+[State 3101,]
+Type = PosAdd
+triggerall = time > 30
+Trigger1 = (var(6) = 150)
+X = (P2Dist X)-10
+Y = -100
+
+[State 3101,]
+Type = VelSet
+triggerall = time > 30
+Trigger1 = (var(6) = 150)
+X = 4
+Y = -8
+
+[State 3101,]
+Type = VelMul
+triggerall = time > 30
+TriggerAll = Vel X > .5
+Trigger1 = (var(6) = [150,153]) || (var(6) = [183,188])
+X = .9
+
+[State 3101, 速度加算]
+Type = VelAdd
+triggerall = time > 30
+Trigger1 =  (var(6) = [150,153]) || (var(6) > 183)
+Y = .34
+
+[State 3101, 軸位置固定]
+Type = PosFreeze
+Trigger1 = (var(6) = [154,183])
+
+;**************************************************
+[State 3101, 攻撃力補正]
+Type = VarAdd
+Trigger1 = (var(6) = 3) || (var(6) = 23) || (var(6) = 33) || (var(6) = 40) || (var(6) = 45) || (var(6) = 48)
+Trigger2 = (var(6) = 50) || (var(6) = 52) || (var(6) = 54) || (var(6) = [55,95]) || (var(6) = 154)
+fvar(39) = -IfElse(var(6)=154,35,2)
+IgnoreHitPause = 1
+Persistent = 2
+
+[State 3101, 変数]
+Type = VarSet
+Trigger1 = (var(6) = 3) || (var(6) = 23) || (var(6) = 33) || (var(6) = 40) || (var(6) = 45) || (var(6) = 48)
+Trigger2 = (var(6) = 50) || (var(6) = 52) || (var(6) = 54) || (var(6) = [55,95]) || (var(6) = 154)
+var(7) = 7
+IgnoreHitPause = 1
+Persistent = 2
+;**************************************************
+[State 3101, 無敵]
+Type = NotHitBy
+Trigger1 = (var(6) = [1,183])
+Value = SCA
+
+[State 3101, 状態変更]
+Type = StateTypeSet
+Trigger1 = (var(6) = 150)
+StateType = A
+
+[State 3101, 透明度]
+Type = Trans
+Trigger1 = (Anim = 3000) && ((AnimElem = 8,>=0) && (AnimElem = 9,<10))
+Trigger2 = (var(6) = [150,152])
+Trans = AddAlpha
+Alpha = 256-var(5),var(5)
+
+[State 3101, 時間停止]
+Type = Pause
+Trigger1 = (var(6) = [150,154])
+Time = 1
+
+;**************************************************
+[State 3101, 音]
+Type = PlaySnd
+Trigger1 = (Enemy(0),StateNo = 10010)
+Trigger1 = (var(6) = 3) || (var(6) = 23) || (var(6) = 33) || (var(6) = 40) || (var(6) = 45) || (var(6) = 48)
+Trigger2 = (Enemy(0),StateNo = 10010)
+Trigger2 = (var(6) = 50) || (var(6) = 52) || (var(6) = 54) || (var(6) = [55,95]) || (var(6) = 155)
+Value = s1,21
+
+[State 3101, ヒットエフェクト]
+Type = Helper
+TriggerAll = numhelper(800) < 3
+TriggerAll = NumEnemy != 0
+Trigger1 = (Enemy(0),StateNo = 10010)
+Trigger1 = (var(6) = 3) || (var(6) = 23) || (var(6) = 33) || (var(6) = 40) || (var(6) = 45) || (var(6) = 48)
+Trigger2 = (Enemy(0),StateNo = 10010)
+Trigger2 = (var(6) = 50) || (var(6) = 52) || (var(6) = 54) || (var(6) = [55,95]) || (var(6) = 155)
+StateNo = 801
+ID = 800
+Name = "HitSpark"
+Pos = Ceil(Enemy(0),Pos X - Pos X)*Facing,Ceil(Enemy(0),Pos Y - Pos Y)+(Enemy(0),Const(Size.Mid.Pos.Y))
+PosType = P1
+Ownpal = 1
+IgnoreHitPause = 1
+Persistent = 2
+Size.XScale = .4
+Size.YScale = .4
+SuperMoveTime = 100
+PauseMoveTime = 100
+
+[State 3101, ヒットエフェクト]
+Type = Helper
+TriggerAll = numhelper(800) < 3
+TriggerAll = NumEnemy = 2
+Trigger1 = (Enemy(1),StateNo = 10010)
+Trigger1 = (var(6) = 3) || (var(6) = 23) || (var(6) = 33) || (var(6) = 40) || (var(6) = 45) || (var(6) = 48)
+Trigger2 = (Enemy(1),StateNo = 10010)
+Trigger2 = (var(6) = 50) || (var(6) = 52) || (var(6) = 54) || (var(6) = [55,95]) || (var(6) = 155)
+StateNo = 801
+ID = 800
+Name = "HitSpark"
+Pos = Ceil(Enemy(1),Pos X - Pos X)*Facing,Ceil(Enemy(1),Pos Y - Pos Y)+(Enemy(1),Const(Size.Mid.Pos.Y))
+PosType = P1
+Ownpal = 1
+IgnoreHitPause = 1
+Persistent = 2
+Size.XScale = .4
+Size.YScale = .4
+SuperMoveTime = 100
+PauseMoveTime = 100
+;**************************************************
+[State 3101, 残像]
+Type = Helper
+TriggerAll = NumEnemy != 0
+TriggerAll = (Enemy(0),StateNo = 10010)
+TriggerAll = (Anim = 3045)
+Trigger1 = (var(6) = 1) || (var(6) = 21) || (var(6) = 31) || (var(6) = 38) || (var(6) = 43) || (var(6) = 46)
+Trigger2 = (var(6) = 48) || (var(6) = 50) || (var(6) = 52) || (var(6) = [53,91])
+StateNo = 3065
+ID = 3065
+Name = "Mirage"
+Pos = Ceil(Enemy(0),Pos X - Pos X)*Facing,Ceil(Enemy(0),Pos Y - Pos Y)+(Enemy(0),Const(Size.Mid.Pos.Y))
+PosType = P1
+Facing = IfElse(var(6)=1,-1,IfElse(Random<500,1,-1))
+Ownpal = 1
+IgnoreHitPause = 1
+Persistent = 2
+
+[State 3101, 残像]
+Type = Helper
+TriggerAll = NumEnemy = 2
+TriggerAll = (Enemy(0),StateNo != 10010)
+TriggerAll = (Enemy(1),StateNo = 10010)
+TriggerAll = (Anim = 3045)
+Trigger1 = (var(6) = 1) || (var(6) = 21) || (var(6) = 31) || (var(6) = 38) || (var(6) = 43) || (var(6) = 46)
+Trigger2 = (var(6) = 48) || (var(6) = 50) || (var(6) = 52) || (var(6) = [53,91])
+StateNo = 3065
+ID = 3065
+Name = "Mirage"
+Pos = Ceil(Enemy(1),Pos X - Pos X)*Facing,Ceil(Enemy(1),Pos Y - Pos Y)+(Enemy(1),Const(Size.Mid.Pos.Y))
+PosType = P1
+Facing = IfElse(var(6)=1,-1,IfElse(Random<500,1,-1))
+Ownpal = 1
+IgnoreHitPause = 1
+Persistent = 2
+;**************************************************
+[State 3101, ヒット数]
+Type = HitAdd
+Trigger1 = (var(6) = 3) || (var(6) = 23) || (var(6) = 33) || (var(6) = 40) || (var(6) = 45) || (var(6) = 48)
+Trigger2 = (var(6) = 50) || (var(6) = 52) || (var(6) = 54) || (var(6) = [55,94]) || (var(6) = 154)
+Value = IfElse(var(6)=94,4,IfElse(var(6)=154,1,1))
+Persistent = 2
+
+[State 3101, 相手ライフ増減]
+Type = TargetLifeAdd
+Trigger1 = (var(6) = 3) || (var(6) = 23) || (var(6) = 33) || (var(6) = 40) || (var(6) = 45) || (var(6) = 48)
+Trigger2 = (var(6) = 50) || (var(6) = 52) || (var(6) = 54) || (var(6) = [55,95])
+Value = -12
+Persistent = 2
+
+[State 3101, 相手ライフ増減]
+Type = TargetLifeAdd
+Trigger1 = (var(6) = 154)
+Value = -24
+Persistent = 1
+
+;**************************************************
+[State 3101, 音]
+Type = PlaySnd
+Trigger1 = (Anim = 3000) && (AnimElem = 8,=0)
+Value = s40,2
+
+[State 3101, 音]
+Type = PlaySnd
+Trigger1 = (var(6) = 95) || (var(6) = 154)
+Value = s1,8
+
+[State 3101, 音]
+Type = PlaySnd
+Trigger1 = (var(6) = 154)
+Value = s1,21
+
+;**************************************************
+[State 3101, ヒット定義]
+Type = HitDef
+Trigger1 = (Anim = 3000) && (AnimElem = 8,=10)
+attr = A, HA
+Damage            = 25,25
+GetPower          = 0
+AnimType          = Hard
+Hitflag = MAFDE
+GuardFlag         = N
+Priority          = 4,Hit
+PauseTime         = 0,0
+Guard.PauseTime   = 0,0
+SparkNo           = -1
+Guard.SparkNo     = -1
+SparkXY           = -25,-25
+HitSound          = -1
+GuardSound        = -1
+Ground.Type       = High
+Air.Type          = High
+Ground.SlideTime  = 25
+Guard.SlideTime   = 19
+Ground.HitTime    = 25
+Guard.HitTime     = 19
+Air.HitTime       = 25
+Ground.Velocity   = 0,8
+Guard.Velocity    = -7.5
+Air.Velocity      = 0,8
+AirGuard.Velocity = -3,-2.5
+Fall = 1
+Fall.Recover = 0
+NumHits = 0
+Guard.Dist = 0
+P2StateNo = 10010
+YAccel = .5
+ID = 3101
+
+;**************************************************
+[State 3101, ステート変更]
+Type = ChangeState
+Trigger1 = (Anim = 3000) && (AnimTime = 0)
+Value = 0
+Ctrl = 1
+
+[State 3101, ステート変更]
+Type = ChangeState
+Trigger1 = (Anim = 41) && (Pos Y >=0) && (Vel Y > 0)
+Value = 50
+Ctrl = 0
+
+;-----------------------------------------------------------------------------------------
+; Slashing Clones
+[Statedef 3065]
+Physics  = N
+Anim     = 3065+random%2
+SprPriority = 2
+
+[State 6065, 変数]
+Type = VarSet
+Trigger1 = Time = 0
+fvar(0) = 30+Random/49.95*Pi
+
+[State 6065, 変数]
+Type = VarSet
+Trigger1 = Time = 0
+fvar(1) = (-30+Random/16.65)*(Pi/180.0)
+
+[State 6065, 変数増減]
+Type = VarAdd
+Trigger1 = Time > 0
+fvar(2) = .2
+
+[State 6065, 軸位置移動]
+Type = PosAdd
+Trigger1 = Time = 0
+X = (-fvar(0)*3)*Cos(fvar(1))
+Y = (fvar(0)*3)*Sin(fvar(1))
+
+;**************************************************
+[State 6065, 移動速度]
+Type = VelSet
+Trigger1 = 1
+X = fvar(0)*Cos(fvar(1))
+Y = -fvar(0)*Sin(fvar(1))
+
+[State 6065, 透明度]
+Type = Trans
+Trigger1 = Time > 0
+Trans = none
+
+[State 6065, 特殊効果]
+Type = AssertSpecial
+Trigger1 = 1
+Flag = Noshadow
+
+[State 6065, 角度を有効]
+Type = AngleDraw
+Trigger1 = 1
+Value = ATan(Vel Y/Vel X)*(-180.0/Pi)
+Scale = 1.1+fvar(2),(1.1-fvar(2))/1.5
+
+;**************************************************
+[State 6065, ヘルパーを消す]
+Type = DestroySelf
+Trigger1 = Time > 4
+
+;-------------------------------------------------------------------------------
+;￣2
+[Statedef 10010]
+Type     = S
+MoveType = H
+Physics  = S
+VelSet   = 0,0
+SprPriority = 0
+
+[State 10010, 移動速度]
+Type = VelSet
+Trigger1 = Time < 98 || (Time = [155,185])
+X = 0
+Y = 0
+
+[State 10010, 移動速度]
+Type = VelSet
+Trigger1 = Time = 98
+X = 0
+Y = -15
+
+[State 10010, 移動速度]
+Type = VelSet
+Trigger1 = Time = 185
+Y = 8
+
+[State 10010, 速度加算]
+Type = VelAdd
+Trigger1 = (Time = [99,154]) || (Time > 185)
+Y = GetHitVar(YAccel)
+
+[State 10010, 軸位置移動]
+Type = PosAdd
+Trigger1 = Time = 3 || Time = 23 || Time = 33 || Time = 40 || Time = 45 || Time = 48
+Trigger2 = Time = [50,95]
+Y = -1.5
+Persistent = 2
+
+[State 10009, ずらして表示]
+Type = Offset
+Trigger1 = (Time = [3,98]) || (Time = [155,185])
+X = 1
+Persistent = 2
+
+[State 10010, アニメ]
+Type = ChangeAnim
+Trigger1 = Time < 98
+Value = Anim
+Elem = AnimElemNo(0)
+
+[State 10010, アニメ]
+Type = ChangeAnim
+Trigger1 = (Time = 2) || (Time = [155,185])
+Trigger1 = SelfAnimExist(5035) = 1
+Value = 5035
+
+[State 10007, アニメ]
+Type = ChangeAnim
+Trigger1 = (Time = 2) || (Time = [155,185])
+Trigger1 = SelfAnimExist(5035) != 1
+Value = 5030
+
+[State 10010, アニメ]
+Type = ChangeAnim
+Trigger1 = AnimTime = 0
+Trigger1 = Anim = [5030,5035]
+Value = 5050
+
+[State 10010, 押さない]
+Type = PlayerPush
+Trigger1 = 1
+Value = 0
+
+[State 10010, 無敵]
+Type = NotHitBy
+Trigger1 = 1
+Value = SCA
+
+[State 10010, スクロール]
+Type = ScreenBound
+Trigger1 = Time < 95
+Value = 0
+MoveCamera = 1,0
+
+;**************************************************
+[State 10010, 相手ステートに戻す]
+Type = SelfState
+Trigger1 = Pos Y >= 0 && Vel Y > 0
+Value = 5100
+
+;＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+;-------------------------------------------------------------------------------
+; SUPER - Portrait
+[Statedef 3070]
+type    = S
+movetype= I
+physics = S
+velset = 0,0
+ctrl = 0
+anim = 3070
+sprpriority = -1
+
+[State 0, Negro]
+type = Explod
+trigger1 = time = 10
+anim = 7020
+ID = 3070
+pos = -300,-300
+postype = p1
+facing = 1
+vfacing = 1
+bindtime = 1
+removetime = 80
+scale = 1,1
+sprpriority = -1
+ontop = 0
+ownpal = 1
+removeongethit = 1
+trans = add
+supermovetime = 999
+
+[State 0, PosSet]
+type = PosSet
+trigger1 = time = 0
+y = root,pos y- 80
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time < 10
+value = 1+time*25
+scale = .1+time*.05,.1+time*.05
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time >= 10
+value = 0
+scale = .5,.5
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = time = [10,90]
+flag = nobardisplay
+flag2 = noBG
+flag3 = nomusic
+ignorehitpause = 1
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = time = [10,90]
+flag = noFG
+ignorehitpause = 1
+
+[State 0, BGPalFX]
+type = BGPalFX
+trigger1 = time > 10
+time = 2
+add = -256+var(12),-256+var(12),-256+var(12)
+ignorehitpause = 1
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = Noshadow
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 12
+value = 0
+
+[State 0, VarAdd]
+type = VarAdd
+triggerall = var(12) < 256
+trigger1 = time >= 90
+v = 13
+value = 25
+
+[State 0, Trans]
+type = Trans
+trigger1 = time >= 90
+trans = addalpha
+alpha = 256-var(12),256
+
+[State 200, End]
+type = Destroyself
+trigger1 = time = 100

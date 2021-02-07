@@ -1,0 +1,26 @@
+
+A - Weak Slash
+
+B - Strong Slash
+
+C - Otae Chan
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Dont Touch Me!
+
+D,DB,B,a - Yagyuu Beauty
+
+D,DF,F,b - Yagyuu Slash
+
+D,DB,B,b - Yagyuu Speed
+
+D,DF,F,c - Jugem Jugem
+
+D,DB,B,c - Yagyuu Horse
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Jubei Attack

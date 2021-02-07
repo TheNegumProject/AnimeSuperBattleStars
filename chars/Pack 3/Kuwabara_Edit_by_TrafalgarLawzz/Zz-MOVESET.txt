@@ -1,0 +1,26 @@
+
+A - Combo 1
+
+B - Combo 2
+
+C - Rei Ken
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Spirit Kick
+
+D,DB,B,a - Spirit Punch
+
+D,DF,F,b - Rei Ken Nitoryu
+
+D,DB,B,b - Rei Shuriken
+
+D,DF,F,c - Sho Rei Ken
+
+D,DB,B,c - Rei Ken Nobiro
+
+SUPER: 
+
+D,s - Tameshi No Ken

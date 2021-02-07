@@ -1,0 +1,24 @@
+[Info]
+name ="Light Yagami"
+displayname ="Kira"
+versiondate =09/10/2018
+mugenversion =1.0
+author ="BlackJudai, Edit by TrafalgarLawzz"
+pal.defaults =1
+
+[Files]
+sprite =Light Yagami.sff
+anim =Light Yagami.air
+sound =Light Yagami.snd
+cmd =Light Yagami.cmd
+cns =Light Yagami.cns
+stcommon =common1.cns
+st =Light Yagami.cns
+pal1=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

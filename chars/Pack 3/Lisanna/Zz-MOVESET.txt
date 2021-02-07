@@ -1,0 +1,26 @@
+
+A - Weak Hit
+
+B - Strong Hit
+
+C - Take Over Bird
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Rabbit Assault
+
+D,DB,B,a - Armadillo Wheel
+
+D,DF,F,b - Bird Prickles
+
+D,DB,B,b - Owl Singing
+
+D,DF,F,c - Cat Gash
+
+D,DB,B,c - Cat High Speed
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Animal Soul Festival

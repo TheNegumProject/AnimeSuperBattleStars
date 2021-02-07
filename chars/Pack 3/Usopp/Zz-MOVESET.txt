@@ -1,0 +1,40 @@
+
+* Button(In Select Char) - Usopp Classic
+
+* S + Button(In Select Char) - Usopp Mid
+
+A - Usopp Hammer // Usopp Pound
+
+B - Namari Boshi
+
+C - Kayaku Boshi
+
+Down + C - Breath Dial
+
+S - Power Charge
+
+Down + S - Sogeking Call
+
+SPECIALS:
+
+D,DF,F,a - Usopp Pound // Usopp Golden Pound
+
+D,DB,B,a - Impact
+
+F,DF,D,DB,B,a - Flash Dial
+
+D,DF,F,b - Shuriken Ryuuseigun
+
+D,DB,B,b - Ketchup Boshi // Sakuretsu Saboten Boshi
+
+F,DF,D,DB,B,b - Makibishi Jigoku
+
+D,DF,F,c - Kaen Boshi // Fire Bird Star
+
+D,DB,B,c - Tabasco Boshi
+
+SUPER:
+
+D,DF,F,D,DF,F,a+b - Hi no Tori Boshi
+
+D,DF,F,D,DF,F,a+b - Super Firebird Star(Sogeking)

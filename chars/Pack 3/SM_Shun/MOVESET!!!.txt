@@ -1,0 +1,40 @@
+Ground
+
+A - Chain punch Hit
+
+B - Under chain Hit
+
+C - Nebular Chain (can be in air)
+
+Air
+
+A - low kick Hit
+
+B - Chop Hit
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Nebular Chain
+-1000 power
+
+D,DB,B,a - Rolling defence
+-1000 power
+
+D,DF,F,b - Storm Wave
+-1000 power
+
+D,DB,B,b - Thunder Wave
+-1000 power
+
+D,DF,F,c - Nebular Stream
+-1500 power
+
+D,DB,B,c - Golden Virgo Cloth: Nebular Storm
+-2000 power
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - Hades form: Greath Eclipse
+-3000 power

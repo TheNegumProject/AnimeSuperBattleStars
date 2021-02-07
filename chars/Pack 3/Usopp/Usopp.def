@@ -1,0 +1,40 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Usopp"
+displayname ="Usopp"
+versiondate =19/10/2017
+mugenversion =1.0
+author ="Mikel8888"
+pal.defaults =1,2,3,4,5,6,7,8,9,10,11,12
+
+[Files]
+sprite =Usopp.sff
+anim =Usopp.air
+sound =Usopp.snd
+cmd =Usopp.cmd
+cns =Usopp.cns
+stcommon =common1.cns
+st =Usopp.cns
+pal1=1.act
+pal2=2.act
+pal3=3.act
+pal4=4.act
+pal5=5.act
+pal6=6.act
+pal7=1.act
+pal8=1.act
+pal9=1.act
+pal10=1.act
+pal11=1.act
+pal12=1.act
+st1=IA.cns
+st2=Specials.cns
+st3=Supers.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

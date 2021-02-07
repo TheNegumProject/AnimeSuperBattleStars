@@ -1,0 +1,36 @@
+
+A - Weak Slash
+
+Down + A - Punch
+
+B - Strong Slash
+
+Down + B - Nigiri
+
+C - Poundo Hou
+
+S - Power Charge
+
+SPECIALS:
+
+D,DF,F,a - Oni Giri
+
+D,DB,B,a - Shishi Sonson
+
+D,DF,F,b - Tatsumaki
+
+D,DB,B,b - Rashomon
+
+B,DB,D,DF,F,b - Nigorizake
+
+F,DF,D,DB,B,b - Ushi Bari
+
+D,DF,F,c - Ashura Ichiburgin
+
+D,DB,B,c - Hiryuu Kaen
+
+F,DF,D,DB,B,c - Hyou Kin Dama
+
+SUPER: 
+
+D,DF,F,D,DF,F,a+b - San Zen Sekai
